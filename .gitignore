@@ -1,0 +1,8 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/plugins/
+
+# macOS
+.DS_Store
