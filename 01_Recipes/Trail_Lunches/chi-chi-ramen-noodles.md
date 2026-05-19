@@ -1,82 +1,100 @@
 ---
 id: recipe-0010
 title: "Chi-Chi Ramen Noodles"
-primary_category: "Trail Lunches"
-secondary_categories: []
-tags: []
 
-cookware:
-  minimo_pot: true
-  jetboil_skillet: false
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/chi-chi-ramen-noodles"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Chi-Chi Ramen Noodles"
+  subtitle: "Upgraded spicy ramen trail bowl"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 1
+  yield: "1 bowl"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "3 minutes"
+  cook_time: "5 minutes"
+  total_time: "8 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "JetBoil MiniMo"
+    - "spoon or spork"
+
+  ingredients:
+    - item: "water"
+      amount: "2"
+      unit: "cups"
+      preparation: ""
+      notes: ""
+
+    - item: "instant ramen noodles"
+      amount: "1"
+      unit: "packet"
+      preparation: ""
+      notes: ""
+
+    - item: "peanut butter"
+      amount: "1"
+      unit: "tablespoon"
+      preparation: ""
+      notes: "smooth peanut butter mixes easiest"
+
+    - item: "soy sauce"
+      amount: "1"
+      unit: "teaspoon"
+      preparation: ""
+      notes: ""
+
+    - item: "hot sauce"
+      amount: "1"
+      unit: "teaspoon"
+      preparation: ""
+      notes: "adjust to taste"
+
+    - item: "lime juice"
+      amount: "1"
+      unit: "teaspoon"
+      preparation: ""
+      notes: "optional"
+
+    - item: "dehydrated vegetables"
+      amount: "2"
+      unit: "tablespoons"
+      preparation: ""
+      notes: "optional"
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Prepare ramen in the MiniMo using reduced heat once noodles soften. Add upgraded flavorings and toppings near the end for better texture and flavor."
+      text: "Bring 2 cups of water to a boil in the MiniMo."
 
-linked_techniques:
-  - efficient-boil-method
-  - ramen-upgrade-system
+    - step: 2
+      text: "Add dehydrated vegetables if using and simmer 1 minute."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Add ramen noodles and seasoning packet. Reduce heat slightly after noodles soften."
+
+    - step: 4
+      text: "Cook about 3 minutes, stirring occasionally."
+
+    - step: 5
+      text: "Stir in peanut butter, soy sauce, hot sauce, and lime juice until fully combined."
+
+    - step: 6
+      text: "Serve immediately while hot."
+
+  minimo_notes:
+    - "Avoid prolonged hard boiling once peanut butter is added."
+    - "Ramen can foam aggressively in the MiniMo."
+
+  cleanup:
+    - "Moderate cleanup because peanut butter thickens the broth."
+
+  source_note: "Adapted from Jetboil Official Recipes."
 ---
 
 # Chi-Chi Ramen Noodles
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Prepare ramen in the MiniMo using reduced heat once noodles soften. Add upgraded flavorings and toppings near the end for better texture and flavor.
-
-## Linked Techniques
-
-- efficient-boil-method
-- ramen-upgrade-system
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/chi-chi-ramen-noodles
+A spicy upgraded ramen bowl using peanut butter, soy sauce, and hot sauce.

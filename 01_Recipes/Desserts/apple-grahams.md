@@ -1,80 +1,85 @@
 ---
 id: recipe-0005
 title: "Apple Grahams"
-primary_category: "Desserts and Sweet Foods"
-secondary_categories: []
-tags: []
 
-cookware:
-  minimo_pot: true
-  jetboil_skillet: false
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/apple-grahams"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Apple Grahams"
+  subtitle: "Simple warm camp dessert"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 2
+  yield: "2 dessert servings"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "5 minutes"
+  cook_time: "8 minutes"
+  total_time: "13 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "JetBoil MiniMo"
+    - "spoon"
+
+  ingredients:
+    - item: "apple"
+      amount: "1"
+      unit: "large"
+      preparation: "peeled and diced"
+      notes: ""
+
+    - item: "butter"
+      amount: "1"
+      unit: "tablespoon"
+      preparation: ""
+      notes: ""
+
+    - item: "brown sugar"
+      amount: "1"
+      unit: "tablespoon"
+      preparation: ""
+      notes: ""
+
+    - item: "cinnamon"
+      amount: "0.5"
+      unit: "teaspoon"
+      preparation: ""
+      notes: ""
+
+    - item: "graham crackers"
+      amount: "4"
+      unit: "cracker sheets"
+      preparation: "crumbled"
+      notes: ""
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Cook apples gently with butter and cinnamon until softened. Serve warm with graham crackers or graham topping for a simple camp dessert."
+      text: "Place diced apple, butter, brown sugar, and cinnamon into the MiniMo pot."
 
-linked_techniques:
-  - low-heat-dessert-simmering
+    - step: 2
+      text: "Cook over low heat for 5 to 6 minutes, stirring frequently, until apples soften."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Reduce heat if sugars begin sticking or darkening too quickly."
+
+    - step: 4
+      text: "Remove from heat and stir in or top with crumbled graham crackers."
+
+    - step: 5
+      text: "Serve warm."
+
+  minimo_notes:
+    - "Sugars can scorch quickly in the MiniMo if heat is too high."
+    - "Residual heat will continue softening apples after the burner is off."
+
+  cleanup:
+    - "Rinse promptly before sugars harden onto the pot."
+
+  source_note: "Adapted from Jetboil Official Recipes."
 ---
 
 # Apple Grahams
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Cook apples gently with butter and cinnamon until softened. Serve warm with graham crackers or graham topping for a simple camp dessert.
-
-## Linked Techniques
-
-- low-heat-dessert-simmering
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/apple-grahams
+A simple warm camp dessert using apples, brown sugar, cinnamon, and graham crackers.
