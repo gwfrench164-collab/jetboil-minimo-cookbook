@@ -1,82 +1,79 @@
 ---
 id: recipe-0002
 title: "Quinoa Breakfast Bowl"
-primary_category: "Breakfast"
-secondary_categories: []
-tags: []
 
-cookware:
-  minimo_pot: true
-  jetboil_skillet: false
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/quinoa-breakfast-bowl"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Quinoa Breakfast Bowl"
+  subtitle: "Warm quinoa breakfast with fruit, nuts, and spices"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 2
+  yield: "2 breakfast bowls"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "5 minutes"
+  cook_time: "15 minutes"
+  total_time: "20 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "JetBoil MiniMo"
+    - "spoon"
+
+  ingredients:
+    - item: "quinoa"
+      amount: "1"
+      unit: "cup"
+
+    - item: "water"
+      amount: "2"
+      unit: "cups"
+
+    - item: "powdered whole milk"
+      amount: "0.25"
+      unit: "cup"
+
+    - item: "brown sugar"
+      amount: "2"
+      unit: "tablespoons"
+
+    - item: "cinnamon"
+      amount: "1"
+      unit: "teaspoon"
+
+    - item: "raisins or dried fruit"
+      amount: "0.25"
+      unit: "cup"
+
+    - item: "nuts"
+      amount: "0.25"
+      unit: "cup"
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Cook quinoa in the MiniMo until tender. Reduce heat before adding milk or powdered milk. Stir in fruit, spices, and optional toppings before serving."
+      text: "Bring 2 cups of water to a boil in the MiniMo."
 
-linked_techniques:
-  - cooking-quinoa-in-minimo
-  - powdered-milk-reconstitution
+    - step: 2
+      text: "Add quinoa and reduce heat to a gentle simmer."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Cook covered for about 12 minutes, stirring occasionally."
+
+    - step: 4
+      text: "Add powdered milk, brown sugar, cinnamon, dried fruit, and nuts."
+
+    - step: 5
+      text: "Stir thoroughly and continue cooking 1 to 2 minutes until warmed through."
+
+    - step: 6
+      text: "Serve hot."
+
+  source_note: "Adapted from Jetboil-style breakfast bowl recipes."
 ---
 
 # Quinoa Breakfast Bowl
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Cook quinoa in the MiniMo until tender. Reduce heat before adding milk or powdered milk. Stir in fruit, spices, and optional toppings before serving.
-
-## Linked Techniques
-
-- cooking-quinoa-in-minimo
-- powdered-milk-reconstitution
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/quinoa-breakfast-bowl
+A warm quinoa breakfast bowl with dried fruit, nuts, cinnamon, and optional powdered milk.

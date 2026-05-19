@@ -1,82 +1,71 @@
 ---
 id: recipe-0003
-title: "Bobsadilla - The Breakfast Quesadilla"
-primary_category: "Breakfast"
-secondary_categories: []
-tags: []
+title: "Bobsadilla - Breakfast Quesadilla"
 
-cookware:
-  minimo_pot: false
-  jetboil_skillet: true
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/bobsadilla-breakfast-quesadilla"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Bobsadilla - Breakfast Quesadilla"
+  subtitle: "Camp breakfast quesadilla with eggs and cheese"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 1
+  yield: "1 quesadilla"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "5 minutes"
+  cook_time: "8 minutes"
+  total_time: "13 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "JetBoil skillet"
+    - "spatula"
+
+  ingredients:
+    - item: "flour tortillas"
+      amount: "2"
+      unit: "small"
+
+    - item: "eggs"
+      amount: "2"
+      unit: "large"
+
+    - item: "shredded cheese"
+      amount: "0.5"
+      unit: "cup"
+
+    - item: "cooked bacon or sausage"
+      amount: "0.25"
+      unit: "cup"
+
+    - item: "butter or oil"
+      amount: "1"
+      unit: "tablespoon"
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Cook fillings first if needed, then assemble the quesadilla in the skillet. Use controlled low heat so the tortilla crisps gradually while the cheese melts evenly."
+      text: "Heat the JetBoil skillet over medium-low heat and add butter or oil."
 
-linked_techniques:
-  - skillet-heat-control
-  - skillet-quesadilla-method
+    - step: 2
+      text: "Scramble the eggs until mostly cooked."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Place one tortilla in the skillet and top with eggs, cheese, and optional meat."
+
+    - step: 4
+      text: "Top with the second tortilla."
+
+    - step: 5
+      text: "Cook until lightly browned, flip carefully, and cook until cheese melts."
+
+    - step: 6
+      text: "Serve hot."
+
+  source_note: "Adapted from Jetboil breakfast skillet recipes."
 ---
 
-# Bobsadilla - The Breakfast Quesadilla
+# Bobsadilla - Breakfast Quesadilla
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Cook fillings first if needed, then assemble the quesadilla in the skillet. Use controlled low heat so the tortilla crisps gradually while the cheese melts evenly.
-
-## Linked Techniques
-
-- skillet-heat-control
-- skillet-quesadilla-method
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/bobsadilla-breakfast-quesadilla
+A breakfast quesadilla with eggs, cheese, tortillas, and optional bacon or sausage.
