@@ -1,82 +1,95 @@
 ---
 id: recipe-0001
 title: "Sesame Chicken"
-primary_category: "One-Pot Dinners"
-secondary_categories: []
-tags: []
 
-cookware:
-  minimo_pot: true
-  jetboil_skillet: false
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/sesame-chicken"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Sesame Chicken"
+  subtitle: "Backcountry takeout-style sesame chicken"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 1
+  yield: "1 meal"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "5 minutes"
+  cook_time: "6 minutes"
+  total_time: "11 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "JetBoil MiniMo"
+    - "Pot Support"
+    - "spoon or spatula"
+
+  ingredients:
+    - item: "riced cauliflower"
+      amount: "1"
+      unit: "packet"
+      preparation: ""
+      notes: ""
+
+    - item: "olive oil"
+      amount: "1"
+      unit: "tablespoon"
+      preparation: ""
+      notes: ""
+
+    - item: "pre-cooked chicken"
+      amount: "1"
+      unit: "can"
+      preparation: "drained if needed"
+      notes: ""
+
+    - item: "salt"
+      amount: "to taste"
+      unit: ""
+      preparation: ""
+      notes: ""
+
+    - item: "black pepper"
+      amount: "to taste"
+      unit: ""
+      preparation: ""
+      notes: ""
+
+    - item: "sesame marinade"
+      amount: "0.25"
+      unit: "cup"
+      preparation: ""
+      notes: ""
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Cook the rice base first in the MiniMo. Add chicken and sesame sauce, reduce heat to a controlled simmer, and stir frequently to avoid scorching. Add vegetables near the end and simmer just until heated through."
+      text: "Unpack and assemble the MiniMo burner with the Pot Support."
 
-linked_techniques:
-  - simmering-without-scorching
-  - one-pot-rice-management
+    - step: 2
+      text: "Add 1 packet of riced cauliflower and light the burner."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Cover with the lid and steam for 3 minutes."
+
+    - step: 4
+      text: "Add 1 tablespoon olive oil, 1 can of pre-cooked chicken, salt, and pepper."
+
+    - step: 5
+      text: "Add 1/4 cup sesame marinade and stir everything together."
+
+    - step: 6
+      text: "Cook for a few minutes until heated through, then serve."
+
+  minimo_notes:
+    - "Use the Pot Support as specified by the Jetboil recipe."
+    - "Stir after adding the sesame marinade so the sauce does not stick."
+
+  cleanup:
+    - "Sauce residue should be rinsed before it dries."
+
+  source_note: "Captured from Jetboil Official Recipes."
 ---
 
 # Sesame Chicken
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Cook the rice base first in the MiniMo. Add chicken and sesame sauce, reduce heat to a controlled simmer, and stir frequently to avoid scorching. Add vegetables near the end and simmer just until heated through.
-
-## Linked Techniques
-
-- simmering-without-scorching
-- one-pot-rice-management
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/sesame-chicken
+Backcountry takeout-style sesame chicken using riced cauliflower, pre-cooked chicken, and sesame marinade.

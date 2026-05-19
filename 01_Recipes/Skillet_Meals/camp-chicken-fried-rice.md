@@ -1,82 +1,106 @@
 ---
 id: recipe-0006
 title: "Camp Chicken Fried Rice"
-primary_category: "Skillet Meals"
-secondary_categories: []
-tags: []
 
-cookware:
-  minimo_pot: false
-  jetboil_skillet: true
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/camp-chicken-fried-rice"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Camp Chicken Fried Rice"
+  subtitle: "Easy camp stir fry with rice, egg, chicken, vegetables, and sauce"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 2
+  yield: "1 skillet meal"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "5 minutes"
+  cook_time: "10 minutes"
+  total_time: "15 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "Jetboil HalfGen or Jetboil skillet setup"
+    - "spatula or spoon"
+
+  ingredients:
+    - item: "olive oil"
+      amount: "1-2"
+      unit: "tablespoons"
+      preparation: ""
+      notes: ""
+
+    - item: "microwavable fried rice"
+      amount: "1"
+      unit: "packet"
+      preparation: ""
+      notes: ""
+
+    - item: "egg"
+      amount: "1"
+      unit: "large"
+      preparation: ""
+      notes: ""
+
+    - item: "pre-cooked chicken breast"
+      amount: "1"
+      unit: "can or packet"
+      preparation: ""
+      notes: ""
+
+    - item: "stir fry sauce"
+      amount: "1"
+      unit: "package"
+      preparation: ""
+      notes: ""
+
+    - item: "dried veggie blend"
+      amount: "1"
+      unit: "cup"
+      preparation: ""
+      notes: ""
+
+    - item: "water"
+      amount: "0.25"
+      unit: "cup"
+      preparation: ""
+      notes: ""
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Cook chicken first if using raw meat, then add vegetables and rice to the skillet. Stir frequently while frying and finish with eggs and sauce over controlled low heat."
+      text: "Heat 1-2 tablespoons olive oil in the Jetboil HalfGen or skillet."
 
-linked_techniques:
-  - skillet-heat-control
-  - skillet-rice-management
+    - step: 2
+      text: "Add rice and brown for 3 to 5 minutes."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Make a well in the center of the rice."
+
+    - step: 4
+      text: "Crack an egg into the well and cook the egg."
+
+    - step: 5
+      text: "Mix the cooked egg into the rice."
+
+    - step: 6
+      text: "Add pre-cooked chicken breast, stir fry sauce, and dried veggie blend."
+
+    - step: 7
+      text: "Stir and allow the vegetables to rehydrate."
+
+    - step: 8
+      text: "Add 1/4 cup water and cook until the vegetables are soft."
+
+  skillet_notes:
+    - "The original source specifies Jetboil HalfGen."
+    - "For the MiniMo skillet, cook in smaller batches if needed to avoid crowding."
+
+  cleanup:
+    - "Rice, egg, sauce, and oil may leave sticky skillet residue."
+
+  source_note: "Captured from Jetboil Official Recipes."
 ---
 
 # Camp Chicken Fried Rice
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Cook chicken first if using raw meat, then add vegetables and rice to the skillet. Stir frequently while frying and finish with eggs and sauce over controlled low heat.
-
-## Linked Techniques
-
-- skillet-heat-control
-- skillet-rice-management
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/camp-chicken-fried-rice
+A camp stir fry with packet fried rice, egg, pre-cooked chicken, stir fry sauce, and dried vegetables.

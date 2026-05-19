@@ -1,82 +1,121 @@
 ---
 id: recipe-0004
 title: "Quick Tortellini Soup"
-primary_category: "One-Pot Dinners"
-secondary_categories: []
-tags: []
 
-cookware:
-  minimo_pot: true
-  jetboil_skillet: false
-  pot_and_skillet: false
-  extra_bowl_required: false
-  freezer_bag_compatible: false
+recipe_status:
+  collected: true
+  recreatable: true
+  enhanced: false
+  comprehensive: false
 
-source:
-  source_type: "jetboil-official"
-  reliability_level: "field-tested"
-  source_name: "Jetboil Official Recipes"
-  source_url: "https://jetboil.johnsonoutdoors.com/us/recipes/quick-tortellini-soup"
-  source_notes: "Official Jetboil pilot recipe."
+recipe_card:
+  title: "Quick Tortellini Soup"
+  subtitle: "Simple tortellini soup with vegetables and spinach"
 
-suitability:
-  enjoyable_camp_cooking: high
-  car_camping: high
-  casual_backpacking: medium
-  ultralight_backpacking: unknown
-  thru_hiking: unknown
-  cold_weather: unknown
-  group_camping: unknown
-  emergency_use: unknown
+  servings: 2
+  yield: "1 pot soup"
 
-classification:
-  jetboil_native: true
-  tested_with_minimo: true
-  adapted_for_minimo: false
-  experimental_successful: false
-  gimmick: false
+  prep_time: "10 minutes"
+  cook_time: "15 minutes"
+  total_time: "25 minutes"
 
-instructions:
-  structured_steps:
+  equipment:
+    - "JetBoil MiniMo or Genesis"
+    - "spoon"
+
+  ingredients:
+    - item: "butter"
+      amount: "1"
+      unit: "tablespoon"
+      preparation: ""
+      notes: ""
+
+    - item: "carrot"
+      amount: "0.5"
+      unit: "cup"
+      preparation: "chopped"
+      notes: ""
+
+    - item: "celery"
+      amount: "0.5"
+      unit: "cup"
+      preparation: "chopped"
+      notes: ""
+
+    - item: "onion"
+      amount: "0.5"
+      unit: "cup"
+      preparation: "chopped"
+      notes: ""
+
+    - item: "water"
+      amount: "4"
+      unit: "cups"
+      preparation: ""
+      notes: "Jetboil notes this amount is recommended for Genesis and can be cut in half for MiniMo."
+
+    - item: "chicken bouillon"
+      amount: "4"
+      unit: "cubes or packets"
+      preparation: ""
+      notes: ""
+
+    - item: "fresh cheese tortellini"
+      amount: "1"
+      unit: "package"
+      preparation: ""
+      notes: "frozen tortellini can also be used"
+
+    - item: "fresh spinach"
+      amount: "1"
+      unit: "cup"
+      preparation: "chopped"
+      notes: ""
+
+    - item: "black pepper"
+      amount: "to taste"
+      unit: ""
+      preparation: ""
+      notes: ""
+
+    - item: "grated Parmesan"
+      amount: "to taste"
+      unit: ""
+      preparation: ""
+      notes: "for garnish"
+
+  instructions:
     - step: 1
-      action: "See narrative instructions; detailed structured steps to be expanded during full normalization."
-      cookware: ""
-      heat_level: ""
-      duration: ""
-      water_amount: ""
-      ingredients_added: []
-      technique_refs: []
-      caution: ""
-  narrative: "Bring broth to a gentle boil in the MiniMo, then reduce to a simmer after adding tortellini. Stir occasionally and add greens near the end so they remain bright and tender."
+      text: "Melt butter in the Jetboil vessel over medium heat."
 
-linked_techniques:
-  - efficient-boil-method
-  - simmering-without-scorching
+    - step: 2
+      text: "Add carrot, celery, and onion. Sauté until the vegetables have softened."
 
-nutrition_estimate:
-  calories: null
-  protein_g: null
-  carbs_g: null
-  fat_g: null
-  estimate_quality: "rough"
-  priority: "low"
+    - step: 3
+      text: "Add 4 cups water and turn heat to high to bring to a boil."
+
+    - step: 4
+      text: "When boiling, add chicken bouillon and stir to combine."
+
+    - step: 5
+      text: "Add tortellini and turn heat down to medium-high to keep a gentle boil. Cook according to package directions until pasta is done."
+
+    - step: 6
+      text: "Turn heat to low, add chopped spinach, and stir until wilted."
+
+    - step: 7
+      text: "Serve with black pepper and grated Parmesan."
+
+  minimo_notes:
+    - "The source notes that the full amount is recommended for Genesis and can be cut in half for MiniMo."
+    - "Watch fill level closely if cooking the full amount."
+
+  cleanup:
+    - "Broth-based soup should clean easily if not boiled dry."
+
+  source_note: "Captured from Jetboil Official Recipes."
 ---
 
 # Quick Tortellini Soup
 
-## Summary
-
-Official Jetboil pilot recipe normalized into the cookbook knowledge-base structure.
-
-## Cooking Instructions
-
-Bring broth to a gentle boil in the MiniMo, then reduce to a simmer after adding tortellini. Stir occasionally and add greens near the end so they remain bright and tender.
-
-## Linked Techniques
-
-- efficient-boil-method
-- simmering-without-scorching
-
-## Source
-
-https://jetboil.johnsonoutdoors.com/us/recipes/quick-tortellini-soup
+A quick tortellini soup with carrot, celery, onion, bouillon, spinach, and Parmesan.

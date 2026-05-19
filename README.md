@@ -1,20 +1,21 @@
-# Recreatable Recipe Batch 01
+# Recreatable Recipe Batch 02
 
-These files are intended to replace or upgrade the existing pilot recipe files in the repository.
+These files upgrade the next four pilot recipes to recreatable status.
 
 Recipes included:
 
-- Beef Jerky Ramen
-- Chi-Chi Ramen Noodles
-- Apple Grahams
-- Baggie Omelets - Camp Eggs
+- Sesame Chicken
+- Quick Tortellini Soup
+- Wilderness Carbonara
+- Camp Chicken Fried Rice
 
-All recipes in this batch now contain:
+All recipes include:
 - ingredient names
-- exact amounts
+- exact amounts from source where given
 - units
-- recreatable cooking instructions
+- usable instructions
+- source notes
 
 Recommended commit message:
 
-Upgrade first recipe batch to recreatable status
+Upgrade second recipe batch to recreatable status
