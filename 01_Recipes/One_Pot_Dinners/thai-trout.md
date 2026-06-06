@@ -1,6 +1,12 @@
 ---
 id: recipe-0031
 title: "Thai Trout"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 recipe_status: {collected: true, recreatable: true, enhanced: false, comprehensive: false}
 recipe_card:
   title: "Thai Trout"

@@ -1,6 +1,12 @@
 ---
 id: recipe-0007
 title: "Wilderness Carbonara"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 
 recipe_status:
   collected: true

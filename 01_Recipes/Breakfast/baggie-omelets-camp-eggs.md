@@ -1,6 +1,12 @@
 ---
 id: recipe-0009
 title: "Baggie Omelets - Camp Eggs"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 
 recipe_status:
   collected: true

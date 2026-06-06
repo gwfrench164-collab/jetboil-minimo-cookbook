@@ -1,6 +1,12 @@
 ---
 id: recipe-0003
 title: "Bobsadilla - Breakfast Quesadilla"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 
 recipe_status:
   collected: true

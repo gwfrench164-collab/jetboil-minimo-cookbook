@@ -1,6 +1,12 @@
 ---
 id: recipe-0011
 title: "Angel Hair Pasta with Chicken and Artichokes"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 
 recipe_status:
   collected: true

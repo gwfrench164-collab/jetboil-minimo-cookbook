@@ -1,6 +1,12 @@
 ---
 id: recipe-0030
 title: "Campfire Pizza in a Pot"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 recipe_status: {collected: true, recreatable: true, enhanced: false, comprehensive: false}
 recipe_card:
   title: "Campfire Pizza in a Pot"

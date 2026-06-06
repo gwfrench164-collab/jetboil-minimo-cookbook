@@ -1,6 +1,12 @@
 ---
 id: recipe-0029
 title: "Chorizo & Wild Mushroom Sicily Risotto"
+source:
+  type: official_jetboil_recipe
+  publisher: JetBoil
+  source_url: ""
+  source_content_type: recipe
+
 recipe_status: {collected: true, recreatable: true, enhanced: false, comprehensive: false}
 recipe_card:
   title: "Chorizo & Wild Mushroom Sicily Risotto"

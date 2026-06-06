@@ -1,6 +1,12 @@
 ---
 id: recipe-0034
 title: "Coconut Curry Rice Bowl"
+source:
+  type: derived_field_system
+  publisher: internal
+  source_url: ""
+  source_content_type: recipe
+
 recipe_status: {collected: true, recreatable: true, enhanced: false, comprehensive: false}
 recipe_card:
   title: "Coconut Curry Rice Bowl"
