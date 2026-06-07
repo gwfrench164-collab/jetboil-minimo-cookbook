@@ -12,20 +12,47 @@ weight_efficiency: high
 common_forms:
   - "instant couscous"
   - "plain couscous"
+  - "seasoned couscous mix"
+
+availability: common
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; stores well dry."
+  opened: "Best used within several months if sealed dry."
+
+field_quantity:
+  typical_trip_amount: "1/3 to 1/2 cup dry couscous per person per meal"
+  typical_recipe_amount: "1/2 to 1 cup"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "cold weather"
+    - "fast dinners"
+    - "one-pot meals"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: ""
+shelf_stable_alternative: "instant couscous"
+
+best_trip_type:
+  - "backpacking"
+  - "cold weather"
+  - "fast dinners"
+  - "one-pot meals"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Chef Dan's Rockin Moroccan Couscous"
@@ -45,7 +72,11 @@ substitutions:
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: "Remove from heat and cover; couscous hydrates quickly."
+warnings_or_limitations:
+  - "Hydrates very quickly; too much water makes it pasty."
+  - "Needs fat, sauce, or seasoning for best flavor."
+
+notes: "Remove from heat and cover; couscous hydrates quickly without extended simmering."
 
 tags:
   - ingredient
@@ -66,13 +97,14 @@ Couscous is useful because it is shelf-stable, practical for camp cooking, and c
 
 - instant couscous
 - plain couscous
+- seasoned couscous mix
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- cold weather
+- fast dinners
+- one-pot meals
 
 ## Related Recipes
 
@@ -92,10 +124,20 @@ Couscous is useful because it is shelf-stable, practical for camp cooking, and c
 - bulgur
 - small pasta
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: Not especially applicable
+- Shelf-stable alternative: instant couscous
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; stores well dry. Once opened or repackaged, best used within several months if sealed dry.
 
 ## MiniMo Notes
 
-Remove from heat and cover; couscous hydrates quickly.
+Remove from heat and cover; couscous hydrates quickly without extended simmering.
+
+## Warnings or Limitations
+
+- Hydrates very quickly; too much water makes it pasty.
+- Needs fat, sauce, or seasoning for best flavor.

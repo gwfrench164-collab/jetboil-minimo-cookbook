@@ -14,19 +14,45 @@ common_forms:
   - "dried beef"
   - "beef stick"
 
+availability: common
+
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; jerky keeps well sealed."
+  opened: "Use within package guidance; reseal after opening."
+
+field_quantity:
+  typical_trip_amount: "1-2 ounces per person as snack or meal add-in"
+  typical_recipe_amount: "1-2 ounces"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "snacks"
+    - "ramen meals"
+    - "cold weather"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "cooked beef"
+shelf_stable_alternative: "beef jerky or beef sticks"
+
+best_trip_type:
+  - "backpacking"
+  - "snacks"
+  - "ramen meals"
+  - "cold weather"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Beef Jerky Ramen"
@@ -45,6 +71,10 @@ substitutions:
 
 pantry_modules:
   - "Core Trail Pantry"
+
+warnings_or_limitations:
+  - "Can be salty."
+  - "Very dry jerky may take longer to soften in soup."
 
 notes: "Chop before adding to soup for faster softening."
 
@@ -69,12 +99,12 @@ Beef Jerky is useful because it is shelf-stable, practical for camp cooking, and
 - dried beef
 - beef stick
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- snacks
+- ramen meals
+- cold weather
 
 ## Related Recipes
 
@@ -94,10 +124,20 @@ Beef Jerky is useful because it is shelf-stable, practical for camp cooking, and
 - salami
 - dried meat
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: cooked beef
+- Shelf-stable alternative: beef jerky or beef sticks
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; jerky keeps well sealed. Once opened or repackaged, use within package guidance; reseal after opening.
 
 ## MiniMo Notes
 
 Chop before adding to soup for faster softening.
+
+## Warnings or Limitations
+
+- Can be salty.
+- Very dry jerky may take longer to soften in soup.

@@ -14,19 +14,45 @@ common_forms:
   - "instant brown rice"
   - "microwave rice pouch"
 
+availability: common
+
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; dry instant rice keeps well when sealed."
+  opened: "Best used within several months if kept dry and sealed."
+
+field_quantity:
+  typical_trip_amount: "1/2 to 1 cup dry rice per person per meal"
+  typical_recipe_amount: "1 cup"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "car camping"
+    - "quick dinners"
+    - "bowl meals"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "cooked rice"
+shelf_stable_alternative: "instant rice or rice pouch"
+
+best_trip_type:
+  - "backpacking"
+  - "car camping"
+  - "quick dinners"
+  - "bowl meals"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Camp Chicken Fried Rice"
@@ -46,7 +72,11 @@ substitutions:
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: "Use slightly less water when adding wet ingredients."
+warnings_or_limitations:
+  - "Can become mushy if overhydrated."
+  - "Wet rice pouches are heavier than dry instant rice."
+
+notes: "Use slightly less water when adding wet ingredients or sauces."
 
 tags:
   - ingredient
@@ -69,12 +99,12 @@ Instant Rice is useful because it is shelf-stable, practical for camp cooking, a
 - instant brown rice
 - microwave rice pouch
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- car camping
+- quick dinners
+- bowl meals
 
 ## Related Recipes
 
@@ -94,10 +124,20 @@ Instant Rice is useful because it is shelf-stable, practical for camp cooking, a
 - ramen noodles
 - small pasta
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: cooked rice
+- Shelf-stable alternative: instant rice or rice pouch
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; dry instant rice keeps well when sealed. Once opened or repackaged, best used within several months if kept dry and sealed.
 
 ## MiniMo Notes
 
-Use slightly less water when adding wet ingredients.
+Use slightly less water when adding wet ingredients or sauces.
+
+## Warnings or Limitations
+
+- Can become mushy if overhydrated.
+- Wet rice pouches are heavier than dry instant rice.

@@ -14,19 +14,47 @@ common_forms:
   - "foil chicken packet"
   - "canned chicken alternative"
 
+availability: common
+
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; shelf-stable packets keep well unopened."
+  opened: "Use immediately after opening."
+
+field_quantity:
+  typical_trip_amount: "1 packet per 1-2 people per meal"
+  typical_recipe_amount: "1 packet"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "car camping"
+    - "rice meals"
+    - "pasta meals"
+    - "wraps"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "cooked chicken"
+shelf_stable_alternative: "chicken packets or freeze-dried chicken"
+
+best_trip_type:
+  - "backpacking"
+  - "car camping"
+  - "rice meals"
+  - "pasta meals"
+  - "wraps"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Camp Chicken Fried Rice"
@@ -45,6 +73,10 @@ substitutions:
 
 pantry_modules:
   - "Core Trail Pantry"
+
+warnings_or_limitations:
+  - "Packets are wet and heavier than freeze-dried protein."
+  - "Empty packets can smell; pack out carefully."
 
 notes: "Drain if needed; add late to avoid overcooking."
 
@@ -69,12 +101,13 @@ Chicken Packets is useful because it is shelf-stable, practical for camp cooking
 - foil chicken packet
 - canned chicken alternative
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- car camping
+- rice meals
+- pasta meals
+- wraps
 
 ## Related Recipes
 
@@ -94,10 +127,20 @@ Chicken Packets is useful because it is shelf-stable, practical for camp cooking
 - tuna packets
 - salmon packets
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: cooked chicken
+- Shelf-stable alternative: chicken packets or freeze-dried chicken
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; shelf-stable packets keep well unopened. Once opened or repackaged, use immediately after opening.
 
 ## MiniMo Notes
 
 Drain if needed; add late to avoid overcooking.
+
+## Warnings or Limitations
+
+- Packets are wet and heavier than freeze-dried protein.
+- Empty packets can smell; pack out carefully.

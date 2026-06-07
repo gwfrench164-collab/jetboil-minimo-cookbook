@@ -15,25 +15,29 @@ common_forms:
   - "plain ramen noodles"
   - "bulk ramen noodles"
 
-availability:
-  grocery_store: true
-  walmart_level: true
-  specialty_store: true
-  backpacking_specialty: false
+availability: common
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry and protected from crushing, puncture, and moisture. If seasoning packets are separate, keep them with the noodles or label them clearly."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; usually long shelf life when kept dry."
+  opened: "Best used promptly after opening or repackaging."
+
+field_quantity:
+  typical_trip_amount: "1 packet per person per meal"
+  typical_recipe_amount: "1-2 packets"
 
 field_use:
   best_for:
-    - backpacking
-    - car camping
-    - cold weather meals
-    - fast lunches
-    - emergency meals
-  prep_required: "Minimal; break noodles if needed to fit pot or reduce cooking time."
+    - "backpacking"
+    - "car camping"
+    - "cold weather"
+    - "emergency meal"
+    - "low-prep trips"
+  prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
 
@@ -41,16 +45,16 @@ fresh_alternative: "fresh ramen noodles"
 shelf_stable_alternative: "instant ramen packets"
 
 best_trip_type:
-  - backpacking
-  - car camping
-  - cold weather
-  - emergency meal
-  - low-prep trips
+  - "backpacking"
+  - "car camping"
+  - "cold weather"
+  - "emergency meal"
+  - "low-prep trips"
 
 pantry_value:
   versatility: high
   calorie_density: medium
-  morale_value: high
+  morale_value: medium
   cost_efficiency: high
 
 related_recipes:
@@ -72,63 +76,43 @@ substitutions:
 
 pantry_modules:
   - "Core Trail Pantry"
-  - "Ramen Upgrade Kit"
-  - "Cold Weather Meal Kit"
 
 warnings_or_limitations:
   - "Can foam quickly in the MiniMo."
   - "Seasoning packets are often very salty."
-  - "Plain noodles may need added fat, protein, and vegetables to become a satisfying meal."
-  - "Crushed noodles cook faster but change texture."
+  - "Plain noodles need added fat, protein, and vegetables to become a satisfying meal."
 
-notes: "Use the basic name Ramen Noodles as the canonical ingredient. Treat instant, bulk, and packet forms as common forms rather than separate canonical names."
+notes: "Reduce heat after noodles begin to soften and stir gently to control foaming."
 
 tags:
   - ingredient
   - carbohydrate
-  - noodles
-  - shelf_stable
-  - high_versatility
 ---
 
 # Ramen Noodles
 
 ## Summary
 
-Ramen noodles are one of the highest-value trail carbohydrates for a MiniMo-centered cooking system. They are cheap, compact, widely available, fast-cooking, and easy to turn into a real meal with protein, vegetables, fat, and seasoning.
+Fast-cooking noodle base for soups, ramen bowls, and trail lunches.
 
 ## Why Carry It
 
-Ramen noodles work well when you need a fast, warm, filling meal with minimal prep. They are especially useful for trail lunches, cold-weather meals, and emergency backup food.
+Ramen Noodles is useful because it is shelf-stable, practical for camp cooking, and connects to multiple recipes or meal systems.
 
 ## Common Forms
 
-- Instant ramen block
-- Ramen noodle packet
-- Plain ramen noodles
-- Bulk ramen noodles
+- instant ramen block
+- ramen noodle packet
+- plain ramen noodles
+- bulk ramen noodles
 
 ## Best Uses
 
-- Brothy noodle bowls
-- Ramen upgrade meals
-- Quick lunches
-- Cold-weather soups
-- Emergency meals
-- Protein-boosted trail meals
-
-## Good Pairings
-
-- Beef jerky
-- Chicken packets
-- Tuna packets
-- Dehydrated vegetables
-- Bouillon
-- Peanut butter
-- Hot sauce
-- Soy sauce packets
-- Powdered egg
-- Olive oil
+- backpacking
+- car camping
+- cold weather
+- emergency meal
+- low-prep trips
 
 ## Related Recipes
 
@@ -145,23 +129,26 @@ Ramen noodles work well when you need a fast, warm, filling meal with minimal pr
 
 ## Substitutions
 
-- Rice noodles
-- Angel hair pasta
-- Instant rice
-- Couscous
+- rice noodles
+- angel hair pasta
+- instant rice
+- couscous
 
 ## Fresh vs Shelf-Stable
 
-Fresh ramen noodles are better in texture but are not practical for most backpacking use. Instant ramen packets are the default shelf-stable field form.
+- Fresh alternative: fresh ramen noodles
+- Shelf-stable alternative: instant ramen packets
 
 ## Storage Notes
 
-Store dry and protected from moisture. If you remove noodles from their original packaging, label the bag and keep seasoning packets together or intentionally separate them into a spice kit.
+Check package date; usually long shelf life when kept dry. Once opened or repackaged, best used promptly after opening or repackaging.
 
 ## MiniMo Notes
 
-Ramen can foam quickly in the MiniMo. Reduce heat after the noodles begin to soften and stir gently. Breaking the noodle block can help it fit better and cook more evenly.
+Reduce heat after noodles begin to soften and stir gently to control foaming.
 
-## Pantry Value
+## Warnings or Limitations
 
-Ramen noodles are a strong core pantry item because they are inexpensive, compact, easy to find, and compatible with many proteins and flavor systems.
+- Can foam quickly in the MiniMo.
+- Seasoning packets are often very salty.
+- Plain noodles need added fat, protein, and vegetables to become a satisfying meal.

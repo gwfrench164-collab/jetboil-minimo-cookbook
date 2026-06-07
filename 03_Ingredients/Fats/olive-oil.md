@@ -14,19 +14,45 @@ common_forms:
   - "small oil bottle"
   - "extra virgin olive oil"
 
+availability: common
+
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; oil can go rancid over time."
+  opened: "Use within a reasonable time and protect from heat/light."
+
+field_quantity:
+  typical_trip_amount: "1-2 tablespoons per meal as needed"
+  typical_recipe_amount: "1 tablespoon"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "car camping"
+    - "backpacking"
+    - "cold weather"
+    - "skillet meals"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "butter"
+shelf_stable_alternative: "olive oil packets or small sealed bottle"
+
+best_trip_type:
+  - "car camping"
+  - "backpacking"
+  - "cold weather"
+  - "skillet meals"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Dan Dan Noodles"
@@ -45,6 +71,10 @@ substitutions:
 
 pantry_modules:
   - "Core Trail Pantry"
+
+warnings_or_limitations:
+  - "Leaks can make a mess; double-bag or use reliable container."
+  - "Too much oil can make just-add-water meals greasy."
 
 notes: "Pack separately to prevent leaks; add after hydration when possible."
 
@@ -69,12 +99,12 @@ Olive Oil is useful because it is shelf-stable, practical for camp cooking, and 
 - small oil bottle
 - extra virgin olive oil
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- car camping
+- backpacking
+- cold weather
+- skillet meals
 
 ## Related Recipes
 
@@ -94,10 +124,20 @@ Olive Oil is useful because it is shelf-stable, practical for camp cooking, and 
 - ghee
 - neutral cooking oil
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: butter
+- Shelf-stable alternative: olive oil packets or small sealed bottle
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; oil can go rancid over time. Once opened or repackaged, use within a reasonable time and protect from heat/light.
 
 ## MiniMo Notes
 
 Pack separately to prevent leaks; add after hydration when possible.
+
+## Warnings or Limitations
+
+- Leaks can make a mess; double-bag or use reliable container.
+- Too much oil can make just-add-water meals greasy.

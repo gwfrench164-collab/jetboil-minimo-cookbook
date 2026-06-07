@@ -13,20 +13,47 @@ common_forms:
   - "bouillon cube"
   - "bouillon powder"
   - "broth concentrate"
+  - "stock packet"
+
+availability: common
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; dry cubes/powders keep well sealed."
+  opened: "Keep dry and sealed; use promptly if paste/concentrate is opened."
+
+field_quantity:
+  typical_trip_amount: "1/2 to 1 teaspoon powder or part of a cube per serving"
+  typical_recipe_amount: "1 teaspoon or 1 cube depending on volume"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "soups"
+    - "noodle meals"
+    - "rice meals"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "broth or stock"
+shelf_stable_alternative: "bouillon cubes, powder, or concentrate packets"
+
+best_trip_type:
+  - "backpacking"
+  - "soups"
+  - "noodle meals"
+  - "rice meals"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Backpacker's Pho"
@@ -46,7 +73,11 @@ substitutions:
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: "Concentrated and salty; start small."
+warnings_or_limitations:
+  - "Very concentrated and salty."
+  - "A whole cube may be too much for a single serving."
+
+notes: "Start small; you can always add more, but cannot easily remove salt."
 
 tags:
   - ingredient
@@ -68,13 +99,14 @@ Bouillon is useful because it is shelf-stable, practical for camp cooking, and c
 - bouillon cube
 - bouillon powder
 - broth concentrate
+- stock packet
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- soups
+- noodle meals
+- rice meals
 
 ## Related Recipes
 
@@ -94,10 +126,20 @@ Bouillon is useful because it is shelf-stable, practical for camp cooking, and c
 - stock concentrate
 - ramen seasoning
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: broth or stock
+- Shelf-stable alternative: bouillon cubes, powder, or concentrate packets
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; dry cubes/powders keep well sealed. Once opened or repackaged, keep dry and sealed; use promptly if paste/concentrate is opened.
 
 ## MiniMo Notes
 
-Concentrated and salty; start small.
+Start small; you can always add more, but cannot easily remove salt.
+
+## Warnings or Limitations
+
+- Very concentrated and salty.
+- A whole cube may be too much for a single serving.

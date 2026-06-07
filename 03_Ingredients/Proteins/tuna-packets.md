@@ -12,20 +12,47 @@ weight_efficiency: high
 common_forms:
   - "pouch tuna"
   - "foil tuna packet"
+  - "flavored tuna packet"
+
+availability: common
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; shelf-stable packets keep well unopened."
+  opened: "Use immediately after opening."
+
+field_quantity:
+  typical_trip_amount: "1 packet per person or per wrap/quesadilla"
+  typical_recipe_amount: "1 packet"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "lunches"
+    - "wraps"
+    - "no-cook meals"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "fresh cooked fish"
+shelf_stable_alternative: "tuna packets"
+
+best_trip_type:
+  - "backpacking"
+  - "lunches"
+  - "wraps"
+  - "no-cook meals"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Tuna Melt Quesadilla"
@@ -43,7 +70,11 @@ substitutions:
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: "Pack out empty packets; tuna smell can linger."
+warnings_or_limitations:
+  - "Strong smell; pack out trash carefully."
+  - "Not ideal for people who dislike fish odor in camp."
+
+notes: "Works best in skillet wraps or added after cooking rather than simmered for a long time."
 
 tags:
   - ingredient
@@ -64,13 +95,14 @@ Tuna Packets is useful because it is shelf-stable, practical for camp cooking, a
 
 - pouch tuna
 - foil tuna packet
+- flavored tuna packet
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- lunches
+- wraps
+- no-cook meals
 
 ## Related Recipes
 
@@ -88,10 +120,20 @@ Tuna Packets is useful because it is shelf-stable, practical for camp cooking, a
 - salmon packets
 - sardine packets
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: fresh cooked fish
+- Shelf-stable alternative: tuna packets
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; shelf-stable packets keep well unopened. Once opened or repackaged, use immediately after opening.
 
 ## MiniMo Notes
 
-Pack out empty packets; tuna smell can linger.
+Works best in skillet wraps or added after cooking rather than simmered for a long time.
+
+## Warnings or Limitations
+
+- Strong smell; pack out trash carefully.
+- Not ideal for people who dislike fish odor in camp.

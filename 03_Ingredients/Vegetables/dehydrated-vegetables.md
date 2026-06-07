@@ -14,20 +14,49 @@ common_forms:
   - "dehydrated peas"
   - "dehydrated carrots"
   - "dried onions"
+  - "dried mushrooms"
+
+availability: easy_to_find
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry, sealed, and protected from puncture or moisture."
+  notes: "Store sealed and protected from moisture, heat, puncture, and contamination."
+
+shelf_life:
+  unopened: "Check package date; dry vegetables keep well sealed."
+  opened: "Keep dry and sealed; use within a reasonable time after opening."
+
+field_quantity:
+  typical_trip_amount: "1-4 tablespoons per serving depending on meal"
+  typical_recipe_amount: "1/4 cup"
 
 field_use:
   best_for:
-    - backpacking
-    - camp cooking
-    - MiniMo meals
+    - "backpacking"
+    - "soups"
+    - "ramen meals"
+    - "rice meals"
+    - "couscous meals"
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
+
+fresh_alternative: "fresh vegetables"
+shelf_stable_alternative: "dehydrated vegetables or freeze-dried vegetables"
+
+best_trip_type:
+  - "backpacking"
+  - "soups"
+  - "ramen meals"
+  - "rice meals"
+  - "couscous meals"
+
+pantry_value:
+  versatility: high
+  calorie_density: medium
+  morale_value: medium
+  cost_efficiency: high
 
 related_recipes:
   - "Beef Jerky Ramen"
@@ -46,6 +75,10 @@ substitutions:
 
 pantry_modules:
   - "Core Trail Pantry"
+
+warnings_or_limitations:
+  - "Need hydration time."
+  - "Some vegetables stay chewy if added too late."
 
 notes: "Hydrate early; simmer a few minutes before adding quick-cooking bases."
 
@@ -70,13 +103,15 @@ Dehydrated Vegetables is useful because it is shelf-stable, practical for camp c
 - dehydrated peas
 - dehydrated carrots
 - dried onions
+- dried mushrooms
 
-## Field Uses
+## Best Uses
 
-- Quick camp meals
-- MiniMo-compatible cooking
-- Pantry module building
-- Recipe substitutions
+- backpacking
+- soups
+- ramen meals
+- rice meals
+- couscous meals
 
 ## Related Recipes
 
@@ -96,10 +131,20 @@ Dehydrated Vegetables is useful because it is shelf-stable, practical for camp c
 - fresh vegetables
 - dried mushrooms
 
+## Fresh vs Shelf-Stable
+
+- Fresh alternative: fresh vegetables
+- Shelf-stable alternative: dehydrated vegetables or freeze-dried vegetables
+
 ## Storage Notes
 
-Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+Check package date; dry vegetables keep well sealed. Once opened or repackaged, keep dry and sealed; use within a reasonable time after opening.
 
 ## MiniMo Notes
 
 Hydrate early; simmer a few minutes before adding quick-cooking bases.
+
+## Warnings or Limitations
+
+- Need hydration time.
+- Some vegetables stay chewy if added too late.
