@@ -10,52 +10,94 @@ shelf_stable: true
 weight_efficiency: high
 
 common_forms:
-  - "Powdered Milk"
+  - "nonfat dry milk"
+  - "whole powdered milk"
+  - "dry milk"
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry and protected from moisture."
+  notes: "Store dry, sealed, and protected from puncture or moisture."
 
 field_use:
   best_for:
     - backpacking
     - camp cooking
+    - MiniMo meals
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
 
 related_recipes:
-  - ""
+  - "Mocha Hot Chocolate"
+  - "30 Second Hot Chocolate"
+  - "Hot Granola Breakfast"
 
 related_techniques:
+  - "Just Add Water Meals"
   - "Trail Pantry Essentials"
+  - "Backcountry Coffee Fundamentals"
 
 substitutions:
-  - ""
+  - "powdered creamer"
+  - "powdered coconut milk"
+  - "shelf-stable milk"
 
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: ""
+notes: "Mix gradually to avoid clumps; lower heat for dairy-based mixtures."
+
+tags:
+  - ingredient
+  - dairy
 ---
 
 # Powdered Milk
 
+## Summary
+
+Adds creaminess, calories, and dairy flavor to drinks, oats, soups, and sauces.
+
 ## Why Carry It
 
-Powdered Milk is a practical trail ingredient because it is lightweight, shelf-stable, and useful in multiple recipes.
+Powdered Milk is useful because it is shelf-stable, practical for camp cooking, and connects to multiple recipes or meal systems.
+
+## Common Forms
+
+- nonfat dry milk
+- whole powdered milk
+- dry milk
 
 ## Field Uses
 
-- Backpacking meals
-- Camp cooking
-- Pantry building
+- Quick camp meals
+- MiniMo-compatible cooking
+- Pantry module building
+- Recipe substitutions
 
-## Storage
+## Related Recipes
 
-Keep dry and protected from punctures, moisture, and contamination.
+- Mocha Hot Chocolate
+- 30 Second Hot Chocolate
+- Hot Granola Breakfast
 
-## MiniMo Note
+## Related Techniques
 
-This ingredient works well within a JetBoil MiniMo-centered cooking system.
+- Just Add Water Meals
+- Trail Pantry Essentials
+- Backcountry Coffee Fundamentals
+
+## Substitutions
+
+- powdered creamer
+- powdered coconut milk
+- shelf-stable milk
+
+## Storage Notes
+
+Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+
+## MiniMo Notes
+
+Mix gradually to avoid clumps; lower heat for dairy-based mixtures.

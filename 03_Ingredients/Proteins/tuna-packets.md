@@ -10,52 +10,88 @@ shelf_stable: true
 weight_efficiency: high
 
 common_forms:
-  - "Tuna Packets"
+  - "pouch tuna"
+  - "foil tuna packet"
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry and protected from moisture."
+  notes: "Store dry, sealed, and protected from puncture or moisture."
 
 field_use:
   best_for:
     - backpacking
     - camp cooking
+    - MiniMo meals
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
 
 related_recipes:
-  - ""
+  - "Tuna Melt Quesadilla"
 
 related_techniques:
+  - "Backpacking Protein Systems"
   - "Trail Pantry Essentials"
+  - "Backpacking Lunch Planning"
 
 substitutions:
-  - ""
+  - "chicken packets"
+  - "salmon packets"
+  - "sardine packets"
 
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: ""
+notes: "Pack out empty packets; tuna smell can linger."
+
+tags:
+  - ingredient
+  - protein
 ---
 
 # Tuna Packets
 
+## Summary
+
+Lightweight protein for wraps, quesadillas, rice bowls, and no-cook lunches.
+
 ## Why Carry It
 
-Tuna Packets is a practical trail ingredient because it is lightweight, shelf-stable, and useful in multiple recipes.
+Tuna Packets is useful because it is shelf-stable, practical for camp cooking, and connects to multiple recipes or meal systems.
+
+## Common Forms
+
+- pouch tuna
+- foil tuna packet
 
 ## Field Uses
 
-- Backpacking meals
-- Camp cooking
-- Pantry building
+- Quick camp meals
+- MiniMo-compatible cooking
+- Pantry module building
+- Recipe substitutions
 
-## Storage
+## Related Recipes
 
-Keep dry and protected from punctures, moisture, and contamination.
+- Tuna Melt Quesadilla
 
-## MiniMo Note
+## Related Techniques
 
-This ingredient works well within a JetBoil MiniMo-centered cooking system.
+- Backpacking Protein Systems
+- Trail Pantry Essentials
+- Backpacking Lunch Planning
+
+## Substitutions
+
+- chicken packets
+- salmon packets
+- sardine packets
+
+## Storage Notes
+
+Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+
+## MiniMo Notes
+
+Pack out empty packets; tuna smell can linger.

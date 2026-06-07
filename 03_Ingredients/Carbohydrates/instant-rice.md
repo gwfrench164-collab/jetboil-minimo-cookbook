@@ -10,52 +10,94 @@ shelf_stable: true
 weight_efficiency: high
 
 common_forms:
-  - "Instant Rice"
+  - "instant white rice"
+  - "instant brown rice"
+  - "microwave rice pouch"
 
 storage:
   room_temperature: true
   refrigeration_required: false
-  notes: "Store dry and protected from moisture."
+  notes: "Store dry, sealed, and protected from puncture or moisture."
 
 field_use:
   best_for:
     - backpacking
     - camp cooking
+    - MiniMo meals
   prep_required: "Minimal"
   cleanup_impact: low
   fuel_impact: low
 
 related_recipes:
-  - ""
+  - "Camp Chicken Fried Rice"
+  - "Thai Trout"
+  - "Keto Chili Recipe"
 
 related_techniques:
+  - "Just Add Water Meals"
   - "Trail Pantry Essentials"
+  - "Minimal Ingredient Cooking"
 
 substitutions:
-  - ""
+  - "couscous"
+  - "ramen noodles"
+  - "small pasta"
 
 pantry_modules:
   - "Core Trail Pantry"
 
-notes: ""
+notes: "Use slightly less water when adding wet ingredients."
+
+tags:
+  - ingredient
+  - carbohydrate
 ---
 
 # Instant Rice
 
+## Summary
+
+Fast carbohydrate base for rice bowls, curries, chili extensions, and fish meals.
+
 ## Why Carry It
 
-Instant Rice is a practical trail ingredient because it is lightweight, shelf-stable, and useful in multiple recipes.
+Instant Rice is useful because it is shelf-stable, practical for camp cooking, and connects to multiple recipes or meal systems.
+
+## Common Forms
+
+- instant white rice
+- instant brown rice
+- microwave rice pouch
 
 ## Field Uses
 
-- Backpacking meals
-- Camp cooking
-- Pantry building
+- Quick camp meals
+- MiniMo-compatible cooking
+- Pantry module building
+- Recipe substitutions
 
-## Storage
+## Related Recipes
 
-Keep dry and protected from punctures, moisture, and contamination.
+- Camp Chicken Fried Rice
+- Thai Trout
+- Keto Chili Recipe
 
-## MiniMo Note
+## Related Techniques
 
-This ingredient works well within a JetBoil MiniMo-centered cooking system.
+- Just Add Water Meals
+- Trail Pantry Essentials
+- Minimal Ingredient Cooking
+
+## Substitutions
+
+- couscous
+- ramen noodles
+- small pasta
+
+## Storage Notes
+
+Store sealed and protected from moisture. Pack in a secondary bag if leaks, punctures, or odor are likely.
+
+## MiniMo Notes
+
+Use slightly less water when adding wet ingredients.
