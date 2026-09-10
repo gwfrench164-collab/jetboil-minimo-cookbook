@@ -1,0 +1,568 @@
+{
+  "recipe_count": 41,
+  "official_count": 33,
+  "verified_count": 7,
+  "derived_count": 8,
+  "issues": [
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/30-second-hot-chocolate.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/30-second-hot-chocolate.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/apple-cider-chai.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/apple-cider-chai.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/mocha-hot-chocolate.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/mocha-hot-chocolate.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/russian-tea-with-tang.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/russian-tea-with-tang.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/ultralight-backpackers-spiced-tea.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Beverages/ultralight-backpackers-spiced-tea.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/apple-grahams.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/apple-grahams.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/bear-scat-cookies.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/bear-scat-cookies.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/peanut-butter-crunch-balls.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/peanut-butter-crunch-balls.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/upside-down-fruit-cobbler.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Desserts/upside-down-fruit-cobbler.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/angel-hair-pasta-chicken-artichokes.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/angel-hair-pasta-chicken-artichokes.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/backpackers-pho.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/backpackers-pho.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/campfire-pizza-in-a-pot.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/campfire-pizza-in-a-pot.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/chef-dans-rockin-moroccan-couscous.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/chef-dans-rockin-moroccan-couscous.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/chef-dans-winter-veggie-thai-curry.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/chef-dans-winter-veggie-thai-curry.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/chorizo-wild-mushroom-sicily-risotto.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/chorizo-wild-mushroom-sicily-risotto.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/dan-dan-noodles.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/dan-dan-noodles.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/keto-chili-recipe.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/keto-chili-recipe.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/loaded-mac-n-cheese.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/loaded-mac-n-cheese.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/quick-tortellini-soup.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/quick-tortellini-soup.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/sesame-chicken.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/sesame-chicken.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/thai-trout.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/thai-trout.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/wilderness-carbonara.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/One_Pot_Dinners/wilderness-carbonara.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Skillet_Meals/camp-chicken-fried-rice.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Skillet_Meals/camp-chicken-fried-rice.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Trail_Lunches/beef-jerky-ramen.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Trail_Lunches/beef-jerky-ramen.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Trail_Lunches/chi-chi-ramen-noodles.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Trail_Lunches/chi-chi-ramen-noodles.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Trail_Lunches/jetboil-camping-mac-and-cheese.md",
+      "code": "missing_source_url",
+      "message": "Official source URL not yet identified"
+    },
+    {
+      "severity": "WARNING",
+      "path": "01_Recipes/Trail_Lunches/jetboil-camping-mac-and-cheese.md",
+      "code": "source_unreviewed",
+      "message": "Official content has not been source-audited"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "01_Recipes/Beverages/30-second-hot-chocolate.md",
+      "id": "recipe-0032",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Beverages/apple-cider-chai.md",
+      "id": "recipe-0033",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Beverages/mocha-hot-chocolate.md",
+      "id": "recipe-0041",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Beverages/russian-tea-with-tang.md",
+      "id": "recipe-0038",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Beverages/ultralight-backpackers-spiced-tea.md",
+      "id": "recipe-0039",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Breakfast/baggie-omelets-camp-eggs.md",
+      "id": "recipe-0009",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/bobsadilla-breakfast-quesadilla.md",
+      "id": "recipe-0003",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/caffeinated-oatmeal-blast.md",
+      "id": "recipe-0021",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/french-toast.md",
+      "id": "recipe-0026",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/hot-granola-breakfast.md",
+      "id": "recipe-0019",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/jack-pine-jims-power-brunch.md",
+      "id": "recipe-0020",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/quinoa-breakfast-bowl.md",
+      "id": "recipe-0002",
+      "source_verified": true,
+      "audit": "verified_cached"
+    },
+    {
+      "path": "01_Recipes/Breakfast/savory-oatmeal-bowl.md",
+      "id": "recipe-0036",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Cold_Weather/chili-couscous-bowl.md",
+      "id": "recipe-0025",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Cold_Weather/creamy-ramen-chowder.md",
+      "id": "recipe-0037",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Desserts/apple-grahams.md",
+      "id": "recipe-0005",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Desserts/bear-scat-cookies.md",
+      "id": "recipe-0028",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Desserts/peanut-butter-crunch-balls.md",
+      "id": "recipe-0027",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Desserts/upside-down-fruit-cobbler.md",
+      "id": "recipe-0012",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/angel-hair-pasta-chicken-artichokes.md",
+      "id": "recipe-0011",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/backpackers-pho.md",
+      "id": "recipe-0014",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/campfire-pizza-in-a-pot.md",
+      "id": "recipe-0030",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/chef-dans-rockin-moroccan-couscous.md",
+      "id": "recipe-0015",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/chef-dans-winter-veggie-thai-curry.md",
+      "id": "recipe-0016",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/chorizo-wild-mushroom-sicily-risotto.md",
+      "id": "recipe-0029",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/dan-dan-noodles.md",
+      "id": "recipe-0013",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/keto-chili-recipe.md",
+      "id": "recipe-0040",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/loaded-mac-n-cheese.md",
+      "id": "recipe-0017",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/quick-tortellini-soup.md",
+      "id": "recipe-0004",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/sesame-chicken.md",
+      "id": "recipe-0001",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/thai-trout.md",
+      "id": "recipe-0031",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/One_Pot_Dinners/wilderness-carbonara.md",
+      "id": "recipe-0007",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Rice_Systems/coconut-curry-rice-bowl.md",
+      "id": "recipe-0034",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Skillet_Meals/camp-chicken-fried-rice.md",
+      "id": "recipe-0006",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Skillet_Meals/camp-sausage-potatoes.md",
+      "id": "recipe-0024",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Soups_Chowders/loaded-potato-soup.md",
+      "id": "recipe-0022",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Trail_Lunches/beef-jerky-ramen.md",
+      "id": "recipe-0008",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Trail_Lunches/chi-chi-ramen-noodles.md",
+      "id": "recipe-0010",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Trail_Lunches/jetboil-camping-mac-and-cheese.md",
+      "id": "recipe-0018",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Wraps_And_Tortillas/chicken-ranch-wrap.md",
+      "id": "recipe-0023",
+      "source_verified": false,
+      "audit": "pending"
+    },
+    {
+      "path": "01_Recipes/Wraps_And_Tortillas/tuna-melt-quesadilla.md",
+      "id": "recipe-0035",
+      "source_verified": false,
+      "audit": "pending"
+    }
+  ]
+}

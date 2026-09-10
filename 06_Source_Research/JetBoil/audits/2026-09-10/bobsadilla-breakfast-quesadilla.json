@@ -1,0 +1,31 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/bobsadilla-breakfast-quesadilla",
+  "accessed_on": "2026-09-10",
+  "retrieval_method": "indexed_official_page",
+  "live_check": "blocked",
+  "normalization": "HTML and retrieval markup removed; list numbering represented structurally; outer whitespace trimmed. Published wording, punctuation and internal whitespace preserved.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/bobsadilla-breakfast-quesadilla.txt",
+  "evidence_sha256": "6bb84d4cfbecc51ee586c269e83ffe29cafbc2b93b84747df6338a3bd56c8b2b",
+  "official_recipe": {
+    "source_title": "Bobsadilla - The Breakfast Quesadilla",
+    "ingredients_exact": [
+      "2 Tbsp of diced bell pepper",
+      "2 Tbsp of diced tomatoes",
+      "1 to 2 Tbsp of diced onions",
+      "1 Tbsp of olive oil",
+      "1 Tsp of butter",
+      "2 Eggs",
+      "1 Tortilla",
+      "1 to 2 oz Mozzarella or cheddar cheese, or whatever you prefer"
+    ],
+    "instructions_exact": [
+      "In a Jetboil Summit Skillet, add the olive oil. Once heated, add the vegetables and sauté for approximately 2 to 3 minutes. Set them aside.",
+      "Butter a pan and allow to heat. Once heated, break two eggs in the pan. Immediately put a tortilla over the eggs and apply pressure to the tortilla so you smoosh the eggs underneath a bit. Let the concoction cook for a couple minutes then gently work a spatula between the fried egg/tortilla and the pan.",
+      "Flip the tortilla over. Add shredded cheddar cheese (or any type you like really) and the sautéed veggies. Fold the tortilla in half and let it sit over low heat until the cheese melts a bit.",
+      "Or even better, if you have a cover for your pan, throw a splash of water in the pan and cover the pan with the lid while the water evaporates. It will steam the whole Bobsadilla and the cheese will melt nicely without burning the outside of the tortilla."
+    ],
+    "instruction_groups": [],
+    "tools_exact": [],
+    "featured_products_exact": []
+  }
+}

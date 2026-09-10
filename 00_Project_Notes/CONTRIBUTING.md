@@ -1,3 +1,5 @@
+> Current recipe schema and automation: [Schema Standard](../08_Index/Schema_Standard.md) and [Maintenance](MAINTENANCE.md). These supersede the historical source-field example below. Do not introduce `source_type`, `reliability_level` or `source_name` into recipe records.
+
 # Contributing Standards
 
 These standards keep the JetBoil MiniMo cookbook useful as a structured knowledge base rather than a loose recipe folder.

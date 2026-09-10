@@ -1,0 +1,23 @@
+name: Recipe checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+      - run: python -m pip install -r tools/requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/validate_recipes.py --baseline tools/audit_backlog.json
+      - run: python tools/check_provenance.py --baseline tools/audit_backlog.json
+      - run: python tools/render_recipes.py
+      - run: python tools/build_project_audit.py --check

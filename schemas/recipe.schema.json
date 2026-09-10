@@ -1,0 +1,624 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^recipe-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "enum": [
+            "official_jetboil_recipe",
+            "derived_field_system"
+          ]
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            }
+          ]
+        },
+        "source_content_type": {
+          "enum": [
+            "recipe"
+          ]
+        },
+        "official_title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "source_verified": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "type",
+        "publisher",
+        "source_url",
+        "source_content_type"
+      ],
+      "additionalProperties": false
+    },
+    "recipe_status": {
+      "type": "object",
+      "properties": {
+        "collected": {
+          "type": "boolean"
+        },
+        "recreatable": {
+          "type": "boolean"
+        },
+        "enhanced": {
+          "type": "boolean"
+        },
+        "comprehensive": {
+          "type": "boolean"
+        },
+        "official_recipe_verified": {
+          "type": "boolean"
+        },
+        "minimo_adaptation_added": {
+          "type": "boolean"
+        },
+        "field_variations_separated": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "collected",
+        "recreatable",
+        "enhanced",
+        "comprehensive"
+      ],
+      "additionalProperties": false
+    },
+    "recipe_card": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "category": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "servings": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "yield": {
+          "type": "string"
+        },
+        "prep_time": {
+          "type": "string"
+        },
+        "cook_time": {
+          "type": "string"
+        },
+        "total_time": {
+          "type": "string"
+        },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "ingredients": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "item": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "\\S"
+                  },
+                  "amount": {
+                    "type": [
+                      "string",
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "preparation": {
+                    "type": "string"
+                  },
+                  "notes": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "item",
+                  "amount",
+                  "unit"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "source_text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "\\S"
+                  }
+                },
+                "required": [
+                  "source_text"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "minItems": 1
+        },
+        "instructions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "step": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "step",
+              "text"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "nutrition": {
+          "type": "object",
+          "properties": {
+            "calories": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "protein_g": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "carbs_g": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "fat_g": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "source_note": {
+          "type": "string"
+        },
+        "cleanup": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "minimo_notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "skillet_notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "content_basis": {
+          "enum": [
+            "official_recipe"
+          ]
+        }
+      },
+      "required": [
+        "title",
+        "ingredients",
+        "instructions"
+      ],
+      "additionalProperties": false
+    },
+    "official_recipe": {
+      "type": "object",
+      "properties": {
+        "source_title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "ingredients_exact": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 1
+        },
+        "instructions_exact": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 1
+        },
+        "instruction_groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "before_step": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "before_step",
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "tools_exact": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "featured_products_exact": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      },
+      "required": [
+        "source_title",
+        "ingredients_exact",
+        "instructions_exact",
+        "instruction_groups",
+        "tools_exact",
+        "featured_products_exact"
+      ],
+      "additionalProperties": false
+    },
+    "audit": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "verified_cached",
+            "verified_live",
+            "pending",
+            "blocked"
+          ]
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "evidence_file": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "snapshot_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "method": {
+          "enum": [
+            "indexed_official_page",
+            "direct_official_page"
+          ]
+        },
+        "live_check": {
+          "enum": [
+            "blocked",
+            "verified"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "status",
+        "checked_on",
+        "evidence_file",
+        "snapshot_sha256",
+        "method",
+        "live_check",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "minimo_adaptation": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "editorial_reviewed",
+            "pending"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "source_urls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        }
+      },
+      "required": [
+        "status",
+        "notes",
+        "source_urls"
+      ],
+      "additionalProperties": false
+    },
+    "field_tested_variations": {
+      "type": "object",
+      "properties": {
+        "not_part_of_official_recipe": {
+          "const": true
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "description": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "tested_by": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "tested_on": {
+                "type": "string",
+                "format": "date"
+              },
+              "evidence": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "description",
+              "tested_by",
+              "tested_on",
+              "evidence"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "not_part_of_official_recipe",
+        "entries"
+      ],
+      "additionalProperties": false
+    },
+    "proposed_variations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "related_ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "related_techniques": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "related_pantry_modules": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "properties": {
+        "ingredients": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "techniques": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "source",
+    "recipe_status",
+    "recipe_card"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "schema_version"
+        ]
+      },
+      "then": {
+        "required": [
+          "official_recipe",
+          "audit",
+          "minimo_adaptation",
+          "field_tested_variations",
+          "proposed_variations"
+        ],
+        "properties": {
+          "source": {
+            "properties": {
+              "type": {
+                "const": "official_jetboil_recipe"
+              }
+            }
+          },
+          "recipe_card": {
+            "required": [
+              "content_basis"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> Historical document. Current status is in the generated [recipe audit tracker](../../08_Index/Recipe_Accuracy_Audit_Tracker.md). As of 2026-09-10: 41 recipe files, 33 labeled official, eight derived; seven breakfast records audited against indexed official text, 26 official records unaudited. Earlier completion claims do not mean source verification.
+
 # JetBoil Recipe Index
 
 Created: 2026-06-04

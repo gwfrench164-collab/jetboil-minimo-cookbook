@@ -1,126 +1,43 @@
-# Canonical Recipe Schema v1
+# Canonical Recipe Schema
 
-This is the official schema standard for the JetBoil MiniMo Cookbook project.
+The executable authority is [recipe.schema.json](../schemas/recipe.schema.json). Run [the documented local checks](../README.md#run-on-your-mac).
 
-## Goals
+## Version 1: legacy records
 
-- Single canonical recipe format
-- Provenance tracking
-- Recipe card generation
-- Field guide generation
-- Full cookbook generation
-- Ingredient indexing
-- Technique indexing
-- Equipment indexing
-- Future nutrition support
+Existing unversioned records keep the familiar `id`, `title`, `source`, `recipe_status`, and `recipe_card` structure. Ingredients use `item`, `amount`, `unit`, optional `preparation` and `notes`. Instructions use consecutive `step` numbers and `text`. Existing card notes and relationship labels are supported. All unknown fields and duplicate YAML keys are errors.
 
-## Canonical Schema
+Allowed source types in this phase:
 
-```yaml
----
-id: recipe-0001
+- `official_jetboil_recipe`, publisher Jetboil, content type `recipe`.
+- `derived_field_system`, publisher `internal`, content type `recipe`.
 
-title: "Recipe Name"
+Technique articles belong outside `01_Recipes`. REI and other publishers require a deliberate schema/provenance extension in their future phase. A blank official URL is a visible backlog warning, never a source verification.
 
-source:
-  type: official_jetboil_recipe
-  publisher: JetBoil
-  source_url: ""
-  source_content_type: recipe
+## Version 2: audited official records
 
-recipe_status:
-  collected: true
-  recreatable: true
-  enhanced: false
-  comprehensive: false
+Set `schema_version: 2`. Preserve existing paths and stable IDs. Add these required sections:
 
-recipe_card:
-  title: "Recipe Name"
-  subtitle: ""
+| Field | Meaning |
+|---|---|
+| `official_recipe.source_title` | Published title |
+| `official_recipe.ingredients_exact` | Exact ingredient lines, including quantities as written |
+| `official_recipe.instructions_exact` | Exact instruction text, in source order |
+| `official_recipe.instruction_groups` | Source headings and the instruction number each precedes |
+| `official_recipe.tools_exact` | Explicit tools list, or empty if absent |
+| `official_recipe.featured_products_exact` | Featured products, separately from recipe tools |
+| `audit` | Verification status, date, retrieval method, snapshot path and SHA-256 |
+| `minimo_adaptation` | Editorial review status, notes and supporting sources |
+| `field_tested_variations` | Separate entries with tester/date/evidence; empty if undocumented |
+| `proposed_variations` | Untested suggestions, kept outside official content |
 
-  category:
-    - Dinner
+The card is a generated projection with `content_basis: official_recipe`. Its ingredients use `source_text`, not guessed numeric amounts; instructions retain `step` and `text`. The renderer and validator enforce exact equality with the authoritative fields. Future exporters must branch on this representation and preserve instruction groups. Legacy schema/template documents describe historical formats and cannot override this standard.
 
-  servings: 2
-  yield: ""
+Official sections are rendered between explicit generated markers in the Markdown body. Editor-authored MiniMo and variation prose remains outside the markers. The source audit checks the source snapshot, extract checksum and official rendered block. It never certifies cooking results, storage safety, nutrition or field performance.
 
-  prep_time: ""
-  cook_time: ""
-  total_time: ""
+`verified_cached` and `verified_live` are distinct. Only reviewed direct source evidence can support a live claim. Dates must be quoted ISO strings. Unspecified servings are `null`; unspecified yields/times are empty strings. Do not invent values to satisfy an exporter.
 
-  equipment:
-    - JetBoil MiniMo
+## Current checks
 
-  ingredients:
-    - item: Ingredient Name
-      amount: 1
-      unit: cup
-      preparation: ""
-      notes: ""
+Required fields and types; unknown fields at every defined recipe mapping; duplicate YAML keys, IDs, normalized titles, normalized source URLs and identical recipe-card content; sequential instruction numbers; source type/domain/publisher consistency; supported verification claims; snapshot/recipe agreement; snapshot and extract checksums; generated official-body agreement; local Markdown links in recipe bodies; deterministic audit/index outputs. Field-tested entries require explicit evidence metadata.
 
-  instructions:
-    - step: 1
-      text: "Instruction text"
-
-  notes:
-    - ""
-
-  nutrition:
-    calories: null
-    protein_g: null
-    carbs_g: null
-    fat_g: null
-
-relationships:
-  ingredients:
-    - Ingredient Name
-
-  techniques:
-    - Simmering
-
-  equipment:
-    - JetBoil MiniMo
-
-tags:
-  - official_jetboil
-  - dinner
-
----
-```
-
-## Source Types
-
-### Official JetBoil Recipe
-
-```yaml
-source:
-  type: official_jetboil_recipe
-  publisher: JetBoil
-  source_url: ""
-  source_content_type: recipe
-```
-
-### Official JetBoil Article
-
-```yaml
-source:
-  type: official_jetboil_article
-  publisher: JetBoil
-  source_url: ""
-  source_content_type: technique_article
-```
-
-### Derived Recipe
-
-```yaml
-source:
-  type: derived_field_system
-  publisher: internal
-  source_url: ""
-  source_content_type: recipe
-```
-
-## Notes
-
-Older recipes should be migrated toward this schema over time.
-This schema is now considered the canonical standard for the project.
+See [maintenance instructions](../00_Project_Notes/MAINTENANCE.md) for source capture and review. The library still contains unaudited version 1 records; schema validity is not content authenticity.

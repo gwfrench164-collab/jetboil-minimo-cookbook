@@ -1,4 +1,5 @@
 ---
+id: recipe-0041
 title: "Mocha Hot Chocolate"
 
 source:
