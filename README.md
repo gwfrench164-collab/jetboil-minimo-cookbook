@@ -1,3 +1,11 @@
+# Ready to cook?
+
+Open the [MiniMo Cooking Guide](output/pdf/MiniMo_Cooking_Guide.pdf), or read [START HERE](START_HERE.md). No installation or technical steps are needed.
+
+The guide has four breakfasts, with ingredients, equipment and numbered steps. Start with French Toast on page 2 if you have the skillet, or Quinoa Breakfast Bowl on page 4 if you use only the pot.
+
+---
+
 # JetBoil MiniMo Field Cookbook
 
 A structured field-cooking reference for the MiniMo pot and compatible skillet. Recipes, techniques, ingredients and pantry modules are maintained separately, with future recipe cards, books and shopping lists built from those records.

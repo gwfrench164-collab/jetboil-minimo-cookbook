@@ -1,0 +1,117 @@
+{
+  "title": "MiniMo Cooking Guide",
+  "subtitle": "Four breakfasts you can cook",
+  "edition": "Starter edition - September 10, 2026",
+  "recipes": [
+    {
+      "title": "French Toast",
+      "choice": "Start here if you have a skillet",
+      "quantity": "Makes 3 slices",
+      "equipment": "MiniMo burner, Pot Support, Summit Skillet, spatula, bowl, fork, measuring spoon and food thermometer.",
+      "ingredients": [
+        "3 eggs",
+        "3 drops vanilla",
+        "2 tablespoons butter",
+        "3 slices bread",
+        "Maple syrup, powdered sugar and cinnamon for serving"
+      ],
+      "steps": [
+        "With the stove off, beat the eggs and vanilla together in a bowl.",
+        "Set up the burner and Pot Support as directed in the stove manual. Light the burner with the skillet OFF the burner, then place the skillet on the support.",
+        "Melt the butter in the skillet. Use gentle heat so it does not burn.",
+        "Dip a slice of bread into the egg mixture, coating both sides. Place it in the skillet. Cook in batches if the slices do not fit flat.",
+        "Turn with a spatula and cook the other side. The bread should be golden and the egg coating cooked through. Check for 160 F in the egg-containing portion.",
+        "Turn the stove off. Serve with syrup, powdered sugar and cinnamon."
+      ],
+      "note": "Keep the eggs cold until cooking. Gentle heat and cooking in batches are practical MiniMo suggestions, not measured cooking times.",
+      "adaptation": "Ingredient quantities retained. Directions simplified; safe lighting order and egg-doneness guidance added.",
+      "source_slug": "french-toast",
+      "source_snapshot": "06_Source_Research/JetBoil/audits/2026-09-10/french-toast.json",
+      "source_snapshot_sha256": "21bfe0ae49eeb9744f0d8b7b827b1a5f05ae423f4083e5d3d5bc7eedfc6d29df"
+    },
+    {
+      "title": "Breakfast Quesadilla",
+      "choice": "Eggs, vegetables and melted cheese",
+      "quantity": "Makes 1 folded tortilla",
+      "equipment": "MiniMo burner, Pot Support, Summit Skillet, spatula, knife, cutting board, measuring spoons and food thermometer.",
+      "ingredients": [
+        "2 tablespoons diced bell pepper",
+        "2 tablespoons diced tomato",
+        "1 to 2 tablespoons diced onion",
+        "1 tablespoon olive oil",
+        "1 teaspoon butter",
+        "2 eggs",
+        "1 tortilla",
+        "1 to 2 ounces mozzarella or cheddar cheese, shredded"
+      ],
+      "steps": [
+        "Dice the vegetables before lighting the stove. Keep the eggs cold until needed.",
+        "Fit the Pot Support according to the manual. Light the burner with the skillet OFF, then place the skillet on the support.",
+        "Add the olive oil and vegetables. Cook for about 2 to 3 minutes, then move the vegetables to a plate.",
+        "Melt the butter in the skillet. Crack in the two eggs, immediately place the tortilla over them, and press gently with the spatula.",
+        "Cook for a couple of minutes, until you can slide the spatula underneath. Flip the tortilla and eggs together.",
+        "Add cheese and the cooked vegetables. Fold in half and cook over low heat until the cheese melts and the egg is cooked through to 160 F. Turn the stove off and serve."
+      ],
+      "note": "Use one tortilla, folded in half. The original recipe also offers an optional steaming finish; this starter card uses its basic low-heat finish.",
+      "adaptation": "Based on Jetboil's Bobsadilla. Quantities retained; directions simplified and manual lighting order added.",
+      "source_slug": "bobsadilla-breakfast-quesadilla",
+      "source_snapshot": "06_Source_Research/JetBoil/audits/2026-09-10/bobsadilla-breakfast-quesadilla.json",
+      "source_snapshot_sha256": "5e7600e08975c744d7c461c9915270f04c199ba8d698fc41dd47a6ea5bf32c9c"
+    },
+    {
+      "title": "Quinoa Breakfast Bowl",
+      "choice": "A small batch for your MiniMo pot",
+      "quantity": "Half of the published recipe; portion size is not specified",
+      "equipment": "MiniMo with its cooking pot and lid, spoon, measuring cup and tablespoon.",
+      "ingredients": [
+        "1/2 cup water",
+        "1/4 cup quinoa",
+        "1/4 cup unsweetened coconut milk",
+        "1/2 handful dried fruit",
+        "1 tablespoon pumpkin seeds",
+        "1/2 handful coconut chips",
+        "1 tablespoon honey"
+      ],
+      "steps": [
+        "With the pot OFF the burner, add the water and quinoa. Remove the pot's bottom cover. Light the burner, then attach the pot as directed in the manual.",
+        "Bring to a boil. Turn the heat down until the mixture bubbles gently; this is a simmer.",
+        "Put the lid on and simmer for about 15 minutes. Stay with it, stirring frequently. Reduce the heat if it threatens to boil over. Check that the quinoa is tender; the smaller batch has not been field-tested.",
+        "Turn the burner off. Stir in coconut milk, dried fruit, pumpkin seeds, coconut chips and honey.",
+        "If the toppings would put the contents above half full, place the toppings in a separate bowl and add the cooked quinoa to that bowl instead. Serve."
+      ],
+      "note": "Never fill the MiniMo pot more than half full. This applies to the combined food and liquid, not just the water. The handful measures are deliberately approximate because the original uses handfuls.",
+      "adaptation": "Every ingredient is halved for a smaller batch. Toppings are mixed off heat. This adaptation has not been field-tested; the full original remains unchanged.",
+      "source_slug": "quinoa-breakfast-bowl",
+      "source_snapshot": "06_Source_Research/JetBoil/audits/2026-09-10/quinoa-breakfast-bowl.json",
+      "source_snapshot_sha256": "e3541322161bce76be8f3e878b1b8cefff901f134b07d6499135f5bf2db893f4"
+    },
+    {
+      "title": "Coffee Oatmeal",
+      "choice": "For coffee lovers with a MiniMo-compatible press",
+      "quantity": "Uses 1 oatmeal package; allow two separate 5-minute waits",
+      "equipment": "MiniMo pot, Grande Coffee Press confirmed to fit your MiniMo, spoon, measuring cup and spoons.",
+      "ingredients": [
+        "1 package Good To-Go oatmeal",
+        "1 1/4 cups water",
+        "3 tablespoons ground coffee",
+        "1 tablespoon chopped chocolate-covered espresso beans",
+        "1 tablespoon granola",
+        "1 teaspoon cacao nibs",
+        "1/2 teaspoon flax seeds"
+      ],
+      "steps": [
+        "Before your trip, chop the chocolate-covered espresso beans. Pack them together with the granola, cacao nibs and flax seeds.",
+        "Put the measured water in the pot while it is OFF the burner. Remove the bottom cover. Light the burner, attach the pot according to the manual, and boil the water.",
+        "Turn the burner off. Stir in the coffee. Fit the compatible press according to its instructions, but do not press it down yet. Wait 5 minutes.",
+        "While waiting, open the oatmeal package and REMOVE the oxygen absorber. It is not food.",
+        "Gently lower the press to trap the grounds. Pour the coffee into the oatmeal package, stir, and wait another 5 minutes.",
+        "Stir in the topping mixture and eat."
+      ],
+      "note": "The original names smaller Jetboil systems and their regular press. MiniMo needs the compatible Grande press. If you do not have that press, choose another recipe in this guide.",
+      "adaptation": "Based on Caffeinated Oatmeal Blast. Quantities and both waits retained; MiniMo press, burner-off brewing and clear lighting order added.",
+      "source_slug": "caffeinated-oatmeal-blast",
+      "source_snapshot": "06_Source_Research/JetBoil/audits/2026-09-10/caffeinated-oatmeal-blast.json",
+      "source_snapshot_sha256": "162a91d9ca2310a8c0b5ba8f89ad2ff2b9910040cd8e24a2a2c9bb7633c3167d"
+    }
+  ]
+}

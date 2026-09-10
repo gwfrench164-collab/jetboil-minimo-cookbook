@@ -1,0 +1,2 @@
+# Optional: needed only to rebuild the printable guide, not to read it.
+reportlab==4.4.9
