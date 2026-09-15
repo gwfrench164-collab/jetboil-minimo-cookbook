@@ -10,6 +10,7 @@ import re
 import sqlite3
 import tempfile
 import yaml
+from jsonschema import Draft202012Validator, FormatChecker
 from cookbook import ROOT, inspect, read_recipe
 
 FOLDERS={'01_Recipes':'recipe','02_Techniques':'technique','03_Ingredients':'ingredient','04_Components':'component','05_Pantry_Modules':'pantry'}
@@ -23,6 +24,38 @@ def recipe_line(line):
     out=' '.join(parts)
     extra=[str(line[k]) for k in ['preparation','notes'] if line.get(k)]
     return out+(' ('+'; '.join(extra)+')' if extra else '')
+
+def unique_json(pairs):
+    result={}
+    for key,value in pairs:
+        if key in result:raise ValueError('Duplicate JSON field: '+key)
+        result[key]=value
+    return result
+
+def apply_connection_reviews(root,entities,relationships):
+    path=root/'08_Index/connection_reviews.json'
+    if not path.exists():return []
+    document=json.loads(path.read_text(),object_pairs_hook=unique_json)
+    schema=json.loads((root/'schemas/connection-reviews.schema.json').read_text())
+    errors=list(Draft202012Validator(schema,format_checker=FormatChecker()).iter_errors(document))
+    if errors:raise ValueError('Invalid connection review: '+errors[0].message)
+    records={e['key']:e for e in entities}
+    lookup=defaultdict(list)
+    for link in relationships:lookup[(link['origin'],link['field'],link['label'])].append(link)
+    seen=set()
+    for review in document['reviews']:
+        identity=tuple(review[k] for k in ('origin','field','label'))
+        if identity in seen:raise ValueError('Duplicate connection review: '+str(identity))
+        seen.add(identity)
+        if len(lookup[identity])!=1:raise ValueError('Review must identify exactly one existing connection: '+str(identity))
+        for side in ('origin','target'):
+            record=records.get(review[side])
+            if not record or record['sha256']!=review[side+'_sha256']:
+                raise ValueError('Connection review needs renewal after record change: '+review[side])
+        link=lookup[identity][0]
+        link['original_match']={k:link[k] for k in ('target_kind','target','candidates','status','basis')}
+        link.update(target=review['target'],target_kind=records[review['target']]['kind'],candidates=[review['target']],status='resolved',basis='reviewed_connection',review=review)
+    return document['reviews']
 
 def collect(root):
     recipe_checks,check_issues=inspect(root)
@@ -78,9 +111,10 @@ def collect(root):
             for line in e['ingredients']:
                 # Only exact existing names/aliases. No fuzzy matching or ingredient inventions.
                 if line.get('item'):add(e['key'],'ingredient_line:'+str(line['position']),'ingredient',line['item'],'exact_ingredient_name')
+    reviews=apply_connection_reviews(root,entities,relationships)
     # Review flags are data, not silent deletions or fabricated link targets.
     counts=Counter(e['kind'] for e in entities)
-    payload={'schema_version':1,'counts':dict(sorted(counts.items())),'verified_recipes':sum(e['status'].startswith('verified') for e in entities),'entities':entities,'relationships':relationships,'issues':issues}
+    payload={'schema_version':1,'counts':dict(sorted(counts.items())),'verified_recipes':sum(e['status'].startswith('verified') for e in entities),'entities':entities,'relationships':relationships,'issues':issues,'connection_reviews':reviews}
     payload['content_sha256']=hashlib.sha256(textify(payload).encode()).hexdigest()
     return payload
 
@@ -94,6 +128,7 @@ CREATE TABLE instructions (recipe_key TEXT REFERENCES entities(key), position IN
 CREATE TABLE relationships (relationship_id INTEGER PRIMARY KEY, origin_key TEXT NOT NULL REFERENCES entities(key), field TEXT NOT NULL, target_kind TEXT NOT NULL, original_label TEXT NOT NULL, target_key TEXT REFERENCES entities(key), status TEXT NOT NULL CHECK(status IN ('resolved','ambiguous','unresolved')), candidates_json TEXT NOT NULL, basis TEXT NOT NULL);
 CREATE INDEX relationships_origin ON relationships(origin_key);
 CREATE INDEX relationships_target ON relationships(target_key);
+CREATE TABLE connection_reviews (origin_key TEXT REFERENCES entities(key), field TEXT, original_label TEXT, target_key TEXT REFERENCES entities(key), reviewed_on TEXT, rationale TEXT, evidence_json TEXT, PRIMARY KEY(origin_key,field,original_label));
 CREATE TABLE review_issues (kind TEXT, record TEXT, detail TEXT);
 CREATE TABLE equipment_mentions (entity_key TEXT REFERENCES entities(key), context TEXT, position INTEGER, original_text TEXT NOT NULL, PRIMARY KEY(entity_key,context,position));
 CREATE TABLE build_info (schema_version INTEGER, content_sha256 TEXT);
@@ -119,6 +154,8 @@ def write_sqlite(payload,path):
                     for i,value in enumerate(values,1):
                         if isinstance(value,str):db.execute('INSERT INTO equipment_mentions VALUES (?,?,?,?)',(e['key'],context,i,value))
         for x in payload['relationships']:db.execute('INSERT INTO relationships(origin_key,field,target_kind,original_label,target_key,status,candidates_json,basis) VALUES (?,?,?,?,?,?,?,?)',(x['origin'],x['field'],x['target_kind'],x['label'],x['target'],x['status'],textify(x['candidates']),x['basis']))
+        for x in payload.get('connection_reviews',[]):
+            db.execute('INSERT INTO connection_reviews VALUES (?,?,?,?,?,?,?)',(x['origin'],x['field'],x['label'],x['target'],x['reviewed_on'],x['rationale'],textify(x)))
         for x in payload['issues']:db.execute('INSERT INTO review_issues VALUES (?,?,?)',(x['kind'],x['record'],x['detail']))
         db.execute('INSERT INTO build_info VALUES (?,?)',(1,payload['content_sha256']));db.commit()
         assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
@@ -136,6 +173,7 @@ def outputs(root,payload):
     report=['# Connected database status','','Generated by `python tools/build_database.py`.','','## Imported records','']
     report += [f'- {k}: {v}' for k,v in payload['counts'].items()]
     report += ['',f"Total: {len(payload['entities'])}. Source-verified recipes: {payload['verified_recipes']} (see recipe audit for cached/live distinction).",'', '## Connections','']+[f'- {k}: {v}' for k,v in sorted(rs.items())]
+    report += ['',f"Documented connection corrections: {len(payload.get('connection_reviews',[]))}. Original fields and labels remain preserved.",'']
     report += ['','Connections are copied from explicit references or matched by exact ingredient name/alias. Resolved means one record matches, not that the culinary relationship was independently verified. Ambiguous references have no chosen target. All source files and conflicting records are retained.','','## Identifier issues','']
     report += [f"- {x['kind']}: `{x['record']}` - {x['detail']}" for x in payload['issues']]
     report += ['','## Pending connections','']+[f"- `{x['origin']}` / `{x['field']}`: {x['label']} ({x['status']})" for x in payload['relationships'] if x['status']!='resolved']

@@ -42,3 +42,11 @@ The interface reads the library; it does not edit the source records. Meal selec
 One selection represents one recipe batch; portion scaling, repeated batches, automatic ingredient consolidation, nutrition calculation and fuel estimates are not implemented. Ingredient units and portions need more structured, reviewed data before those calculations can be reliable. Shopping lists preserve each recipe's lines separately and remind readers that instructions may mention additional ingredients.
 
 Next data work: resolve duplicate legacy identities against record content, review missing relationships, and continue source audits. Seven official breakfasts have cached-source checks; 26 official recipes still need source review. REI remains a separate future source phase.
+
+## Reviewed connection corrections
+
+`08_Index/connection_reviews.json` records explicit, per-link editorial decisions separately from original recipe and reference files. Each includes the original label/field, destination path, explanation, review date and SHA-256 checksums of both records. The compiler validates it against `schemas/connection-reviews.schema.json` and rejects duplicate fields, duplicate decisions, missing connections, unknown fields, bad dates and changed source/destination records. Renew a correction only after reading the changed records; do not simply refresh hashes to clear a failure.
+
+Reviewed links show their reason and retained alternative records in the library. The original automatic match is preserved in the JSON export; the SQLite `connection_reviews` table preserves review evidence. No original records or legacy identifiers were merged, deleted or rewritten. Duplicate identifiers remain flagged until an explicit identity migration is designed. A name-based preferred destination is a navigation choice, not proof that every statement in either record is accurate.
+
+The September 15 cleanup routes matching ingredient names to their categorized record and corrects exact-name references filed under the wrong record type. Numeric-ID collisions, missing ingredient profiles, generic labels such as coffee/tea, and broader interpretive matches remain pending. Official source audit status is unchanged.

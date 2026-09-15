@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "reviews": [
+    {
+      "origin": "01_Recipes/Breakfast/savory-oatmeal-bowl.md",
+      "field": "ingredient_line:3",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "4b5701f0d0b0765c3bf411dc2927d86089f0978cbd277dda2fb2787919541ae9",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Cold_Weather/chili-couscous-bowl.md",
+      "field": "ingredient_line:1",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "61404ddcf7349ce5372b9331a053a5b827d43b91bc349de295bdee07e8c4187b",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Cold_Weather/chili-couscous-bowl.md",
+      "field": "ingredient_line:3",
+      "label": "beef jerky",
+      "target": "03_Ingredients/Proteins/beef-jerky.md",
+      "origin_sha256": "61404ddcf7349ce5372b9331a053a5b827d43b91bc349de295bdee07e8c4187b",
+      "target_sha256": "0eb6312732c3777b28f21ef1dec8aa115fbdf519b84d9d5b09700689f71d31a0",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Cold_Weather/chili-couscous-bowl.md",
+      "field": "ingredient_line:5",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "61404ddcf7349ce5372b9331a053a5b827d43b91bc349de295bdee07e8c4187b",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Cold_Weather/creamy-ramen-chowder.md",
+      "field": "ingredient_line:1",
+      "label": "Ramen Noodles",
+      "target": "03_Ingredients/Carbohydrates/ramen-noodles.md",
+      "origin_sha256": "3295e8ace7a903e2229387d393144dd60a13918209c10260a6fd1255f3811652",
+      "target_sha256": "e899e36dfd6659d23d703e78cec940c335768406bd9db802cec3d86ebf46ce21",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Cold_Weather/creamy-ramen-chowder.md",
+      "field": "ingredient_line:4",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "3295e8ace7a903e2229387d393144dd60a13918209c10260a6fd1255f3811652",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/angel-hair-pasta-chicken-artichokes.md",
+      "field": "ingredient_line:5",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "738715b7f438fcdf31291c6c0d3bf07ebc4920fc83fa8981803162944a784060",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/campfire-pizza-in-a-pot.md",
+      "field": "ingredient_line:1",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "ee332ed098ce40e90c6591a1bfb70ec0c1fb93ab466ecfc56a8b815764b6e84e",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/campfire-pizza-in-a-pot.md",
+      "field": "ingredient_line:7",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "ee332ed098ce40e90c6591a1bfb70ec0c1fb93ab466ecfc56a8b815764b6e84e",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/chorizo-wild-mushroom-sicily-risotto.md",
+      "field": "ingredient_line:1",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "63a3f09d9653fefa1ea6c7fbac50d73dcd2f281af8befc3f855e32e69b85d3a4",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/chorizo-wild-mushroom-sicily-risotto.md",
+      "field": "ingredient_line:10",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "63a3f09d9653fefa1ea6c7fbac50d73dcd2f281af8befc3f855e32e69b85d3a4",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/keto-chili-recipe.md",
+      "field": "ingredient_line:1",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "b4097ab71279bd8a4ee39f74e1e80c0e9e9f4b52ae253d92ac8fd091d0bae0ba",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/sesame-chicken.md",
+      "field": "ingredient_line:2",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "3fc147f60eafb0b1204b3446e74661fa45502c718c4a7db90184b935ea2e45b0",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/One_Pot_Dinners/thai-trout.md",
+      "field": "ingredient_line:12",
+      "label": "instant rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "a5a5a54da12ad9f4b34d64ea715eaa91f07f7f714cf9987e68d0f35a0cae9c38",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Rice_Systems/coconut-curry-rice-bowl.md",
+      "field": "ingredient_line:1",
+      "label": "instant rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "824bfe27c741641facde77be3c53e9982f26d6417b4c7b3ce96655d8ee7f46c0",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Rice_Systems/coconut-curry-rice-bowl.md",
+      "field": "ingredient_line:5",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "824bfe27c741641facde77be3c53e9982f26d6417b4c7b3ce96655d8ee7f46c0",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Rice_Systems/coconut-curry-rice-bowl.md",
+      "field": "ingredient_line:6",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "824bfe27c741641facde77be3c53e9982f26d6417b4c7b3ce96655d8ee7f46c0",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Skillet_Meals/camp-chicken-fried-rice.md",
+      "field": "ingredient_line:1",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "53de7370465eacdcc48dc88fc71c345ee2e5f76aec9cea4132758db88cba4837",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Skillet_Meals/camp-sausage-potatoes.md",
+      "field": "ingredient_line:5",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "f1bce66f5d4312b2f7b26d61a4c8d0900bb1cb79839440905d32ce8551cb6ebf",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Trail_Lunches/beef-jerky-ramen.md",
+      "field": "ingredient_line:3",
+      "label": "beef jerky",
+      "target": "03_Ingredients/Proteins/beef-jerky.md",
+      "origin_sha256": "30b970fa0ac3832da16d592c6beec36bf92d9bcd0b46451d4c8d305d3fca6060",
+      "target_sha256": "0eb6312732c3777b28f21ef1dec8aa115fbdf519b84d9d5b09700689f71d31a0",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Trail_Lunches/beef-jerky-ramen.md",
+      "field": "ingredient_line:4",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "30b970fa0ac3832da16d592c6beec36bf92d9bcd0b46451d4c8d305d3fca6060",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Trail_Lunches/chi-chi-ramen-noodles.md",
+      "field": "ingredient_line:7",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "d5ac610847de71554b7606e813abbde5e5f02e0da9a248f4a120ef537a06d05d",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Wraps_And_Tortillas/chicken-ranch-wrap.md",
+      "field": "ingredient_line:5",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "2a0daa5a83517a9681225faf2397c5efd5e2af2915d63f49ec30cda13156708a",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "01_Recipes/Wraps_And_Tortillas/tuna-melt-quesadilla.md",
+      "field": "ingredient_line:4",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "3f10b5a6c8a18ce84b759926c7a411a351dbab2de6d326cb74c62c0cf89e5ba0",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Beverages/coffee-brewing-methods.md",
+      "field": "related_recipes",
+      "label": "Backcountry Coffee Enhancements",
+      "target": "02_Techniques/Beverages/backcountry-coffee-enhancements.md",
+      "origin_sha256": "1ff94a847a1200a7b3c897da66b874fb8eeed2b10d3fc1dd9bae9fbb8ded7bae",
+      "target_sha256": "8ae762817b7886632ca6fc9b725a7d35085f8e2ae130dc9fefe4c20a5e86c446",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/backpacking-protein-systems.md",
+      "field": "ingredients",
+      "label": "chicken packets",
+      "target": "03_Ingredients/Proteins/chicken-packets.md",
+      "origin_sha256": "c078f3532159386589d94bf4b7b236f8f9853517dc21b1622311262f3f0de651",
+      "target_sha256": "17976db7c2ef094470e9428fc03a57aa47935a3a1c834d23aa197077f2db4601",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/backpacking-protein-systems.md",
+      "field": "ingredients",
+      "label": "tuna packets",
+      "target": "03_Ingredients/Proteins/tuna-packets.md",
+      "origin_sha256": "c078f3532159386589d94bf4b7b236f8f9853517dc21b1622311262f3f0de651",
+      "target_sha256": "4402c02b55bb1412ea283327f5d27daa314867c6100a003ae411c4f893374d3d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/backpacking-protein-systems.md",
+      "field": "ingredients",
+      "label": "beef jerky",
+      "target": "03_Ingredients/Proteins/beef-jerky.md",
+      "origin_sha256": "c078f3532159386589d94bf4b7b236f8f9853517dc21b1622311262f3f0de651",
+      "target_sha256": "0eb6312732c3777b28f21ef1dec8aa115fbdf519b84d9d5b09700689f71d31a0",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/trail-pantry-essentials.md",
+      "field": "ingredients",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "5aba0b0e9719b2c2f7834a89bcb6fd407c441452f5defba51c697b62832f8f46",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/trail-pantry-essentials.md",
+      "field": "ingredients",
+      "label": "instant rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "5aba0b0e9719b2c2f7834a89bcb6fd407c441452f5defba51c697b62832f8f46",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/trail-pantry-essentials.md",
+      "field": "ingredients",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "5aba0b0e9719b2c2f7834a89bcb6fd407c441452f5defba51c697b62832f8f46",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/trail-pantry-essentials.md",
+      "field": "ingredients",
+      "label": "Ramen Noodles",
+      "target": "03_Ingredients/Carbohydrates/ramen-noodles.md",
+      "origin_sha256": "5aba0b0e9719b2c2f7834a89bcb6fd407c441452f5defba51c697b62832f8f46",
+      "target_sha256": "e899e36dfd6659d23d703e78cec940c335768406bd9db802cec3d86ebf46ce21",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/trail-pantry-essentials.md",
+      "field": "ingredients",
+      "label": "tortillas",
+      "target": "03_Ingredients/Carbohydrates/tortillas.md",
+      "origin_sha256": "5aba0b0e9719b2c2f7834a89bcb6fd407c441452f5defba51c697b62832f8f46",
+      "target_sha256": "7919776e7f3ae3e37bba22e25336b7acd0c235f034647b1a44e0d9e2bb23ea6e",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Camp_Knowledge/trail-pantry-essentials.md",
+      "field": "ingredients",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "5aba0b0e9719b2c2f7834a89bcb6fd407c441452f5defba51c697b62832f8f46",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Cooking_Methods/just-add-water-meals.md",
+      "field": "ingredients",
+      "label": "instant rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "e80c9c68578a36e3eef467edb9325741aa500d69f736cd1de26c587b0e44382c",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Cooking_Methods/just-add-water-meals.md",
+      "field": "ingredients",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "e80c9c68578a36e3eef467edb9325741aa500d69f736cd1de26c587b0e44382c",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Cooking_Methods/just-add-water-meals.md",
+      "field": "ingredients",
+      "label": "olive oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "e80c9c68578a36e3eef467edb9325741aa500d69f736cd1de26c587b0e44382c",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Cooking_Methods/just-add-water-meals.md",
+      "field": "ingredients",
+      "label": "dehydrated vegetables",
+      "target": "03_Ingredients/Vegetables/dehydrated-vegetables.md",
+      "origin_sha256": "e80c9c68578a36e3eef467edb9325741aa500d69f736cd1de26c587b0e44382c",
+      "target_sha256": "2eadfe0b03b3e5b92b00d5dc86b040126436babc991ef16b4291d6dd9f77508d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "02_Techniques/Water/water-purification-methods.md",
+      "field": "related_recipes",
+      "label": "just-add-water meals",
+      "target": "02_Techniques/Cooking_Methods/just-add-water-meals.md",
+      "origin_sha256": "dde62f67612b17bb9cecda69dd2cf1e4dfda1120fa949385133147647346fc0f",
+      "target_sha256": "e80c9c68578a36e3eef467edb9325741aa500d69f736cd1de26c587b0e44382c",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "03_Ingredients/Carbohydrates/couscous.md",
+      "field": "substitutions",
+      "label": "instant rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "field": "substitutions",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "field": "substitutions",
+      "label": "ramen noodles",
+      "target": "03_Ingredients/Carbohydrates/ramen-noodles.md",
+      "origin_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "target_sha256": "e899e36dfd6659d23d703e78cec940c335768406bd9db802cec3d86ebf46ce21",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/Carbohydrates/ramen-noodles.md",
+      "field": "substitutions",
+      "label": "instant rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "e899e36dfd6659d23d703e78cec940c335768406bd9db802cec3d86ebf46ce21",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/Carbohydrates/ramen-noodles.md",
+      "field": "substitutions",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "e899e36dfd6659d23d703e78cec940c335768406bd9db802cec3d86ebf46ce21",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/Proteins/chicken-packets.md",
+      "field": "substitutions",
+      "label": "tuna packets",
+      "target": "03_Ingredients/Proteins/tuna-packets.md",
+      "origin_sha256": "17976db7c2ef094470e9428fc03a57aa47935a3a1c834d23aa197077f2db4601",
+      "target_sha256": "4402c02b55bb1412ea283327f5d27daa314867c6100a003ae411c4f893374d3d",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/Proteins/tuna-packets.md",
+      "field": "substitutions",
+      "label": "chicken packets",
+      "target": "03_Ingredients/Proteins/chicken-packets.md",
+      "origin_sha256": "4402c02b55bb1412ea283327f5d27daa314867c6100a003ae411c4f893374d3d",
+      "target_sha256": "17976db7c2ef094470e9428fc03a57aa47935a3a1c834d23aa197077f2db4601",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "03_Ingredients/beef-jerky.md",
+      "field": "components_used_in",
+      "label": "ramen-upgrade-system",
+      "target": "02_Techniques/Cooking_Methods/ramen-upgrade-system.md",
+      "origin_sha256": "66d6b5a304244796ed78e985bd001f3b3c9fb87e70d206a7893cae06e67074fa",
+      "target_sha256": "ca923c34d6578a4ca5779bb71e58d73e5bc462f04d2695818237d0c662294b7a",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "03_Ingredients/chicken-packets.md",
+      "field": "components_used_in",
+      "label": "ramen-upgrade-system",
+      "target": "02_Techniques/Cooking_Methods/ramen-upgrade-system.md",
+      "origin_sha256": "702b4bf229ed193994d9eadffeff85a3f0e50510d4448ae930ab3a02a631ebbf",
+      "target_sha256": "ca923c34d6578a4ca5779bb71e58d73e5bc462f04d2695818237d0c662294b7a",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "03_Ingredients/dehydrated-vegetables.md",
+      "field": "components_used_in",
+      "label": "ramen-upgrade-system",
+      "target": "02_Techniques/Cooking_Methods/ramen-upgrade-system.md",
+      "origin_sha256": "bc8874c191cefd86dd4945b3785a147d3e542199a4192d9d5191c13cfb4c980e",
+      "target_sha256": "ca923c34d6578a4ca5779bb71e58d73e5bc462f04d2695818237d0c662294b7a",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "03_Ingredients/powdered-whole-milk.md",
+      "field": "components_used_in",
+      "label": "creamy-sauce-management",
+      "target": "02_Techniques/Cooking_Methods/creamy-sauce-management.md",
+      "origin_sha256": "771897a1f00c1ca04875028cd701bb14e514bd9894728724d5a3be7804cc4e76",
+      "target_sha256": "151c7fc1870aedd4e1445b9755c0bf6de84114eb8feb3dce594c4fd7fb9daa6a",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "03_Ingredients/ramen-noodles.md",
+      "field": "components_used_in",
+      "label": "ramen-upgrade-system",
+      "target": "02_Techniques/Cooking_Methods/ramen-upgrade-system.md",
+      "origin_sha256": "3ae5f6c8b06da4be4c7bd5bb2755c2202a52875c3a63bebd21b1c7864bff5b31",
+      "target_sha256": "ca923c34d6578a4ca5779bb71e58d73e5bc462f04d2695818237d0c662294b7a",
+      "reviewed_on": "2026-09-15",
+      "rationale": "The reference names an existing technique, but the original field expects a different record type. Route to the technique with the matching name; preserve the original field and label."
+    },
+    {
+      "origin": "04_Components/curry-base.md",
+      "field": "related_ingredients",
+      "label": "olive-oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "d6a264532c0441796979e226ed4367d7cc760e2aed749c36130d187463473183",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "04_Components/pasta-base.md",
+      "field": "related_ingredients",
+      "label": "olive-oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "4ea973bf6737fa9d9ee490a10a7eaf21738bac044bed03428ee2396c920a3ae6",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "05_Pantry_Modules/curry-pantry-module.md",
+      "field": "linked_ingredients",
+      "label": "instant-rice",
+      "target": "03_Ingredients/Carbohydrates/instant-rice.md",
+      "origin_sha256": "28359dbe4138572100324e88fe1312eef396c09b0b5adb8bc3abc240b10969df",
+      "target_sha256": "cf031df6d031549671b80ea191899ca57fdea499a5886851dcafb675b69c42f3",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "05_Pantry_Modules/curry-pantry-module.md",
+      "field": "linked_ingredients",
+      "label": "couscous",
+      "target": "03_Ingredients/Carbohydrates/couscous.md",
+      "origin_sha256": "28359dbe4138572100324e88fe1312eef396c09b0b5adb8bc3abc240b10969df",
+      "target_sha256": "1944871b8d614ec8b0d3a66b13d687a0641e813872c236ff9f751f4a999e62ce",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "05_Pantry_Modules/curry-pantry-module.md",
+      "field": "linked_ingredients",
+      "label": "chicken-packets",
+      "target": "03_Ingredients/Proteins/chicken-packets.md",
+      "origin_sha256": "28359dbe4138572100324e88fe1312eef396c09b0b5adb8bc3abc240b10969df",
+      "target_sha256": "17976db7c2ef094470e9428fc03a57aa47935a3a1c834d23aa197077f2db4601",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "05_Pantry_Modules/pasta-pantry-module.md",
+      "field": "linked_ingredients",
+      "label": "olive-oil",
+      "target": "03_Ingredients/Fats/olive-oil.md",
+      "origin_sha256": "c8f2fe3a4b09914201b4397b7047530e7354f41629aa0158df87db7a7316fd29",
+      "target_sha256": "c20ebd334a0cea443bd190fea1240b973e7cd3b28a1a5402619640eec64b8a45",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    },
+    {
+      "origin": "05_Pantry_Modules/pasta-pantry-module.md",
+      "field": "linked_ingredients",
+      "label": "chicken-packets",
+      "target": "03_Ingredients/Proteins/chicken-packets.md",
+      "origin_sha256": "c8f2fe3a4b09914201b4397b7047530e7354f41629aa0158df87db7a7316fd29",
+      "target_sha256": "17976db7c2ef094470e9428fc03a57aa47935a3a1c834d23aa197077f2db4601",
+      "reviewed_on": "2026-09-15",
+      "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
+    }
+  ]
+}
