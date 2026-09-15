@@ -408,7 +408,8 @@
         "live_check": {
           "enum": [
             "blocked",
-            "verified"
+            "verified",
+            "not_checked"
           ]
         },
         "notes": {

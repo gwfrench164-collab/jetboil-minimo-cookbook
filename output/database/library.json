@@ -7,7 +7,7 @@
     "recipe": 41,
     "technique": 30
   },
-  "verified_recipes": 7,
+  "verified_recipes": 9,
   "entities": [
     {
       "key": "01_Recipes/Beverages/30-second-hot-chocolate.md",
@@ -15,12 +15,14 @@
       "id": "recipe-0032",
       "title": "30 Second Hot Chocolate",
       "category": "Beverages",
-      "status": "unreviewed",
+      "status": "verified_cached",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
-        "source_url": "",
-        "source_content_type": "recipe"
+        "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/30-second-hot-chocolate",
+        "source_content_type": "recipe",
+        "official_title": "30 Second Hot Chocolate",
+        "source_verified": true
       },
       "metadata": {
         "id": "recipe-0032",
@@ -28,205 +30,207 @@
         "source": {
           "type": "official_jetboil_recipe",
           "publisher": "JetBoil",
-          "source_url": "",
-          "source_content_type": "recipe"
+          "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/30-second-hot-chocolate",
+          "source_content_type": "recipe",
+          "official_title": "30 Second Hot Chocolate",
+          "source_verified": true
         },
         "recipe_status": {
           "collected": true,
           "recreatable": true,
-          "enhanced": false,
-          "comprehensive": false
+          "enhanced": true,
+          "comprehensive": false,
+          "official_recipe_verified": true,
+          "minimo_adaptation_added": true,
+          "field_variations_separated": true
         },
         "recipe_card": {
           "title": "30 Second Hot Chocolate",
-          "subtitle": "DIY dry hot chocolate mix for Jetboil hot water",
-          "servings": 6,
-          "yield": "dry mix for several cups",
-          "prep_time": "5 minutes",
-          "cook_time": "30 seconds after water is hot",
-          "total_time": "5 minutes plus water heating",
-          "equipment": [
-            "JetBoil cooking system",
-            "zip bag",
-            "cup",
-            "spoon"
+          "subtitle": "Official source transcription; MiniMo notes are separate",
+          "category": [
+            "Beverages"
           ],
+          "servings": null,
+          "yield": "",
+          "prep_time": "",
+          "cook_time": "",
+          "total_time": "",
+          "equipment": [],
           "ingredients": [
             {
-              "item": "cocoa",
-              "amount": "0.333",
-              "unit": "cup"
+              "source_text": "1/3 cup cocoa"
             },
             {
-              "item": "instant nonfat dry milk",
-              "amount": "1.333",
-              "unit": "cups"
+              "source_text": "1 1/3 cup instant nonfat dry milk"
             },
             {
-              "item": "sugar",
-              "amount": "0.5",
-              "unit": "cup"
+              "source_text": "1/2 cup sugar"
             },
             {
-              "item": "powdered non-dairy creamer",
-              "amount": "2",
-              "unit": "tablespoons"
+              "source_text": "2 tablespoons powdered non-dairy creamer"
             },
             {
-              "item": "salt",
-              "amount": "0.25",
-              "unit": "teaspoon"
+              "source_text": "1/4 teaspoon salt"
             },
             {
-              "item": "instant coffee",
-              "amount": "optional",
-              "unit": "",
-              "notes": "for mocha"
-            },
-            {
-              "item": "hot water",
-              "amount": "1",
-              "unit": "cup",
-              "notes": "per serving"
-            },
-            {
-              "item": "dry mix",
-              "amount": "0.333",
-              "unit": "cup",
-              "notes": "about 4 to 6 heaping tablespoons per cup"
+              "source_text": "Optional: instant coffee"
             }
           ],
           "instructions": [
             {
               "step": 1,
-              "text": "At home, mix cocoa, dry milk, sugar, non-dairy creamer, and salt."
+              "text": "Mix all ingredients and store in a zip lock baggie."
             },
             {
               "step": 2,
-              "text": "Store the dry mix in a zip bag."
+              "text": "Use your Jetboil Flash Cooking System to heat water."
             },
             {
               "step": 3,
-              "text": "On trail, heat water with the Jetboil."
-            },
-            {
-              "step": 4,
-              "text": "Add 1/3 cup dry mix to 1 cup hot water."
-            },
-            {
-              "step": 5,
-              "text": "Stir well."
-            },
-            {
-              "step": 6,
-              "text": "Add instant coffee if making mocha."
+              "text": "To one cup hot water, add 1/3 cup dry mix (about four to six heaping tablespoons) and stir well. Add a little instant coffee for mocha. Life is good."
             }
           ],
-          "source_note": "Captured from Jetboil Official Recipes."
-        }
+          "content_basis": "official_recipe",
+          "source_note": "Generated from the official source transcription. Water and mixing amounts occur in the instructions; serving count and preparation times are not specified."
+        },
+        "schema_version": 2,
+        "official_recipe": {
+          "source_title": "30 Second Hot Chocolate",
+          "ingredients_exact": [
+            "1/3 cup cocoa",
+            "1 1/3 cup instant nonfat dry milk",
+            "1/2 cup sugar",
+            "2 tablespoons powdered non-dairy creamer",
+            "1/4 teaspoon salt",
+            "Optional: instant coffee"
+          ],
+          "instructions_exact": [
+            "Mix all ingredients and store in a zip lock baggie.",
+            "Use your Jetboil Flash Cooking System to heat water.",
+            "To one cup hot water, add 1/3 cup dry mix (about four to six heaping tablespoons) and stir well. Add a little instant coffee for mocha. Life is good."
+          ],
+          "instruction_groups": [
+            {
+              "before_step": 1,
+              "text": "Preparation at Home:"
+            },
+            {
+              "before_step": 2,
+              "text": "Drinking on the Trail:"
+            }
+          ],
+          "tools_exact": [],
+          "featured_products_exact": [
+            "Flash Cooking System",
+            "MiniMo Cooking System"
+          ]
+        },
+        "audit": {
+          "status": "verified_cached",
+          "checked_on": "2026-09-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-15/30-second-hot-chocolate.json",
+          "snapshot_sha256": "87df0419f5a522d604e6d63dadc1d0d73dfdb8913b78b9682ce93931d103fb84",
+          "method": "indexed_official_page",
+          "live_check": "not_checked",
+          "notes": "Compared full ingredient/instruction sections and featured products with indexed official-page text. No fresh direct HTML capture or cooking test was performed."
+        },
+        "minimo_adaptation": {
+          "status": "editorial_reviewed",
+          "notes": [
+            "Editorial workflow for MiniMo: heat the water in the pot and mix the drink separately in a cup. This is an untested adaptation, not part of the official directions.",
+            "The shopping list contains the published dry ingredients. Read the instructions for water and dry-mix amounts per drink; do not purchase an additional premade dry mix."
+          ],
+          "source_urls": [
+            "https://jetboil.johnsonoutdoors.com/us/recipes/30-second-hot-chocolate"
+          ]
+        },
+        "field_tested_variations": {
+          "not_part_of_official_recipe": true,
+          "entries": []
+        },
+        "proposed_variations": []
       },
-      "body": "# 30 Second Hot Chocolate\n\nDIY dry hot chocolate mix for fast hot drinks in camp.",
-      "sha256": "c9279eb852c5f64245fe314c341ce0597c72abdc5e54fdbb0023a45cfa0b2772",
+      "body": "# 30 Second Hot Chocolate\n\nCompared with indexed official-page text on 2026-09-15. Fresh direct-page verification is pending.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [30 Second Hot Chocolate](https://jetboil.johnsonoutdoors.com/us/recipes/30-second-hot-chocolate)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1/3 cup cocoa\n- 1 1/3 cup instant nonfat dry milk\n- 1/2 cup sugar\n- 2 tablespoons powdered non-dairy creamer\n- 1/4 teaspoon salt\n- Optional: instant coffee\n\n### Instructions\n\n#### Preparation at Home:\n\n1. Mix all ingredients and store in a zip lock baggie.\n\n#### Drinking on the Trail:\n\n2. Use your Jetboil Flash Cooking System to heat water.\n\n3. To one cup hot water, add 1/3 cup dry mix (about four to six heaping tablespoons) and stir well. Add a little instant coffee for mocha. Life is good.\n\n### Featured Recommended Products\n\n- Flash Cooking System\n- MiniMo Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\n- Editorial workflow for MiniMo: heat the water in the pot and mix the drink separately in a cup. This is an untested adaptation, not part of the official directions.\n- The shopping list contains the published dry ingredients. Read the instructions for water and dry-mix amounts per drink; do not purchase an additional premade dry mix.\n\n## Field-Tested Variations\n\nNo documented field tests.\n\n## Proposed Variations\n\nNone recorded.",
+      "sha256": "dcb982830bd1ca5ec8c32436f7f9b4aece9b3d44a1a2ca5e3c771c03fe107413",
       "ingredients": [
         {
           "position": 1,
-          "text": "0.333 cup cocoa",
-          "item": "cocoa",
-          "amount": "0.333",
-          "unit": "cup",
-          "basis": "legacy_record"
+          "text": "1/3 cup cocoa",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 2,
-          "text": "1.333 cups instant nonfat dry milk",
-          "item": "instant nonfat dry milk",
-          "amount": "1.333",
-          "unit": "cups",
-          "basis": "legacy_record"
+          "text": "1 1/3 cup instant nonfat dry milk",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 3,
-          "text": "0.5 cup sugar",
-          "item": "sugar",
-          "amount": "0.5",
-          "unit": "cup",
-          "basis": "legacy_record"
+          "text": "1/2 cup sugar",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 4,
           "text": "2 tablespoons powdered non-dairy creamer",
-          "item": "powdered non-dairy creamer",
-          "amount": "2",
-          "unit": "tablespoons",
-          "basis": "legacy_record"
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 5,
-          "text": "0.25 teaspoon salt",
-          "item": "salt",
-          "amount": "0.25",
-          "unit": "teaspoon",
-          "basis": "legacy_record"
+          "text": "1/4 teaspoon salt",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 6,
-          "text": "optional instant coffee (for mocha)",
-          "item": "instant coffee",
-          "amount": "optional",
-          "unit": "",
-          "basis": "legacy_record"
-        },
-        {
-          "position": 7,
-          "text": "1 cup hot water (per serving)",
-          "item": "hot water",
-          "amount": "1",
-          "unit": "cup",
-          "basis": "legacy_record"
-        },
-        {
-          "position": 8,
-          "text": "0.333 cup dry mix (about 4 to 6 heaping tablespoons per cup)",
-          "item": "dry mix",
-          "amount": "0.333",
-          "unit": "cup",
-          "basis": "legacy_record"
+          "text": "Optional: instant coffee",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         }
       ],
       "instructions": [
         {
           "position": 1,
-          "text": "At home, mix cocoa, dry milk, sugar, non-dairy creamer, and salt."
+          "text": "Mix all ingredients and store in a zip lock baggie."
         },
         {
           "position": 2,
-          "text": "Store the dry mix in a zip bag."
+          "text": "Use your Jetboil Flash Cooking System to heat water."
         },
         {
           "position": 3,
-          "text": "On trail, heat water with the Jetboil."
-        },
-        {
-          "position": 4,
-          "text": "Add 1/3 cup dry mix to 1 cup hot water."
-        },
-        {
-          "position": 5,
-          "text": "Stir well."
-        },
-        {
-          "position": 6,
-          "text": "Add instant coffee if making mocha."
+          "text": "To one cup hot water, add 1/3 cup dry mix (about four to six heaping tablespoons) and stir well. Add a little instant coffee for mocha. Life is good."
         }
       ],
-      "groups": [],
-      "equipment": [
-        "JetBoil cooking system",
-        "zip bag",
-        "cup",
-        "spoon"
+      "groups": [
+        {
+          "before_step": 1,
+          "text": "Preparation at Home:"
+        },
+        {
+          "before_step": 2,
+          "text": "Drinking on the Trail:"
+        }
       ],
-      "featured_products": []
+      "equipment": [],
+      "featured_products": [
+        "Flash Cooking System",
+        "MiniMo Cooking System"
+      ]
     },
     {
       "key": "01_Recipes/Beverages/apple-cider-chai.md",
@@ -659,12 +663,14 @@
       "id": "recipe-0038",
       "title": "Russian Tea with Tang",
       "category": "Beverages",
-      "status": "unreviewed",
+      "status": "verified_cached",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
-        "source_url": "",
-        "source_content_type": "recipe"
+        "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/russian-tea-tang",
+        "source_content_type": "recipe",
+        "official_title": "Russian Tea with Tang",
+        "source_verified": true
       },
       "metadata": {
         "id": "recipe-0038",
@@ -672,201 +678,189 @@
         "source": {
           "type": "official_jetboil_recipe",
           "publisher": "JetBoil",
-          "source_url": "",
-          "source_content_type": "recipe"
+          "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/russian-tea-tang",
+          "source_content_type": "recipe",
+          "official_title": "Russian Tea with Tang",
+          "source_verified": true
         },
         "recipe_status": {
           "collected": true,
           "recreatable": true,
-          "enhanced": false,
-          "comprehensive": false
+          "enhanced": true,
+          "comprehensive": false,
+          "official_recipe_verified": true,
+          "minimo_adaptation_added": true,
+          "field_variations_separated": true
         },
         "recipe_card": {
           "title": "Russian Tea with Tang",
-          "subtitle": "Old Boy Scout-style hot Tang tea mix",
-          "servings": 16,
-          "yield": "dry drink mix",
-          "prep_time": "5 minutes",
-          "cook_time": "1 minute",
-          "total_time": "6 minutes plus water heating",
-          "equipment": [
-            "JetBoil cooking system",
-            "zip bag",
-            "cup",
-            "spoon"
+          "subtitle": "Official source transcription; MiniMo notes are separate",
+          "category": [
+            "Beverages"
           ],
+          "servings": null,
+          "yield": "",
+          "prep_time": "",
+          "cook_time": "",
+          "total_time": "",
+          "equipment": [],
           "ingredients": [
             {
-              "item": "sugar",
-              "amount": "2",
-              "unit": "cups"
+              "source_text": "2 cups sugar"
             },
             {
-              "item": "Tang orange powder",
-              "amount": "1",
-              "unit": "cup"
+              "source_text": "1 cup Tang orange powder"
             },
             {
-              "item": "instant tea",
-              "amount": "0.5",
-              "unit": "cup"
+              "source_text": "1/2 cup instant tea"
             },
             {
-              "item": "cinnamon",
-              "amount": "0.5",
-              "unit": "teaspoon"
+              "source_text": "1/2 tsp. cinnamon"
             },
             {
-              "item": "cloves",
-              "amount": "0.5",
-              "unit": "teaspoon"
+              "source_text": "1/2 tsp. cloves"
             },
             {
-              "item": "lemonade mix",
-              "amount": "1",
-              "unit": "package",
-              "notes": "1 quart size"
-            },
-            {
-              "item": "hot water",
-              "amount": "1",
-              "unit": "cup",
-              "notes": "per serving"
-            },
-            {
-              "item": "dry mix",
-              "amount": "2-3",
-              "unit": "tablespoons",
-              "notes": "per cup hot water"
+              "source_text": "1 package lemonade mix, 1 quart size"
             }
           ],
           "instructions": [
             {
               "step": 1,
-              "text": "Mix all dry ingredients together."
+              "text": "Mix ingredients together and store in a zip lock bag."
             },
             {
               "step": 2,
-              "text": "Store in a zip lock bag."
-            },
-            {
-              "step": 3,
-              "text": "Heat water with the JetBoil."
-            },
-            {
-              "step": 4,
-              "text": "Mix 2 to 3 tablespoons of dry mix with 1 cup hot water."
-            },
-            {
-              "step": 5,
-              "text": "Stir well and serve hot."
+              "text": "Mix 2-3 tablespoons with a cup of hot water."
             }
-          ]
+          ],
+          "content_basis": "official_recipe",
+          "source_note": "Generated from the official source transcription. Water and mixing amounts occur in the instructions; serving count and preparation times are not specified."
         },
         "tags": [
           "official_jetboil",
           "beverage",
           "non_alcoholic"
-        ]
+        ],
+        "schema_version": 2,
+        "official_recipe": {
+          "source_title": "Russian Tea with Tang",
+          "ingredients_exact": [
+            "2 cups sugar",
+            "1 cup Tang orange powder",
+            "1/2 cup instant tea",
+            "1/2 tsp. cinnamon",
+            "1/2 tsp. cloves",
+            "1 package lemonade mix, 1 quart size"
+          ],
+          "instructions_exact": [
+            "Mix ingredients together and store in a zip lock bag.",
+            "Mix 2-3 tablespoons with a cup of hot water."
+          ],
+          "instruction_groups": [],
+          "tools_exact": [],
+          "featured_products_exact": [
+            "Flash Cooking System",
+            "MiniMo Cooking System",
+            "MicroMo Cooking System",
+            "Zip Cooking System"
+          ]
+        },
+        "audit": {
+          "status": "verified_cached",
+          "checked_on": "2026-09-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-15/russian-tea-with-tang.json",
+          "snapshot_sha256": "f1662f5495bef7dc6d96b37b023fe203000f4e34896b425278e6b4890db3e7bf",
+          "method": "indexed_official_page",
+          "live_check": "not_checked",
+          "notes": "Compared full ingredient/instruction sections and featured products with indexed official-page text. No fresh direct HTML capture or cooking test was performed."
+        },
+        "minimo_adaptation": {
+          "status": "editorial_reviewed",
+          "notes": [
+            "Editorial workflow for MiniMo: heat the water in the pot and mix the drink separately in a cup. This is an untested adaptation, not part of the official directions.",
+            "The shopping list contains the published dry ingredients. Read the instructions for water and dry-mix amounts per drink; do not purchase an additional premade dry mix."
+          ],
+          "source_urls": [
+            "https://jetboil.johnsonoutdoors.com/us/recipes/russian-tea-tang"
+          ]
+        },
+        "field_tested_variations": {
+          "not_part_of_official_recipe": true,
+          "entries": []
+        },
+        "proposed_variations": []
       },
-      "body": "# Russian Tea with Tang\n\nOld Boy Scout-style hot Tang tea mix.",
-      "sha256": "4058e75f4949df0051f312874d2a1f1d2c685fc14c2279ae4eb145dea6f5a20b",
+      "body": "# Russian Tea with Tang\n\nCompared with indexed official-page text on 2026-09-15. Fresh direct-page verification is pending.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Russian Tea with Tang](https://jetboil.johnsonoutdoors.com/us/recipes/russian-tea-tang)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 2 cups sugar\n- 1 cup Tang orange powder\n- 1/2 cup instant tea\n- 1/2 tsp. cinnamon\n- 1/2 tsp. cloves\n- 1 package lemonade mix, 1 quart size\n\n### Instructions\n\n1. Mix ingredients together and store in a zip lock bag.\n\n2. Mix 2-3 tablespoons with a cup of hot water.\n\n### Featured Recommended Products\n\n- Flash Cooking System\n- MiniMo Cooking System\n- MicroMo Cooking System\n- Zip Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\n- Editorial workflow for MiniMo: heat the water in the pot and mix the drink separately in a cup. This is an untested adaptation, not part of the official directions.\n- The shopping list contains the published dry ingredients. Read the instructions for water and dry-mix amounts per drink; do not purchase an additional premade dry mix.\n\n## Field-Tested Variations\n\nNo documented field tests.\n\n## Proposed Variations\n\nNone recorded.",
+      "sha256": "b75f1e1d20513f7e17481e1850f3fa0c710e83fa69d6813b768bfe2a206a7de0",
       "ingredients": [
         {
           "position": 1,
           "text": "2 cups sugar",
-          "item": "sugar",
-          "amount": "2",
-          "unit": "cups",
-          "basis": "legacy_record"
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 2,
           "text": "1 cup Tang orange powder",
-          "item": "Tang orange powder",
-          "amount": "1",
-          "unit": "cup",
-          "basis": "legacy_record"
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 3,
-          "text": "0.5 cup instant tea",
-          "item": "instant tea",
-          "amount": "0.5",
-          "unit": "cup",
-          "basis": "legacy_record"
+          "text": "1/2 cup instant tea",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 4,
-          "text": "0.5 teaspoon cinnamon",
-          "item": "cinnamon",
-          "amount": "0.5",
-          "unit": "teaspoon",
-          "basis": "legacy_record"
+          "text": "1/2 tsp. cinnamon",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 5,
-          "text": "0.5 teaspoon cloves",
-          "item": "cloves",
-          "amount": "0.5",
-          "unit": "teaspoon",
-          "basis": "legacy_record"
+          "text": "1/2 tsp. cloves",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         },
         {
           "position": 6,
-          "text": "1 package lemonade mix (1 quart size)",
-          "item": "lemonade mix",
-          "amount": "1",
-          "unit": "package",
-          "basis": "legacy_record"
-        },
-        {
-          "position": 7,
-          "text": "1 cup hot water (per serving)",
-          "item": "hot water",
-          "amount": "1",
-          "unit": "cup",
-          "basis": "legacy_record"
-        },
-        {
-          "position": 8,
-          "text": "2-3 tablespoons dry mix (per cup hot water)",
-          "item": "dry mix",
-          "amount": "2-3",
-          "unit": "tablespoons",
-          "basis": "legacy_record"
+          "text": "1 package lemonade mix, 1 quart size",
+          "item": null,
+          "amount": null,
+          "unit": null,
+          "basis": "official_transcription"
         }
       ],
       "instructions": [
         {
           "position": 1,
-          "text": "Mix all dry ingredients together."
+          "text": "Mix ingredients together and store in a zip lock bag."
         },
         {
           "position": 2,
-          "text": "Store in a zip lock bag."
-        },
-        {
-          "position": 3,
-          "text": "Heat water with the JetBoil."
-        },
-        {
-          "position": 4,
-          "text": "Mix 2 to 3 tablespoons of dry mix with 1 cup hot water."
-        },
-        {
-          "position": 5,
-          "text": "Stir well and serve hot."
+          "text": "Mix 2-3 tablespoons with a cup of hot water."
         }
       ],
       "groups": [],
-      "equipment": [
-        "JetBoil cooking system",
-        "zip bag",
-        "cup",
-        "spoon"
-      ],
-      "featured_products": []
+      "equipment": [],
+      "featured_products": [
+        "Flash Cooking System",
+        "MiniMo Cooking System",
+        "MicroMo Cooking System",
+        "Zip Cooking System"
+      ]
     },
     {
       "key": "01_Recipes/Beverages/ultralight-backpackers-spiced-tea.md",
@@ -12825,86 +12819,6 @@
   ],
   "relationships": [
     {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:1",
-      "target_kind": "ingredient",
-      "label": "cocoa",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:2",
-      "target_kind": "ingredient",
-      "label": "instant nonfat dry milk",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:3",
-      "target_kind": "ingredient",
-      "label": "sugar",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:4",
-      "target_kind": "ingredient",
-      "label": "powdered non-dairy creamer",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:5",
-      "target_kind": "ingredient",
-      "label": "salt",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:6",
-      "target_kind": "ingredient",
-      "label": "instant coffee",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:7",
-      "target_kind": "ingredient",
-      "label": "hot water",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "field": "ingredient_line:8",
-      "target_kind": "ingredient",
-      "label": "dry mix",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
       "origin": "01_Recipes/Beverages/apple-cider-chai.md",
       "field": "ingredient_line:1",
       "target_kind": "ingredient",
@@ -13041,86 +12955,6 @@
       "field": "ingredient_line:10",
       "target_kind": "ingredient",
       "label": "chocolate syrup",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:1",
-      "target_kind": "ingredient",
-      "label": "sugar",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:2",
-      "target_kind": "ingredient",
-      "label": "Tang orange powder",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:3",
-      "target_kind": "ingredient",
-      "label": "instant tea",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:4",
-      "target_kind": "ingredient",
-      "label": "cinnamon",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:5",
-      "target_kind": "ingredient",
-      "label": "cloves",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:6",
-      "target_kind": "ingredient",
-      "label": "lemonade mix",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:7",
-      "target_kind": "ingredient",
-      "label": "hot water",
-      "target": null,
-      "candidates": [],
-      "status": "unresolved",
-      "basis": "exact_ingredient_name"
-    },
-    {
-      "origin": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "field": "ingredient_line:8",
-      "target_kind": "ingredient",
-      "label": "dry mix",
       "target": null,
       "candidates": [],
       "status": "unresolved",
@@ -20847,5 +20681,5 @@
       "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
     }
   ],
-  "content_sha256": "ab2ec60b5586b1cb4eb5115e3f0c42a15ff80bf339d6030a9aa236f8522eecee"
+  "content_sha256": "3b7ce5183552728ba524be6ac9584ce340275be8f7fe04e3dae5b24920152de4"
 }

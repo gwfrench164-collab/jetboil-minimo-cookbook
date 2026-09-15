@@ -1,0 +1,40 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/30-second-hot-chocolate",
+  "accessed_on": "2026-09-15",
+  "retrieval_method": "indexed_official_page",
+  "live_check": "not_checked",
+  "normalization": "Recipe sections transcribed from indexed official-page text. Retrieval/link markup removed; outer whitespace trimmed; wording, list grouping and internal whitespace retained.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-15/30-second-hot-chocolate.txt",
+  "evidence_sha256": "e68241fea7ad38eba24446f166b24d382fd91d9c076c3e1ecaf6c64559284beb",
+  "official_recipe": {
+    "source_title": "30 Second Hot Chocolate",
+    "ingredients_exact": [
+      "1/3 cup cocoa",
+      "1 1/3 cup instant nonfat dry milk",
+      "1/2 cup sugar",
+      "2 tablespoons powdered non-dairy creamer",
+      "1/4 teaspoon salt",
+      "Optional: instant coffee"
+    ],
+    "instructions_exact": [
+      "Mix all ingredients and store in a zip lock baggie.",
+      "Use your Jetboil Flash Cooking System to heat water.",
+      "To one cup hot water, add 1/3 cup dry mix (about four to six heaping tablespoons) and stir well. Add a little instant coffee for mocha. Life is good."
+    ],
+    "instruction_groups": [
+      {
+        "before_step": 1,
+        "text": "Preparation at Home:"
+      },
+      {
+        "before_step": 2,
+        "text": "Drinking on the Trail:"
+      }
+    ],
+    "tools_exact": [],
+    "featured_products_exact": [
+      "Flash Cooking System",
+      "MiniMo Cooking System"
+    ]
+  }
+}

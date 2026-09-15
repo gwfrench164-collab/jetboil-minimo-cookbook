@@ -41,7 +41,7 @@ The interface reads the library; it does not edit the source records. Meal selec
 
 One selection represents one recipe batch; portion scaling, repeated batches, automatic ingredient consolidation, nutrition calculation and fuel estimates are not implemented. Ingredient units and portions need more structured, reviewed data before those calculations can be reliable. Shopping lists preserve each recipe's lines separately and remind readers that instructions may mention additional ingredients.
 
-Next data work: resolve duplicate legacy identities against record content, review missing relationships, and continue source audits. Seven official breakfasts have cached-source checks; 26 official recipes still need source review. REI remains a separate future source phase.
+Next data work: resolve duplicate legacy identities against record content, review missing relationships, and continue source audits. Seven official breakfasts and two drink recipes have cached-source checks; 24 official recipes still need source review. REI remains a separate future source phase.
 
 ## Reviewed connection corrections
 

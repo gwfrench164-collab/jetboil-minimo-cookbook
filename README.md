@@ -10,14 +10,14 @@ A structured field-cooking reference for the MiniMo pot and compatible skillet. 
 
 ## Current status
 
-The repository has 41 recipe files: 33 labeled official Jetboil and eight derived field systems. Seven official breakfast recipes were compared with indexed text of their official source pages on September 10, 2026. Direct site access encountered a security challenge, so **fresh live-page verification is still pending**. Source excerpts, dates, checksums and prior records are retained. None of these audits establishes a field test.
+The repository has 41 recipe files: 33 labeled official Jetboil and eight derived field systems. Seven official breakfast recipes were compared with indexed text of their official source pages on September 10, 2026. Direct site access encountered a security challenge, so **fresh live-page verification is still pending**. Source excerpts, dates, checksums and prior records are retained. Two drink recipes were also checked against indexed official-page text on September 15, bringing the checked total to nine. None of these audits establishes a field test.
 
 - [Complete recipe index](08_Index/recipe-index.md)
 - [Generated audit tracker and outstanding checks](08_Index/Recipe_Accuracy_Audit_Tracker.md)
 - [Breakfast corrections and limitations](08_Index/Breakfast_Audit_2026-09-10.md)
 - [Machine-readable schema](schemas/recipe.schema.json) and [schema notes](08_Index/Schema_Standard.md)
 
-The other 26 official records remain unreviewed with blank source URLs. Collection is not verification. The checks display this backlog instead of inventing URLs or declaring the collection complete.
+The other 24 official records remain unreviewed with blank source URLs. Collection is not verification. The checks display this backlog instead of inventing URLs or declaring the collection complete.
 
 ## Run on your Mac
 
@@ -41,7 +41,7 @@ python tools/build_database.py --check
 python -m unittest discover -s tests -v
 ```
 
-Exit 0 means the check passed. Exit 1 means errors, stale output or a changed warning backlog. The baseline currently permits 52 visible warnings (two for each unaudited official record). It rejects both new warnings and obsolete entries, so remove resolved entries as audits advance. Do not add entries merely to make a failure disappear.
+Exit 0 means the check passed. Exit 1 means errors, stale output or a changed warning backlog. The baseline currently permits 48 visible warnings (two for each unaudited official record). It rejects both new warnings and obsolete entries, so remove resolved entries as audits advance. Do not add entries merely to make a failure disappear.
 
 For an uncompromising source-completeness check:
 

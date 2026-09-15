@@ -1,0 +1,32 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/russian-tea-tang",
+  "accessed_on": "2026-09-15",
+  "retrieval_method": "indexed_official_page",
+  "live_check": "not_checked",
+  "normalization": "Recipe sections transcribed from indexed official-page text. Retrieval/link markup removed; outer whitespace trimmed; wording, list grouping and internal whitespace retained.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-15/russian-tea-with-tang.txt",
+  "evidence_sha256": "68a3630e5af3cd206819929f86971d470e2cb17190864e3b93184b3b0060c8b4",
+  "official_recipe": {
+    "source_title": "Russian Tea with Tang",
+    "ingredients_exact": [
+      "2 cups sugar",
+      "1 cup Tang orange powder",
+      "1/2 cup instant tea",
+      "1/2 tsp. cinnamon",
+      "1/2 tsp. cloves",
+      "1 package lemonade mix, 1 quart size"
+    ],
+    "instructions_exact": [
+      "Mix ingredients together and store in a zip lock bag.",
+      "Mix 2-3 tablespoons with a cup of hot water."
+    ],
+    "instruction_groups": [],
+    "tools_exact": [],
+    "featured_products_exact": [
+      "Flash Cooking System",
+      "MiniMo Cooking System",
+      "MicroMo Cooking System",
+      "Zip Cooking System"
+    ]
+  }
+}

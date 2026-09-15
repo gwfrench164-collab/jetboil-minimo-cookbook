@@ -60,3 +60,5 @@ No task scheduler is needed for local checks. GitHub Actions performs the checks
 On September 10, 2026, history showed Baggie Omelets had been changed from `recipe-0009` to `recipe-0001` in commit `a6641c7`, colliding with Sesame Chicken. Restore Baggie Omelets to `recipe-0009`; keep Sesame Chicken and its existing references at `recipe-0001`.
 
 Four files previously had no ID: Russian Tea (`recipe-0038`), Ultralight Backpackers' Spiced Tea (`recipe-0039`), Keto Chili (`recipe-0040`), and Mocha Hot Chocolate (`recipe-0041`). No culinary content in those files was audited or changed.
+
+`audit.live_check: not_checked` explicitly records an indexed-source audit when no direct retrieval was attempted. It must not be described as blocked or live-verified.

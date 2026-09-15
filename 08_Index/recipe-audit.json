@@ -1,23 +1,11 @@
 {
   "recipe_count": 41,
   "official_count": 33,
-  "verified_count": 7,
+  "verified_count": 9,
   "derived_count": 8,
   "issues": [
     {
       "severity": "WARNING",
-      "path": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "code": "missing_source_url",
-      "message": "Official source URL not yet identified"
-    },
-    {
-      "severity": "WARNING",
-      "path": "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "code": "source_unreviewed",
-      "message": "Official content has not been source-audited"
-    },
-    {
-      "severity": "WARNING",
       "path": "01_Recipes/Beverages/apple-cider-chai.md",
       "code": "missing_source_url",
       "message": "Official source URL not yet identified"
@@ -37,18 +25,6 @@
     {
       "severity": "WARNING",
       "path": "01_Recipes/Beverages/mocha-hot-chocolate.md",
-      "code": "source_unreviewed",
-      "message": "Official content has not been source-audited"
-    },
-    {
-      "severity": "WARNING",
-      "path": "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "code": "missing_source_url",
-      "message": "Official source URL not yet identified"
-    },
-    {
-      "severity": "WARNING",
-      "path": "01_Recipes/Beverages/russian-tea-with-tang.md",
       "code": "source_unreviewed",
       "message": "Official content has not been source-audited"
     },
@@ -321,8 +297,8 @@
     {
       "path": "01_Recipes/Beverages/30-second-hot-chocolate.md",
       "id": "recipe-0032",
-      "source_verified": false,
-      "audit": "pending"
+      "source_verified": true,
+      "audit": "verified_cached"
     },
     {
       "path": "01_Recipes/Beverages/apple-cider-chai.md",
@@ -339,8 +315,8 @@
     {
       "path": "01_Recipes/Beverages/russian-tea-with-tang.md",
       "id": "recipe-0038",
-      "source_verified": false,
-      "audit": "pending"
+      "source_verified": true,
+      "audit": "verified_cached"
     },
     {
       "path": "01_Recipes/Beverages/ultralight-backpackers-spiced-tea.md",

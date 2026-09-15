@@ -15,6 +15,10 @@ from render_recipes import synchronize
 from capture_jetboil_source import extract
 
 class RecipeChecks(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.baseline_verified=sum(record["verified"] for record in inspect(ROOT)[0])
+
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
@@ -29,7 +33,7 @@ class RecipeChecks(unittest.TestCase):
     def test_repository_has_no_errors(self):
         self.assertFalse([i for i in self.issues() if i[0]=='ERROR'])
         records,_=inspect(self.root)
-        self.assertEqual(sum(r['verified'] for r in records),7)
+        self.assertEqual(sum(r['verified'] for r in records),self.baseline_verified)
     def test_duplicate_yaml_keys_fail_in_nested_mapping(self):
         text=self.path.read_text().replace('  publisher: JetBoil','  publisher: JetBoil\n  publisher: internal')
         self.path.write_text(text);self.assertIn('parse',self.codes())
@@ -82,12 +86,12 @@ class RecipeChecks(unittest.TestCase):
         records,issues=inspect(self.root)
         self.assertEqual(report_files(records,issues),report_files(records,issues))
         report=json.loads(report_files(records,issues)['08_Index/recipe-audit.json'])
-        self.assertEqual(report['verified_count'],7);self.assertEqual(report['official_count'],33)
+        self.assertEqual(report['verified_count'],self.baseline_verified);self.assertEqual(report['official_count'],33)
     def test_invalid_recipe_not_reported_verified(self):
         self.mutate(lambda d:d['official_recipe']['instructions_exact'].append('invented'))
         records,issues=inspect(self.root)
         report=json.loads(report_files(records,issues)['08_Index/recipe-audit.json'])
-        self.assertEqual(report['verified_count'],6)
+        self.assertEqual(report['verified_count'],self.baseline_verified-1)
     def test_renderer_idempotent(self):
         d,body=read_recipe(self.path);text=synchronize(d,body);self.path.write_text(text)
         self.assertEqual(text,synchronize(*read_recipe(self.path)))

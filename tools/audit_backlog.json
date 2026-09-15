@@ -1,16 +1,8 @@
 {
-  "recorded_on": "2026-09-10",
-  "reason": "26 official recipes outside breakfast still lack identified URLs and source audits. These warnings are visible; adding new ones fails the baseline check.",
+  "recorded_on": "2026-09-15",
+  "reason": "24 official recipes still lack identified URLs and source audits. Known warnings stay visible; new or obsolete warnings fail the baseline check.",
   "known_warnings": [
     [
-      "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "missing_source_url"
-    ],
-    [
-      "01_Recipes/Beverages/30-second-hot-chocolate.md",
-      "source_unreviewed"
-    ],
-    [
       "01_Recipes/Beverages/apple-cider-chai.md",
       "missing_source_url"
     ],
@@ -24,14 +16,6 @@
     ],
     [
       "01_Recipes/Beverages/mocha-hot-chocolate.md",
-      "source_unreviewed"
-    ],
-    [
-      "01_Recipes/Beverages/russian-tea-with-tang.md",
-      "missing_source_url"
-    ],
-    [
-      "01_Recipes/Beverages/russian-tea-with-tang.md",
       "source_unreviewed"
     ],
     [
