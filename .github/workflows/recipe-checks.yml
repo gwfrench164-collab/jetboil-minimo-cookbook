@@ -21,3 +21,4 @@ jobs:
       - run: python tools/check_provenance.py --baseline tools/audit_backlog.json
       - run: python tools/render_recipes.py
       - run: python tools/build_project_audit.py --check
+      - run: python tools/build_database.py --check

@@ -1,14 +1,12 @@
-# Ready to cook?
+# Open your cooking library
 
-Open the [MiniMo Cooking Guide](output/pdf/MiniMo_Cooking_Guide.pdf), or read [START HERE](START_HERE.md). No installation or technical steps are needed.
+Double-click **Open Cookbook.html** in this folder. It opens in your browser and works offline, with no installation. See [simple instructions](START_HERE.md).
 
-The guide has four breakfasts, with ingredients, equipment and numbered steps. Start with French Toast on page 2 if you have the skillet, or Quinoa Breakfast Bowl on page 4 if you use only the pot.
-
----
+The library contains all 113 records, including 41 recipes. Choose recipes, then select **Create cookbook** or **Shopping list**. The earlier four-breakfast PDF remains an optional output, not the main product.
 
 # JetBoil MiniMo Field Cookbook
 
-A structured field-cooking reference for the MiniMo pot and compatible skillet. Recipes, techniques, ingredients and pantry modules are maintained separately, with future recipe cards, books and shopping lists built from those records.
+A structured field-cooking reference for the MiniMo pot and compatible skillet. Recipes, techniques, ingredients and pantry modules are maintained separately, with a generated SQLite database and offline library for searching records, selecting meals, and generating cookbooks and shopping lists.
 
 ## Current status
 
@@ -39,6 +37,7 @@ python tools/validate_recipes.py --baseline tools/audit_backlog.json
 python tools/check_provenance.py --baseline tools/audit_backlog.json
 python tools/render_recipes.py
 python tools/build_project_audit.py --check
+python tools/build_database.py --check
 python -m unittest discover -s tests -v
 ```
 
@@ -58,6 +57,7 @@ After intentional edits, regenerate the derived card/body projections and report
 python tools/render_recipes.py --write
 python tools/validate_recipes.py --baseline tools/audit_backlog.json
 python tools/build_project_audit.py
+python tools/build_database.py
 python tools/build_project_audit.py --check
 ```
 
@@ -77,3 +77,7 @@ Legacy recipes keep their original structured ingredient fields. Audited version
 4. Consider other sources only after explicit provenance and scope decisions.
 
 The GitHub Actions workflow runs the offline checks on pushes and pull requests once this change is committed and pushed. It does not publish, rewrite recipes, accept source changes or contact Jetboil automatically.
+
+## Connected database
+
+[Database design and maintenance](00_Project_Notes/DATABASE.md) explains the source records, SQLite tables, generated browser, and unresolved connections. [Generated database status](08_Index/Database_Status.md) lists actual coverage and relationship issues. Run `python tools/build_database.py` after changing records; use `--check` to detect stale generated outputs. Neither command uses AI or internet access.
