@@ -2,6 +2,9 @@
   "recipe_count": 41,
   "official_count": 33,
   "verified_count": 9,
+  "live_verified_count": 0,
+  "indexed_only_count": 9,
+  "live_pending_count": 33,
   "derived_count": 8,
   "issues": [
     {

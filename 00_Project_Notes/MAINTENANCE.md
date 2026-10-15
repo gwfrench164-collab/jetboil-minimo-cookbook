@@ -49,7 +49,7 @@ Normal validation is offline and read-only. Scripts use their own location to fi
 
 ## Warning backlog and scope
 
-`tools/audit_backlog.json` lists the 26 remaining official recipe files that lack both a source URL and a completed audit. CI permits exactly that known backlog. New warnings and stale baseline entries fail. Full `--strict` mode fails for any warning. Do not create placeholder URLs to clear the backlog.
+`tools/audit_backlog.json` lists the 24 remaining official recipe files that lack both a source URL and a completed audit. CI permits exactly that known backlog. New warnings and stale baseline entries fail. Full `--strict` mode fails for any warning. Do not create placeholder URLs to clear the backlog.
 
 The validator covers recipe files, not a complete ingredient/technique/pantry schema migration. It checks Markdown links appearing in recipes, but does not assert that old relationship labels identify real canonical records. Those relationship reviews remain future work.
 
@@ -62,3 +62,29 @@ On September 10, 2026, history showed Baggie Omelets had been changed from `reci
 Four files previously had no ID: Russian Tea (`recipe-0038`), Ultralight Backpackers' Spiced Tea (`recipe-0039`), Keto Chili (`recipe-0040`), and Mocha Hot Chocolate (`recipe-0041`). No culinary content in those files was audited or changed.
 
 `audit.live_check: not_checked` explicitly records an indexed-source audit when no direct retrieval was attempted. It must not be described as blocked or live-verified.
+
+## One-command offline checks (macOS)
+
+From the repository folder, use Python 3.10 or newer and create an isolated environment once:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r tools/requirements.txt
+.venv/bin/python tools/check_all.py
+```
+
+The last command runs the tests, schema/content/provenance checks, duplicate and recipe-link checks, generated-card checks, audit/index freshness, and database/connection checks. It runs all checks even after a failure, returns nonzero if any fail, and does not rewrite canonical files. It can also be invoked by absolute path from any working directory. GitHub Actions uses this same entry point. Existing audit backlog warnings remain visible; a passing run does not certify recipe accuracy.
+
+After intentional source edits, regenerate reports with `tools/build_project_audit.py`; use `tools/render_recipes.py --write` only to update recipe projections and `tools/build_database.py` to rebuild the library. Run all checks again afterward.
+
+## Live checks and the remaining queue
+
+The generated tracker and JSON now distinguish live-verified, indexed-only, and unaudited records. The live queue always starts with Breakfast and then sorts remaining categories and filenames. A cached audit never removes an item from this queue.
+
+```sh
+.venv/bin/python tools/probe_sources.py --category Breakfast --output /tmp/minimo-breakfast-attempt-1
+```
+
+Omit `--category` to inventory all official records and attempt all known source URLs. Output must be a new directory. The tool retains downloaded responses and their SHA-256 digests, records failed attempts, and reports missing source URLs without guessing them. HTTP 200 without recipe content is a failure. Exit 1 means at least one unavailable source or missing URL; exit 0 means candidates were extracted, **not** that they were reviewed or verified. Candidate JSON can be passed to `compare_source.py`; it is not an accepted audit snapshot. Follow the source-review workflow above to accept evidence. These network checks are opt-in and are not part of offline CI.
+
+The dated attempt log is historical retrieval evidence, not a change to an earlier accepted audit. No recipe is marked live-verified automatically. REI remains a future source phase, separate from the official JetBoil collection.

@@ -12,6 +12,15 @@ from bs4 import BeautifulSoup
 
 HOST='jetboil.johnsonoutdoors.com'
 
+def validate_url(url):
+    u = urlsplit(url)
+    if (u.scheme != 'https' or u.hostname != HOST or u.username or u.password
+            or u.port not in (None, 443)
+            or not re.fullmatch(r'/(us|ca/en-ca)/recipes/[^/]+/?', u.path)):
+        raise ValueError('An official Jetboil recipe detail URL is required')
+    return url
+
+
 def extract(html):
     soup=BeautifulSoup(html,'html.parser')
     h1=soup.find('h1')
@@ -47,14 +56,15 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('url');p.add_argument('--html',type=Path,help='HTML saved from this URL in your browser')
     p.add_argument('--output',type=Path,required=True,help='New directory outside the canonical audit snapshots')
-    a=p.parse_args();u=urlsplit(a.url)
-    if u.scheme!='https' or u.hostname!=HOST or u.username or u.password or not re.match(r'^/(us|ca/en-ca)/recipes/[^/]+/?$',u.path):p.error('An official Jetboil recipe detail URL is required')
+    a=p.parse_args()
+    try:validate_url(a.url)
+    except ValueError as exc:p.error(str(exc))
     try:
         if a.output.exists():raise ValueError('Output directory exists; choose a new one to preserve evidence')
         if a.html:html=a.html.read_bytes()
         else:
             with urlopen(Request(a.url,headers={'User-Agent':'MiniMoCookbookSourceCheck/1.0'}),timeout=30) as response:
-                if urlsplit(response.url).hostname!=HOST:raise ValueError('Unexpected redirect host')
+                validate_url(response.url)
                 html=response.read(5_000_001)
         if len(html)>5_000_000:raise ValueError('Page too large')
         official=extract(html)
