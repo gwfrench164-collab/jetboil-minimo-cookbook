@@ -1,4 +1,5 @@
 import json
+import hashlib
 import io
 from contextlib import redirect_stdout
 from pathlib import Path
@@ -56,6 +57,14 @@ class MaintenanceTests(unittest.TestCase):
             run.return_value.returncode=1
             self.assertEqual(check_all.main(),1)
             self.assertEqual(run.call_count,len(check_all.commands()))
+
+    def test_retained_attempt_evidence_matches_checksums(self):
+        root=Path(__file__).resolve().parents[1]
+        for log in (root/'06_Source_Research/JetBoil/attempts').glob('*/attempts.json'):
+            for row in json.loads(log.read_text()):
+                if 'sha256' not in row:continue
+                evidence=log.parent/Path(row['recipe']).stem/'response.html'
+                self.assertEqual(hashlib.sha256(evidence.read_bytes()).hexdigest(),row['sha256'])
 
     def test_runner_success(self):
         with patch('check_all.subprocess.run') as run, redirect_stdout(io.StringIO()):

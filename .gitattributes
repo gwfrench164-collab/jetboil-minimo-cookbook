@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve exact downloaded evidence bytes and their recorded checksums.
+06_Source_Research/JetBoil/attempts/**/response.html -text whitespace=cr-at-eol
