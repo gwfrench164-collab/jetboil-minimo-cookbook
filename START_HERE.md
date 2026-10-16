@@ -21,3 +21,9 @@ MiniMo adaptations and untested variations appear separately from original direc
 The library preserves all 113 existing records. Some connections are incomplete or ambiguous; those are labeled instead of guessed. The database is the foundation, and your cookbook and shopping list are outputs made from it.
 
 The older [four-breakfast cooking guide](output/pdf/MiniMo_Cooking_Guide.pdf) is also available. REI is a future source phase and has not been mixed into the official Jetboil collection.
+
+## Find records that need attention
+
+Use **Recipe source review** to distinguish live-page checks from indexed-copy checks. The header shows those counts separately; an indexed copy still needs a live comparison.
+
+Use **Library connections** to find records with missing matches or multiple possible matches. Choose **Everything** under Type of information to review connections across ingredients, techniques and pantry modules as well as recipes. Each result shows its outgoing connection gaps. Open a record to inspect the original labels and possible targets. These filters help identify work; they do not select or certify a match automatically. Clear filters returns to all recipes.

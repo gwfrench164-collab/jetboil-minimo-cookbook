@@ -18,6 +18,12 @@ Total: 113. Source-verified recipes: 9 (see recipe audit for cached/live distinc
 - resolved: 272
 - unresolved: 263
 
+## Recipe source review
+
+- derived: 8
+- unreviewed: 24
+- verified_cached: 9
+
 Documented connection corrections: 58. Original fields and labels remain preserved.
 
 

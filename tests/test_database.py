@@ -77,6 +77,14 @@ class DatabaseTests(unittest.TestCase):
         embedded=html.split(start,1)[1].split('</script>',1)[0]
         self.assertEqual(json.loads(embedded)['entities'][0]['body'],attack)
 
+    def test_recipe_audit_counts_exclude_reference_records(self):
+        counts=self.data['recipe_audit_counts']
+        self.assertEqual(sum(counts.values()),self.data['counts']['recipe'])
+        self.assertNotIn('reference',counts)
+        for status,count in counts.items():
+            self.assertEqual(count,sum(e['kind']=='recipe' and e['status']==status for e in self.data['entities']))
+        self.assertEqual(counts.get('verified_cached',0)+counts.get('verified_live',0),self.data['verified_recipes'])
+
     def test_output_is_reproducible(self):
         self.assertEqual(outputs(ROOT,self.data),outputs(ROOT,collect(ROOT)))
 

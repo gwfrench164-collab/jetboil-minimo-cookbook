@@ -20681,5 +20681,10 @@
       "rationale": "Both records name the same ingredient and describe the same food. Use the categorized record as the navigation destination; retain the other record and its differing notes. This is an editorial routing choice, not a merger or independent verification of food guidance."
     }
   ],
-  "content_sha256": "3b7ce5183552728ba524be6ac9584ce340275be8f7fe04e3dae5b24920152de4"
+  "recipe_audit_counts": {
+    "derived": 8,
+    "unreviewed": 24,
+    "verified_cached": 9
+  },
+  "content_sha256": "7f24fdc75bf1848bf04884c7ec9254cdbea05bbbb84cd6d29d64e067d4bbc236"
 }
