@@ -3,3 +3,5 @@
 
 # Preserve exact downloaded evidence bytes and their recorded checksums.
 06_Source_Research/JetBoil/attempts/**/response.html -text whitespace=cr-at-eol
+
+06_Source_Research/JetBoil/audits/2026-10-15/*.html -text whitespace=cr-at-eol

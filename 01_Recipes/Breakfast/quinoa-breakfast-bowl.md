@@ -73,14 +73,14 @@ official_recipe:
   featured_products_exact:
   - MiniMo Cooking System
 audit:
-  status: verified_cached
-  checked_on: '2026-09-10'
-  evidence_file: 06_Source_Research/JetBoil/audits/2026-09-10/quinoa-breakfast-bowl.json
-  snapshot_sha256: e3541322161bce76be8f3e878b1b8cefff901f134b07d6499135f5bf2db893f4
-  method: indexed_official_page
-  live_check: blocked
-  notes: Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser
-    access were blocked by site security. Fresh live-page verification remains pending; no field test performed.
+  status: verified_live
+  checked_on: '2026-10-15'
+  evidence_file: 06_Source_Research/JetBoil/audits/2026-10-15/quinoa-breakfast-bowl.json
+  snapshot_sha256: 41409f85eab609f513ae64c6d59ffb824aadcd612cc379c115e7b3c1077a05df
+  method: direct_official_page
+  live_check: verified
+  notes: Live official page reviewed in Safari. Title, all seven ingredients, all five steps, and featured product
+    match the prior transcription exactly. No separate tools, servings or timing metadata shown. No field test performed.
 minimo_adaptation:
   status: editorial_reviewed
   notes:
@@ -102,7 +102,7 @@ proposed_variations:
 ---
 # Quinoa Breakfast Bowl
 
-Source audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.
+Source audit: **verified against the live official page on 2026-10-15**. The previous indexed transcription matches the live recipe exactly. No field test performed.
 
 <!-- BEGIN GENERATED OFFICIAL RECIPE -->
 ## Official Recipe

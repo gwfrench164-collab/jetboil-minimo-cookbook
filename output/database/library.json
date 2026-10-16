@@ -2511,7 +2511,7 @@
       "id": "recipe-0002",
       "title": "Quinoa Breakfast Bowl",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -2626,13 +2626,13 @@
           ]
         },
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/quinoa-breakfast-bowl.json",
-          "snapshot_sha256": "e3541322161bce76be8f3e878b1b8cefff901f134b07d6499135f5bf2db893f4",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/quinoa-breakfast-bowl.json",
+          "snapshot_sha256": "41409f85eab609f513ae64c6d59ffb824aadcd612cc379c115e7b3c1077a05df",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Title, all seven ingredients, all five steps, and featured product match the prior transcription exactly. No separate tools, servings or timing metadata shown. No field test performed."
         },
         "minimo_adaptation": {
           "status": "editorial_reviewed",
@@ -2654,8 +2654,8 @@
           "Previous card used powdered whole milk, brown sugar, cinnamon and nuts with doubled quinoa and water. Retained here as an untested project variation; its quantities, timing and pot fit are not verified."
         ]
       },
-      "body": "# Quinoa Breakfast Bowl\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Quinoa Breakfast Bowl](https://jetboil.johnsonoutdoors.com/us/recipes/quinoa-breakfast-bowl)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1 cup water\n- 1/2 cup quinoa\n- 1/2 cup unsweetened coconut milk\n- 1 handful of dried fruit\n- 2 tbsp pumpkin seeds\n- 1 handful of coconut chips\n- 2 tbsp of honey\n\n### Instructions\n\n1. Unpack and assemble MiniMo burner, and add 1 cup of water.\n\n2. Light MiniMo burner, and add 1/2 cup of quinoa.\n\n3. Stir and bring to a boil, then lower the temperature to a simmer, cover with lid and cook for 15 minutes.\n\n4. Add 1/2 cup of unsweetened coconut milk, 1 handful of dried fruit, 2 tbsp of pumpkin seeds, 1 handful of coconut chips, and 2 tbsp of honey.\n\n5. Stir together and enjoy.\n\n### Featured Recommended Products\n\n- MiniMo Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe official method already uses MiniMo. Preserve the half-cup quinoa and one-cup water quantities; the previous card doubled both and changed the toppings.\n\nCheck loaded volume as the quinoa expands and toppings are added against the manual half-full limit. Split the full recipe proportionally into batches if needed; batch performance has not been field-tested.\n\nFrequent stirring of food follows the MiniMo manual. No new cook time or fuel estimate is asserted.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nPrevious card used powdered whole milk, brown sugar, cinnamon and nuts with doubled quinoa and water. Retained here as an untested project variation; its quantities, timing and pot fit are not verified.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
-      "sha256": "41f604e48b6dba56b2f40fc128c63bcb0b0ff94aee7c7d05fdff48c7f9bfa348",
+      "body": "# Quinoa Breakfast Bowl\n\nSource audit: **verified against the live official page on 2026-10-15**. The previous indexed transcription matches the live recipe exactly. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Quinoa Breakfast Bowl](https://jetboil.johnsonoutdoors.com/us/recipes/quinoa-breakfast-bowl)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1 cup water\n- 1/2 cup quinoa\n- 1/2 cup unsweetened coconut milk\n- 1 handful of dried fruit\n- 2 tbsp pumpkin seeds\n- 1 handful of coconut chips\n- 2 tbsp of honey\n\n### Instructions\n\n1. Unpack and assemble MiniMo burner, and add 1 cup of water.\n\n2. Light MiniMo burner, and add 1/2 cup of quinoa.\n\n3. Stir and bring to a boil, then lower the temperature to a simmer, cover with lid and cook for 15 minutes.\n\n4. Add 1/2 cup of unsweetened coconut milk, 1 handful of dried fruit, 2 tbsp of pumpkin seeds, 1 handful of coconut chips, and 2 tbsp of honey.\n\n5. Stir together and enjoy.\n\n### Featured Recommended Products\n\n- MiniMo Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe official method already uses MiniMo. Preserve the half-cup quinoa and one-cup water quantities; the previous card doubled both and changed the toppings.\n\nCheck loaded volume as the quinoa expands and toppings are added against the manual half-full limit. Split the full recipe proportionally into batches if needed; batch performance has not been field-tested.\n\nFrequent stirring of food follows the MiniMo manual. No new cook time or fuel estimate is asserted.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nPrevious card used powdered whole milk, brown sugar, cinnamon and nuts with doubled quinoa and water. Retained here as an untested project variation; its quantities, timing and pot fit are not verified.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
+      "sha256": "dcdc680be184202190979a2735eed63136feece9f3fe3e81cfc81c5126d3acaa",
       "ingredients": [
         {
           "position": 1,
@@ -20684,7 +20684,8 @@
   "recipe_audit_counts": {
     "derived": 8,
     "unreviewed": 24,
-    "verified_cached": 9
+    "verified_cached": 8,
+    "verified_live": 1
   },
-  "content_sha256": "7f24fdc75bf1848bf04884c7ec9254cdbea05bbbb84cd6d29d64e067d4bbc236"
+  "content_sha256": "6dd20d25beef22d95b5732bf860ee44330ea1b5dbd743ccf624ed8c24433b4b2"
 }

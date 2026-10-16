@@ -70,7 +70,7 @@ class RecipeChecks(unittest.TestCase):
         self.mutate(lambda d:d['audit'].update(evidence_file='../outside.json'))
         self.assertIn('audit_evidence',self.codes())
     def test_cached_cannot_claim_live(self):
-        self.mutate(lambda d:d['audit'].update(status='verified_live'))
+        self.mutate(lambda d:d['audit'].update(status='verified_live', method='indexed_official_page', live_check='not_checked'))
         self.assertIn('audit_evidence',self.codes())
     def test_unsupported_verified_flag(self):
         self.path=self.root/'01_Recipes/Breakfast/savory-oatmeal-bowl.md'

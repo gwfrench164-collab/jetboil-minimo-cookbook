@@ -2,9 +2,9 @@
   "recipe_count": 41,
   "official_count": 33,
   "verified_count": 9,
-  "live_verified_count": 0,
-  "indexed_only_count": 9,
-  "live_pending_count": 33,
+  "live_verified_count": 1,
+  "indexed_only_count": 8,
+  "live_pending_count": 32,
   "derived_count": 8,
   "issues": [
     {
@@ -367,7 +367,7 @@
       "path": "01_Recipes/Breakfast/quinoa-breakfast-bowl.md",
       "id": "recipe-0002",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/savory-oatmeal-bowl.md",
