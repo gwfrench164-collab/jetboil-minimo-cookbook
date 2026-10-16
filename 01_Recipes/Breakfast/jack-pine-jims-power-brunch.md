@@ -72,16 +72,21 @@ official_recipe:
   - before_step: 2
     text: In the Morning
   tools_exact: *id001
-  featured_products_exact: []
+  featured_products_exact:
+  - Flash Cooking System
+  - MiniMo Cooking System
+  - MicroMo Cooking System
+  - Zip Cooking System
 audit:
-  status: verified_cached
-  checked_on: '2026-09-10'
-  evidence_file: 06_Source_Research/JetBoil/audits/2026-09-10/jack-pine-jims-power-brunch.json
-  snapshot_sha256: 7b68ee88b25f0adb391eac3922bdf51ceff0e8a03dcb3af54124988231543203
-  method: indexed_official_page
-  live_check: blocked
-  notes: Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser
-    access were blocked by site security. Fresh live-page verification remains pending; no field test performed.
+  status: verified_live
+  checked_on: '2026-10-15'
+  evidence_file: 06_Source_Research/JetBoil/audits/2026-10-15/jack-pine-jims-power-brunch.json
+  snapshot_sha256: bdb3d34ceb3f8943cf7b47aeca1543cb80e6d223d403041092c348d4aad21742
+  method: direct_official_page
+  live_check: verified
+  notes: Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools
+    and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field
+    test performed.
 minimo_adaptation:
   status: editorial_reviewed
   notes:
@@ -102,7 +107,7 @@ proposed_variations: []
 ---
 # Jack Pine Jim's Power Brunch
 
-Source audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.
+Source audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.
 
 <!-- BEGIN GENERATED OFFICIAL RECIPE -->
 ## Official Recipe
@@ -135,6 +140,13 @@ Published wording from the recorded source extract; only markup and outer whites
 4. Add the brown sugar and flaxseed oil and let sit, covered, until cool enough to eat.
 
 5. Add the Tabasco drops for a nice variation for lunch
+
+### Featured Recommended Products
+
+- Flash Cooking System
+- MiniMo Cooking System
+- MicroMo Cooking System
+- Zip Cooking System
 
 <!-- END GENERATED OFFICIAL RECIPE -->
 

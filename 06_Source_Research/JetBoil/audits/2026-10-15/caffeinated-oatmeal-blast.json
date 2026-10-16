@@ -1,0 +1,46 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/caffeinated-oatmeal-blast",
+  "accessed_on": "2026-10-15",
+  "retrieval_method": "direct_official_page",
+  "live_check": "verified",
+  "normalization": "Main HTML resource saved from the live Safari page. HTML markup removed, outer whitespace trimmed, internal whitespace preserved. Reviewed against visible source sections.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/caffeinated-oatmeal-blast.html",
+  "evidence_sha256": "d746d00251c6d2feb5444c5279d0bc6ca53b683d938ddf8366a053b625dcd64d",
+  "official_recipe": {
+    "source_title": "Caffeinated Oatmeal Blast",
+    "ingredients_exact": [
+      "1 package Good To-Go oatmeal",
+      "1 ¼ cups water",
+      "3 tablespoons of ground coffee",
+      "1 tablespoon chopped chocolate-covered espresso beans",
+      "1 tablespoon granola",
+      "1 teaspoon cacao nibs",
+      "½ teaspoon flax seeds"
+    ],
+    "instructions_exact": [
+      "Chop chocolate-covered espresso beans and then place them in a small reusable bag (or another sturdy container) along with granola, cacao nibs, and flax seeds.",
+      "Unpack and assemble a coffee-press compatible Jetboil (the MicroMo, Flash, or Zip all fit the regular-sized coffee press).",
+      "Bring 1 ¼ cups of water to a boil, then add in coffee grounds. Stir gently to mix in coffee, then cover with the Jetboil french press plunger and let sit for 5 minutes.",
+      "While coffee is brewing, open the Good To-Go oatmeal package and remove the oxygen absorber.",
+      "Once your coffee is ready, gently push the french press plunger down to capture the coffee grounds. Immediately pour the freshly brewed coffee into the oatmeal package. Stir and let sit for five minutes.",
+      "Finally, top your caffeinated oatmeal with the mix of espresso beans, granola, cacao nibs, and flax seeds that you prepared before your trip.",
+      "Mix, enjoy, and let the coffee-fueled adventures begin!"
+    ],
+    "instruction_groups": [
+      {
+        "before_step": 1,
+        "text": "Before you leave for your adventure:"
+      },
+      {
+        "before_step": 2,
+        "text": "When you're ready to eat:"
+      }
+    ],
+    "tools_exact": [
+      "MicroMo, Flash, or Zip stove system",
+      "Jetboil French Press",
+      "Spoon"
+    ],
+    "featured_products_exact": []
+  }
+}

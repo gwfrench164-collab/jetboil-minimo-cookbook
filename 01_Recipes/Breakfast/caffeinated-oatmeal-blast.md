@@ -27,7 +27,7 @@ recipe_card:
   cook_time: ''
   total_time: ''
   equipment: &id001
-  - MicroMo , Flash , or Zip stove system
+  - MicroMo, Flash, or Zip stove system
   - Jetboil French Press
   - Spoon
   ingredients:
@@ -93,14 +93,15 @@ official_recipe:
   tools_exact: *id001
   featured_products_exact: []
 audit:
-  status: verified_cached
-  checked_on: '2026-09-10'
-  evidence_file: 06_Source_Research/JetBoil/audits/2026-09-10/caffeinated-oatmeal-blast.json
-  snapshot_sha256: 162a91d9ca2310a8c0b5ba8f89ad2ff2b9910040cd8e24a2a2c9bb7633c3167d
-  method: indexed_official_page
-  live_check: blocked
-  notes: Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser
-    access were blocked by site security. Fresh live-page verification remains pending; no field test performed.
+  status: verified_live
+  checked_on: '2026-10-15'
+  evidence_file: 06_Source_Research/JetBoil/audits/2026-10-15/caffeinated-oatmeal-blast.json
+  snapshot_sha256: 4f16de7b71a0af03ba2507cb3568543b16f3d05663b2e5498c3bc6baa1896850
+  method: direct_official_page
+  live_check: verified
+  notes: Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools
+    and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field
+    test performed.
 minimo_adaptation:
   status: editorial_reviewed
   notes:
@@ -122,7 +123,7 @@ proposed_variations: []
 ---
 # Caffeinated Oatmeal Blast
 
-Source audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.
+Source audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.
 
 <!-- BEGIN GENERATED OFFICIAL RECIPE -->
 ## Official Recipe
@@ -143,7 +144,7 @@ Published wording from the recorded source extract; only markup and outer whites
 
 ### Tools
 
-- MicroMo , Flash , or Zip stove system
+- MicroMo, Flash, or Zip stove system
 - Jetboil French Press
 - Spoon
 

@@ -66,14 +66,15 @@ official_recipe:
   - Flash Cooking System
   - MiniMo Cooking System
 audit:
-  status: verified_cached
-  checked_on: '2026-09-10'
-  evidence_file: 06_Source_Research/JetBoil/audits/2026-09-10/hot-granola-breakfast.json
-  snapshot_sha256: 89dd014aecc1120726ed81e220f226ef4c0d87a7f02add53f6c81ad073458007
-  method: indexed_official_page
-  live_check: blocked
-  notes: Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser
-    access were blocked by site security. Fresh live-page verification remains pending; no field test performed.
+  status: verified_live
+  checked_on: '2026-10-15'
+  evidence_file: 06_Source_Research/JetBoil/audits/2026-10-15/hot-granola-breakfast.json
+  snapshot_sha256: 22ca1699aa21f5a5d8ce69c81fbca769bf8a93b1680aad6307e27072fcda9959
+  method: direct_official_page
+  live_check: verified
+  notes: Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools
+    and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field
+    test performed.
 minimo_adaptation:
   status: editorial_reviewed
   notes:
@@ -94,7 +95,7 @@ proposed_variations: []
 ---
 # Hot Granola Breakfast
 
-Source audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.
+Source audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.
 
 <!-- BEGIN GENERATED OFFICIAL RECIPE -->
 ## Official Recipe

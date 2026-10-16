@@ -1,0 +1,44 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/jack-pine-jims-power-brunch",
+  "accessed_on": "2026-10-15",
+  "retrieval_method": "direct_official_page",
+  "live_check": "verified",
+  "normalization": "Main HTML resource saved from the live Safari page. HTML markup removed, outer whitespace trimmed, internal whitespace preserved. Reviewed against visible source sections.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/jack-pine-jims-power-brunch.html",
+  "evidence_sha256": "e1ee799cb61836bfb5d1e47b14024d7fdf112bece9b6a8a7c6bcc60f65aebe57",
+  "official_recipe": {
+    "source_title": "Jack Pine Jim's Power Brunch",
+    "ingredients_exact": [
+      "6 tablespoons of Irish oatmeal pellets, uncooked",
+      "6 tablespoons of dry-roasted Edamame (green soy beans) , lightly salted",
+      "3-5 tablespoons mixed dried berries",
+      "One tablespoon cold-pressed flaxseed oil",
+      "2 tablespoons brown sugar",
+      "Tabasco sauce"
+    ],
+    "instructions_exact": [
+      "Place the oat pellets in your Jetboil with a cup of water just before you hit the sack. Let them soak all night. This cuts the cook time down from 30 minutes to 5.",
+      "Fire up your Jetboil and boil the oat pellets for three minutes.",
+      "Toss in the dry-roasted soy beans and the fruit, and simmer for two more minutes.",
+      "Add the brown sugar and flaxseed oil and let sit, covered, until cool enough to eat.",
+      "Add the Tabasco drops for a nice variation for lunch"
+    ],
+    "instruction_groups": [
+      {
+        "before_step": 1,
+        "text": "The Night Before"
+      },
+      {
+        "before_step": 2,
+        "text": "In the Morning"
+      }
+    ],
+    "tools_exact": [],
+    "featured_products_exact": [
+      "Flash Cooking System",
+      "MiniMo Cooking System",
+      "MicroMo Cooking System",
+      "Zip Cooking System"
+    ]
+  }
+}

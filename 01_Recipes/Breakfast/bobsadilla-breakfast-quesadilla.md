@@ -79,16 +79,21 @@ official_recipe:
     burning the outside of the tortilla.
   instruction_groups: []
   tools_exact: *id001
-  featured_products_exact: []
+  featured_products_exact:
+  - HalfGen Basecamp System
+  - Genesis Basecamp System
+  - MightyMo Cooking System
+  - Summit Skillet
 audit:
-  status: verified_cached
-  checked_on: '2026-09-10'
-  evidence_file: 06_Source_Research/JetBoil/audits/2026-09-10/bobsadilla-breakfast-quesadilla.json
-  snapshot_sha256: 5e7600e08975c744d7c461c9915270f04c199ba8d698fc41dd47a6ea5bf32c9c
-  method: indexed_official_page
-  live_check: blocked
-  notes: Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser
-    access were blocked by site security. Fresh live-page verification remains pending; no field test performed.
+  status: verified_live
+  checked_on: '2026-10-15'
+  evidence_file: 06_Source_Research/JetBoil/audits/2026-10-15/bobsadilla-breakfast-quesadilla.json
+  snapshot_sha256: a99a0b1980c29ae5f4dd5a8df19ea1e2bc491e422471a54eab9563e459a820ca
+  method: direct_official_page
+  live_check: verified
+  notes: Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools
+    and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field
+    test performed.
 minimo_adaptation:
   status: editorial_reviewed
   notes:
@@ -112,7 +117,7 @@ proposed_variations:
 ---
 # Bobsadilla - The Breakfast Quesadilla
 
-Source audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.
+Source audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.
 
 <!-- BEGIN GENERATED OFFICIAL RECIPE -->
 ## Official Recipe
@@ -141,6 +146,13 @@ Published wording from the recorded source extract; only markup and outer whites
 3. Flip the tortilla over. Add shredded cheddar cheese (or any type you like really) and the sautéed veggies. Fold the tortilla in half and let it sit over low heat until the cheese melts a bit.
 
 4. Or even better, if you have a cover for your pan, throw a splash of water in the pan and cover the pan with the lid while the water evaporates. It will steam the whole Bobsadilla and the cheese will melt nicely without burning the outside of the tortilla.
+
+### Featured Recommended Products
+
+- HalfGen Basecamp System
+- Genesis Basecamp System
+- MightyMo Cooking System
+- Summit Skillet
 
 <!-- END GENERATED OFFICIAL RECIPE -->
 

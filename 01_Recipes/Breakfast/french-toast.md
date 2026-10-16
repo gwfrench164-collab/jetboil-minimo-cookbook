@@ -74,14 +74,15 @@ official_recipe:
   - Pot Support
   - JetSet Utensil Set
 audit:
-  status: verified_cached
-  checked_on: '2026-09-10'
-  evidence_file: 06_Source_Research/JetBoil/audits/2026-09-10/french-toast.json
-  snapshot_sha256: 21bfe0ae49eeb9744f0d8b7b827b1a5f05ae423f4083e5d3d5bc7eedfc6d29df
-  method: indexed_official_page
-  live_check: blocked
-  notes: Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser
-    access were blocked by site security. Fresh live-page verification remains pending; no field test performed.
+  status: verified_live
+  checked_on: '2026-10-15'
+  evidence_file: 06_Source_Research/JetBoil/audits/2026-10-15/french-toast.json
+  snapshot_sha256: 1a00077646d0465c77ab156a8a76c61a1332bbc50a62f7996abfbed2f7f6d651
+  method: direct_official_page
+  live_check: verified
+  notes: Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools
+    and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field
+    test performed.
 minimo_adaptation:
   status: editorial_reviewed
   notes:
@@ -99,7 +100,7 @@ proposed_variations: []
 ---
 # French Toast Recipe
 
-Source audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.
+Source audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.
 
 <!-- BEGIN GENERATED OFFICIAL RECIPE -->
 ## Official Recipe

@@ -2,9 +2,9 @@
   "recipe_count": 41,
   "official_count": 33,
   "verified_count": 9,
-  "live_verified_count": 1,
-  "indexed_only_count": 8,
-  "live_pending_count": 32,
+  "live_verified_count": 7,
+  "indexed_only_count": 2,
+  "live_pending_count": 26,
   "derived_count": 8,
   "issues": [
     {
@@ -331,37 +331,37 @@
       "path": "01_Recipes/Breakfast/baggie-omelets-camp-eggs.md",
       "id": "recipe-0009",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/bobsadilla-breakfast-quesadilla.md",
       "id": "recipe-0003",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/caffeinated-oatmeal-blast.md",
       "id": "recipe-0021",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/french-toast.md",
       "id": "recipe-0026",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/hot-granola-breakfast.md",
       "id": "recipe-0019",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/jack-pine-jims-power-brunch.md",
       "id": "recipe-0020",
       "source_verified": true,
-      "audit": "verified_cached"
+      "audit": "verified_live"
     },
     {
       "path": "01_Recipes/Breakfast/quinoa-breakfast-bowl.md",

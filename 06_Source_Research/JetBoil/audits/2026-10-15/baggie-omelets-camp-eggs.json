@@ -1,0 +1,33 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/zip-lock-omelet-camp-eggs",
+  "accessed_on": "2026-10-15",
+  "retrieval_method": "direct_official_page",
+  "live_check": "verified",
+  "normalization": "Main HTML resource saved from the live Safari page. HTML markup removed, outer whitespace trimmed, internal whitespace preserved. Reviewed against visible source sections.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/baggie-omelets-camp-eggs.html",
+  "evidence_sha256": "62cd144e6365530a0caa3dc064385492e56e0c93da86e8e0aab780d8f354b27a",
+  "official_recipe": {
+    "source_title": "Baggie Omelets - Camp Eggs",
+    "ingredients_exact": [
+      "2 Eggs",
+      "1 Tbsp grated cheese",
+      "1 Tbsp finely chopped green peppers",
+      "1 Tbsp finely chopped onion",
+      "Salt and Pepper to taste"
+    ],
+    "instructions_exact": [
+      "Fill cooking cup to the max safe line (1 cup) with water and bring to boil. Once boiling, reduce heat to low.",
+      "Place all ingredients in a Stasher snack bag and remove as much air from the bag as possible and zip close. Place bag in boiling water.",
+      "After about 1 minute, remove bag from water and move mixture around in bag and place back in boiling water.",
+      "Repeat about every minute until the eggs are cooked to your liking. (About 5 mins)",
+      "Remove bag from Jetboil cooking system and serve immediately."
+    ],
+    "instruction_groups": [],
+    "tools_exact": [],
+    "featured_products_exact": [
+      "MiniMo Cooking System",
+      "MicroMo Cooking System",
+      "SUMO Cooking System"
+    ]
+  }
+}

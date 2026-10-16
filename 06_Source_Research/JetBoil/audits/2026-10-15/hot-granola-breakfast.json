@@ -1,0 +1,31 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/hot-granola-breakfast",
+  "accessed_on": "2026-10-15",
+  "retrieval_method": "direct_official_page",
+  "live_check": "verified",
+  "normalization": "Main HTML resource saved from the live Safari page. HTML markup removed, outer whitespace trimmed, internal whitespace preserved. Reviewed against visible source sections.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/hot-granola-breakfast.html",
+  "evidence_sha256": "40df0ad0b70c276e783ffeae9451af3947a858bc405be5095562c738f5b3281b",
+  "official_recipe": {
+    "source_title": "Hot Granola Breakfast",
+    "ingredients_exact": [
+      "1 cup of dried oats",
+      "1 cup of water",
+      "1 cup trail mix (I prefer raisins, cranberries, almonds, pumpkin seeds, papaya, pineapple, and coconut flakes)",
+      "1/4 Tsp cinnamon",
+      "1/4 Tsp of brown sugar"
+    ],
+    "instructions_exact": [
+      "At home, in a Stasher bag, combine oats, trail mix, cinnamon, and brown sugar.",
+      "On the trail, bring 1 cup of water to a boil and add the pre-packed ingredients.",
+      "Boil for approximately 5 to 10 minutes, or until desired thickness is achieved.",
+      "Serve immediately."
+    ],
+    "instruction_groups": [],
+    "tools_exact": [],
+    "featured_products_exact": [
+      "Flash Cooking System",
+      "MiniMo Cooking System"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source_url": "https://jetboil.johnsonoutdoors.com/us/recipes/french-toast",
+  "accessed_on": "2026-10-15",
+  "retrieval_method": "direct_official_page",
+  "live_check": "verified",
+  "normalization": "Main HTML resource saved from the live Safari page. HTML markup removed, outer whitespace trimmed, internal whitespace preserved. Reviewed against visible source sections.",
+  "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/french-toast.html",
+  "evidence_sha256": "ad19aab06d0e39d5d4b563d4fe0e2d4c132488c195f81847e20327a04d065b99",
+  "official_recipe": {
+    "source_title": "French Toast Recipe",
+    "ingredients_exact": [
+      "3 eggs",
+      "3 drops of vanilla",
+      "2 TBSP of butter",
+      "3 slices of bread",
+      "Maple syrup",
+      "Powdered sugar",
+      "Cinnamon"
+    ],
+    "instructions_exact": [
+      "Unpack and assemble MiniMo burner with Pot Support, and your Summit Skillet.",
+      "Crack and whisk 3 eggs, then add 3 drops of vanilla.",
+      "Light MiniMo burner and add 2 tbsp of butter.",
+      "When hot, dip bread in mixture and place on skillet.",
+      "Cook until golden brown on each side, and serve with maple syrup, powdered sugar and cinnamon."
+    ],
+    "instruction_groups": [],
+    "tools_exact": [],
+    "featured_products_exact": [
+      "MiniMo Cooking System",
+      "Summit Skillet",
+      "Pot Support",
+      "JetSet Utensil Set"
+    ]
+  }
+}

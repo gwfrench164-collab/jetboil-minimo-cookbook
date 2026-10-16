@@ -1076,7 +1076,7 @@
       "id": "recipe-0009",
       "title": "Baggie Omelets - Camp Eggs",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -1221,20 +1221,20 @@
         ],
         "schema_version": 2,
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/zip-lock-omelet-camp-eggs.json",
-          "snapshot_sha256": "930787ceb941486a87918ceeaeb888479939835590abfa0d54ca30fba6c63e37",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/baggie-omelets-camp-eggs.json",
+          "snapshot_sha256": "9acb0487f5d911ab729f6a39f25e147dbe1a7fb137e4ba9aca8ec5fa8638a860",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field test performed."
         },
         "proposed_variations": [
           "Previous project suggestions: chopped hot dogs, ham, cooked bacon, sausage crumbles, mushrooms and spinach. No tester, test date or results were recorded; these are not field-tested."
         ]
       },
-      "body": "# Baggie Omelets - Camp Eggs\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Baggie Omelets - Camp Eggs](https://jetboil.johnsonoutdoors.com/us/recipes/zip-lock-omelet-camp-eggs)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 2 Eggs\n- 1 Tbsp grated cheese\n- 1 Tbsp finely chopped green peppers\n- 1 Tbsp finely chopped onion\n- Salt and Pepper to taste\n\n### Instructions\n\n1. Fill cooking cup to the max safe line (1 cup) with water and bring to boil. Once boiling, reduce heat to low.\n\n2. Place all ingredients in a Stasher snack bag and remove as much air from the bag as possible and zip close. Place bag in boiling water.\n\n3. After about 1 minute, remove bag from water and move mixture around in bag and place back in boiling water.\n\n4. Repeat about every minute until the eggs are cooked to your liking. (About 5 mins)\n\n5. Remove bag from Jetboil cooking system and serve immediately.\n\n### Featured Recommended Products\n\n- MiniMo Cooking System\n- MicroMo Cooking System\n- SUMO Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe recipe equates its max-safe-line wording with 1 cup; do not reinterpret that as the MiniMo pot capacity. Follow the actual MiniMo manual and pot markings. The manual limits filling to half full; allow for displacement by the filled bag. Half full is a ceiling, not a required starting water quantity.\n\nPrevious SUMO-style explanations were unsupported. The source simply lists MiniMo, MicroMo and SUMO as featured products.\n\nUse the specified cooking bag or verify the bag manufacturer permits this cooking method; an ordinary storage bag is not an established substitute. The previous file did not document a test of substitutes.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nPrevious project suggestions: chopped hot dogs, ham, cooked bacon, sausage crumbles, mushrooms and spinach. No tester, test date or results were recorded; these are not field-tested.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.\n\n## Existing Relationship Labels\n\nRetained from the earlier file; not validated as canonical ingredient, technique or pantry links in this audit.\n\n- related_ingredients: Eggs, Cheese, Green Peppers, Onion\n- related_techniques: Sous Vide Camp Cooking, Outdoor Cooking Planning\n- related_pantry_modules: Breakfast Module, Protein Module",
-      "sha256": "91396eaa1845cb7b56f1a65d4df857af798656915127b80ec3b1e224fc39be62",
+      "body": "# Baggie Omelets - Camp Eggs\n\nSource audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Baggie Omelets - Camp Eggs](https://jetboil.johnsonoutdoors.com/us/recipes/zip-lock-omelet-camp-eggs)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 2 Eggs\n- 1 Tbsp grated cheese\n- 1 Tbsp finely chopped green peppers\n- 1 Tbsp finely chopped onion\n- Salt and Pepper to taste\n\n### Instructions\n\n1. Fill cooking cup to the max safe line (1 cup) with water and bring to boil. Once boiling, reduce heat to low.\n\n2. Place all ingredients in a Stasher snack bag and remove as much air from the bag as possible and zip close. Place bag in boiling water.\n\n3. After about 1 minute, remove bag from water and move mixture around in bag and place back in boiling water.\n\n4. Repeat about every minute until the eggs are cooked to your liking. (About 5 mins)\n\n5. Remove bag from Jetboil cooking system and serve immediately.\n\n### Featured Recommended Products\n\n- MiniMo Cooking System\n- MicroMo Cooking System\n- SUMO Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe recipe equates its max-safe-line wording with 1 cup; do not reinterpret that as the MiniMo pot capacity. Follow the actual MiniMo manual and pot markings. The manual limits filling to half full; allow for displacement by the filled bag. Half full is a ceiling, not a required starting water quantity.\n\nPrevious SUMO-style explanations were unsupported. The source simply lists MiniMo, MicroMo and SUMO as featured products.\n\nUse the specified cooking bag or verify the bag manufacturer permits this cooking method; an ordinary storage bag is not an established substitute. The previous file did not document a test of substitutes.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nPrevious project suggestions: chopped hot dogs, ham, cooked bacon, sausage crumbles, mushrooms and spinach. No tester, test date or results were recorded; these are not field-tested.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.\n\n## Existing Relationship Labels\n\nRetained from the earlier file; not validated as canonical ingredient, technique or pantry links in this audit.\n\n- related_ingredients: Eggs, Cheese, Green Peppers, Onion\n- related_techniques: Sous Vide Camp Cooking, Outdoor Cooking Planning\n- related_pantry_modules: Breakfast Module, Protein Module",
+      "sha256": "efc759b7a4ea30dcf7cb736cd68536c3c327ec7317fe0ae4e1380cfa628adc0d",
       "ingredients": [
         {
           "position": 1,
@@ -1313,7 +1313,7 @@
       "id": "recipe-0003",
       "title": "Bobsadilla - The Breakfast Quesadilla",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -1422,16 +1422,21 @@
           ],
           "instruction_groups": [],
           "tools_exact": [],
-          "featured_products_exact": []
+          "featured_products_exact": [
+            "HalfGen Basecamp System",
+            "Genesis Basecamp System",
+            "MightyMo Cooking System",
+            "Summit Skillet"
+          ]
         },
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/bobsadilla-breakfast-quesadilla.json",
-          "snapshot_sha256": "5e7600e08975c744d7c461c9915270f04c199ba8d698fc41dd47a6ea5bf32c9c",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/bobsadilla-breakfast-quesadilla.json",
+          "snapshot_sha256": "a99a0b1980c29ae5f4dd5a8df19ea1e2bc491e422471a54eab9563e459a820ca",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field test performed."
         },
         "minimo_adaptation": {
           "status": "editorial_reviewed",
@@ -1454,8 +1459,8 @@
           "Previous card used two small tortillas, scrambled eggs, 1/2 cup cheese, 1/4 cup bacon or sausage and 1 tablespoon butter or oil. This was an undocumented variation, not the official recipe."
         ]
       },
-      "body": "# Bobsadilla - The Breakfast Quesadilla\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Bobsadilla - The Breakfast Quesadilla](https://jetboil.johnsonoutdoors.com/us/recipes/bobsadilla-breakfast-quesadilla)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 2 Tbsp of diced bell pepper\n- 2 Tbsp of diced tomatoes\n- 1 to 2 Tbsp of diced onions\n- 1 Tbsp of olive oil\n- 1 Tsp of butter\n- 2 Eggs\n- 1 Tortilla\n- 1 to 2 oz Mozzarella or cheddar cheese, or whatever you prefer\n\n### Instructions\n\n1. In a Jetboil Summit Skillet, add the olive oil. Once heated, add the vegetables and sauté for approximately 2 to 3 minutes. Set them aside.\n\n2. Butter a pan and allow to heat. Once heated, break two eggs in the pan. Immediately put a tortilla over the eggs and apply pressure to the tortilla so you smoosh the eggs underneath a bit. Let the concoction cook for a couple minutes then gently work a spatula between the fried egg/tortilla and the pan.\n\n3. Flip the tortilla over. Add shredded cheddar cheese (or any type you like really) and the sautéed veggies. Fold the tortilla in half and let it sit over low heat until the cheese melts a bit.\n\n4. Or even better, if you have a cover for your pan, throw a splash of water in the pan and cover the pan with the lid while the water evaporates. It will steam the whole Bobsadilla and the cheese will melt nicely without burning the outside of the tortilla.\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThis is a skillet recipe. For the MiniMo, use the Pot Support and compatible skillet; the official French Toast recipe documents the MiniMo, Pot Support and Summit Skillet combination.\n\nThe official method uses one tortilla pressed onto eggs, then flipped and folded. A two-tortilla scrambled-egg sandwich is a proposed variation, not a transcription.\n\nUse the low-heat stage in the published method; no field-tested burner setting or fuel consumption has been established.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n- [Jetboil reference 2](https://jetboil.johnsonoutdoors.com/us/recipes/french-toast)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nPrevious card used two small tortillas, scrambled eggs, 1/2 cup cheese, 1/4 cup bacon or sausage and 1 tablespoon butter or oil. This was an undocumented variation, not the official recipe.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
-      "sha256": "25307bbf5b5d9f7a219b791fa4870f048dadb76825182bb10fc8623eeeeca0ec",
+      "body": "# Bobsadilla - The Breakfast Quesadilla\n\nSource audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Bobsadilla - The Breakfast Quesadilla](https://jetboil.johnsonoutdoors.com/us/recipes/bobsadilla-breakfast-quesadilla)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 2 Tbsp of diced bell pepper\n- 2 Tbsp of diced tomatoes\n- 1 to 2 Tbsp of diced onions\n- 1 Tbsp of olive oil\n- 1 Tsp of butter\n- 2 Eggs\n- 1 Tortilla\n- 1 to 2 oz Mozzarella or cheddar cheese, or whatever you prefer\n\n### Instructions\n\n1. In a Jetboil Summit Skillet, add the olive oil. Once heated, add the vegetables and sauté for approximately 2 to 3 minutes. Set them aside.\n\n2. Butter a pan and allow to heat. Once heated, break two eggs in the pan. Immediately put a tortilla over the eggs and apply pressure to the tortilla so you smoosh the eggs underneath a bit. Let the concoction cook for a couple minutes then gently work a spatula between the fried egg/tortilla and the pan.\n\n3. Flip the tortilla over. Add shredded cheddar cheese (or any type you like really) and the sautéed veggies. Fold the tortilla in half and let it sit over low heat until the cheese melts a bit.\n\n4. Or even better, if you have a cover for your pan, throw a splash of water in the pan and cover the pan with the lid while the water evaporates. It will steam the whole Bobsadilla and the cheese will melt nicely without burning the outside of the tortilla.\n\n### Featured Recommended Products\n\n- HalfGen Basecamp System\n- Genesis Basecamp System\n- MightyMo Cooking System\n- Summit Skillet\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThis is a skillet recipe. For the MiniMo, use the Pot Support and compatible skillet; the official French Toast recipe documents the MiniMo, Pot Support and Summit Skillet combination.\n\nThe official method uses one tortilla pressed onto eggs, then flipped and folded. A two-tortilla scrambled-egg sandwich is a proposed variation, not a transcription.\n\nUse the low-heat stage in the published method; no field-tested burner setting or fuel consumption has been established.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n- [Jetboil reference 2](https://jetboil.johnsonoutdoors.com/us/recipes/french-toast)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nPrevious card used two small tortillas, scrambled eggs, 1/2 cup cheese, 1/4 cup bacon or sausage and 1 tablespoon butter or oil. This was an undocumented variation, not the official recipe.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
+      "sha256": "f51e25a25a3ef9f1f90a30348f37e54900996401bd451e35f904cc608f858625",
       "ingredients": [
         {
           "position": 1,
@@ -1542,7 +1547,12 @@
       ],
       "groups": [],
       "equipment": [],
-      "featured_products": []
+      "featured_products": [
+        "HalfGen Basecamp System",
+        "Genesis Basecamp System",
+        "MightyMo Cooking System",
+        "Summit Skillet"
+      ]
     },
     {
       "key": "01_Recipes/Breakfast/caffeinated-oatmeal-blast.md",
@@ -1550,7 +1560,7 @@
       "id": "recipe-0021",
       "title": "Caffeinated Oatmeal Blast",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -1591,7 +1601,7 @@
           "cook_time": "",
           "total_time": "",
           "equipment": [
-            "MicroMo , Flash , or Zip stove system",
+            "MicroMo, Flash, or Zip stove system",
             "Jetboil French Press",
             "Spoon"
           ],
@@ -1683,20 +1693,20 @@
             }
           ],
           "tools_exact": [
-            "MicroMo , Flash , or Zip stove system",
+            "MicroMo, Flash, or Zip stove system",
             "Jetboil French Press",
             "Spoon"
           ],
           "featured_products_exact": []
         },
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/caffeinated-oatmeal-blast.json",
-          "snapshot_sha256": "162a91d9ca2310a8c0b5ba8f89ad2ff2b9910040cd8e24a2a2c9bb7633c3167d",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/caffeinated-oatmeal-blast.json",
+          "snapshot_sha256": "4f16de7b71a0af03ba2507cb3568543b16f3d05663b2e5498c3bc6baa1896850",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field test performed."
         },
         "minimo_adaptation": {
           "status": "editorial_reviewed",
@@ -1717,8 +1727,8 @@
         },
         "proposed_variations": []
       },
-      "body": "# Caffeinated Oatmeal Blast\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Caffeinated Oatmeal Blast](https://jetboil.johnsonoutdoors.com/us/recipes/caffeinated-oatmeal-blast)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1 package Good To-Go oatmeal\n- 1 ¼ cups water\n- 3 tablespoons of ground coffee\n- 1 tablespoon chopped chocolate-covered espresso beans\n- 1 tablespoon granola\n- 1 teaspoon cacao nibs\n- ½ teaspoon flax seeds\n\n### Tools\n\n- MicroMo , Flash , or Zip stove system\n- Jetboil French Press\n- Spoon\n\n### Instructions\n\n#### Before you leave for your adventure:\n\n1. Chop chocolate-covered espresso beans and then place them in a small reusable bag (or another sturdy container) along with granola, cacao nibs, and flax seeds.\n\n#### When you're ready to eat:\n\n2. Unpack and assemble a coffee-press compatible Jetboil (the MicroMo, Flash, or Zip all fit the regular-sized coffee press).\n\n3. Bring 1 ¼ cups of water to a boil, then add in coffee grounds. Stir gently to mix in coffee, then cover with the Jetboil french press plunger and let sit for 5 minutes.\n\n4. While coffee is brewing, open the Good To-Go oatmeal package and remove the oxygen absorber.\n\n5. Once your coffee is ready, gently push the french press plunger down to capture the coffee grounds. Immediately pour the freshly brewed coffee into the oatmeal package. Stir and let sit for five minutes.\n\n6. Finally, top your caffeinated oatmeal with the mix of espresso beans, granola, cacao nibs, and flax seeds that you prepared before your trip.\n\n7. Mix, enjoy, and let the coffee-fueled adventures begin!\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe recipe specifies MicroMo, Flash or Zip with the regular-sized press. MiniMo compatibility must be handled separately: Jetboil lists the Grande Coffee Press for MiniMo. Use a press confirmed to fit your pot.\n\nKeep the two five-minute waits in the instructions. The article introduction claims six minutes, which conflicts with those sequential waits; do not substitute the previous eight-minute estimate.\n\nPreserve the package preparation and oxygen-absorber removal step. Changing to a different oatmeal brand requires its own hydration instructions and is not the official recipe.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n- [Jetboil reference 2](https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/minimo-cooking-system/mnmad)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
-      "sha256": "6f09749222cdf82b1dfffc1b8813ed49855c6a06780f8a92e0cb06af9147e6d0",
+      "body": "# Caffeinated Oatmeal Blast\n\nSource audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Caffeinated Oatmeal Blast](https://jetboil.johnsonoutdoors.com/us/recipes/caffeinated-oatmeal-blast)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1 package Good To-Go oatmeal\n- 1 ¼ cups water\n- 3 tablespoons of ground coffee\n- 1 tablespoon chopped chocolate-covered espresso beans\n- 1 tablespoon granola\n- 1 teaspoon cacao nibs\n- ½ teaspoon flax seeds\n\n### Tools\n\n- MicroMo, Flash, or Zip stove system\n- Jetboil French Press\n- Spoon\n\n### Instructions\n\n#### Before you leave for your adventure:\n\n1. Chop chocolate-covered espresso beans and then place them in a small reusable bag (or another sturdy container) along with granola, cacao nibs, and flax seeds.\n\n#### When you're ready to eat:\n\n2. Unpack and assemble a coffee-press compatible Jetboil (the MicroMo, Flash, or Zip all fit the regular-sized coffee press).\n\n3. Bring 1 ¼ cups of water to a boil, then add in coffee grounds. Stir gently to mix in coffee, then cover with the Jetboil french press plunger and let sit for 5 minutes.\n\n4. While coffee is brewing, open the Good To-Go oatmeal package and remove the oxygen absorber.\n\n5. Once your coffee is ready, gently push the french press plunger down to capture the coffee grounds. Immediately pour the freshly brewed coffee into the oatmeal package. Stir and let sit for five minutes.\n\n6. Finally, top your caffeinated oatmeal with the mix of espresso beans, granola, cacao nibs, and flax seeds that you prepared before your trip.\n\n7. Mix, enjoy, and let the coffee-fueled adventures begin!\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe recipe specifies MicroMo, Flash or Zip with the regular-sized press. MiniMo compatibility must be handled separately: Jetboil lists the Grande Coffee Press for MiniMo. Use a press confirmed to fit your pot.\n\nKeep the two five-minute waits in the instructions. The article introduction claims six minutes, which conflicts with those sequential waits; do not substitute the previous eight-minute estimate.\n\nPreserve the package preparation and oxygen-absorber removal step. Changing to a different oatmeal brand requires its own hydration instructions and is not the official recipe.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n- [Jetboil reference 2](https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/minimo-cooking-system/mnmad)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
+      "sha256": "30c99123af8f20c22a8daeed0fce4d219fd99c56232acb0e02755acfcce86e36",
       "ingredients": [
         {
           "position": 1,
@@ -1818,7 +1828,7 @@
         }
       ],
       "equipment": [
-        "MicroMo , Flash , or Zip stove system",
+        "MicroMo, Flash, or Zip stove system",
         "Jetboil French Press",
         "Spoon"
       ],
@@ -1830,7 +1840,7 @@
       "id": "recipe-0026",
       "title": "French Toast Recipe",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -1948,13 +1958,13 @@
           ]
         },
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/french-toast.json",
-          "snapshot_sha256": "21bfe0ae49eeb9744f0d8b7b827b1a5f05ae423f4083e5d3d5bc7eedfc6d29df",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/french-toast.json",
+          "snapshot_sha256": "1a00077646d0465c77ab156a8a76c61a1332bbc50a62f7996abfbed2f7f6d651",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field test performed."
         },
         "minimo_adaptation": {
           "status": "editorial_reviewed",
@@ -1973,8 +1983,8 @@
         },
         "proposed_variations": []
       },
-      "body": "# French Toast Recipe\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [French Toast Recipe](https://jetboil.johnsonoutdoors.com/us/recipes/french-toast)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 3 eggs\n- 3 drops of vanilla\n- 2 TBSP of butter\n- 3 slices of bread\n- Maple syrup\n- Powdered sugar\n- Cinnamon\n\n### Instructions\n\n1. Unpack and assemble MiniMo burner with Pot Support, and your Summit Skillet.\n\n2. Crack and whisk 3 eggs, then add 3 drops of vanilla.\n\n3. Light MiniMo burner and add 2 tbsp of butter.\n\n4. When hot, dip bread in mixture and place on skillet.\n\n5. Cook until golden brown on each side, and serve with maple syrup, powdered sugar and cinnamon.\n\n### Featured Recommended Products\n\n- MiniMo Cooking System\n- Summit Skillet\n- Pot Support\n- JetSet Utensil Set\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe source already specifies MiniMo, Pot Support and Summit Skillet. No equipment substitution is needed.\n\nPrepare in batches if all bread cannot lie flat in the skillet; batching is an editorial suggestion, with no measured timing or fuel claim.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
-      "sha256": "92c61790342abca06779acf0d84fddfa72cad251a746c826b75f9fac78ac89de",
+      "body": "# French Toast Recipe\n\nSource audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [French Toast Recipe](https://jetboil.johnsonoutdoors.com/us/recipes/french-toast)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 3 eggs\n- 3 drops of vanilla\n- 2 TBSP of butter\n- 3 slices of bread\n- Maple syrup\n- Powdered sugar\n- Cinnamon\n\n### Instructions\n\n1. Unpack and assemble MiniMo burner with Pot Support, and your Summit Skillet.\n\n2. Crack and whisk 3 eggs, then add 3 drops of vanilla.\n\n3. Light MiniMo burner and add 2 tbsp of butter.\n\n4. When hot, dip bread in mixture and place on skillet.\n\n5. Cook until golden brown on each side, and serve with maple syrup, powdered sugar and cinnamon.\n\n### Featured Recommended Products\n\n- MiniMo Cooking System\n- Summit Skillet\n- Pot Support\n- JetSet Utensil Set\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe source already specifies MiniMo, Pot Support and Summit Skillet. No equipment substitution is needed.\n\nPrepare in batches if all bread cannot lie flat in the skillet; batching is an editorial suggestion, with no measured timing or fuel claim.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
+      "sha256": "14c3d8c73735ab2a6065c9c10aeaa381eb4b3ebe2d2a9343ffd4fd0568433955",
       "ingredients": [
         {
           "position": 1,
@@ -2070,7 +2080,7 @@
       "id": "recipe-0019",
       "title": "Hot Granola Breakfast",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -2173,13 +2183,13 @@
           ]
         },
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/hot-granola-breakfast.json",
-          "snapshot_sha256": "89dd014aecc1120726ed81e220f226ef4c0d87a7f02add53f6c81ad073458007",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/hot-granola-breakfast.json",
+          "snapshot_sha256": "22ca1699aa21f5a5d8ce69c81fbca769bf8a93b1680aad6307e27072fcda9959",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field test performed."
         },
         "minimo_adaptation": {
           "status": "editorial_reviewed",
@@ -2199,8 +2209,8 @@
         },
         "proposed_variations": []
       },
-      "body": "# Hot Granola Breakfast\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Hot Granola Breakfast](https://jetboil.johnsonoutdoors.com/us/recipes/hot-granola-breakfast)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1 cup of dried oats\n- 1 cup of water\n- 1 cup trail mix (I prefer raisins, cranberries, almonds, pumpkin seeds, papaya, pineapple, and coconut flakes)\n- 1/4 Tsp cinnamon\n- 1/4 Tsp of brown sugar\n\n### Instructions\n\n1. At home, in a Stasher bag, combine oats, trail mix, cinnamon, and brown sugar.\n\n2. On the trail, bring 1 cup of water to a boil and add the pre-packed ingredients.\n\n3. Boil for approximately 5 to 10 minutes, or until desired thickness is achieved.\n\n4. Serve immediately.\n\n### Featured Recommended Products\n\n- Flash Cooking System\n- MiniMo Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe published batch includes one cup each of water, oats and trail mix. Check total loaded volume against the MiniMo half-full limit; do not assume a featured-product link proves the whole batch fits.\n\nIf necessary, divide every ingredient proportionally and cook separate batches. This capacity adaptation is an untested editorial suggestion, not a change to the official quantities.\n\nThe manual calls for frequent stirring when heating food to avoid scorching and boil-over. No substitute simmer time has been field-tested.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
-      "sha256": "cd20f7005f1b5b4d4846ed0bbc5c239668c347dd578131a05f3f8ce906f2af7c",
+      "body": "# Hot Granola Breakfast\n\nSource audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Hot Granola Breakfast](https://jetboil.johnsonoutdoors.com/us/recipes/hot-granola-breakfast)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 1 cup of dried oats\n- 1 cup of water\n- 1 cup trail mix (I prefer raisins, cranberries, almonds, pumpkin seeds, papaya, pineapple, and coconut flakes)\n- 1/4 Tsp cinnamon\n- 1/4 Tsp of brown sugar\n\n### Instructions\n\n1. At home, in a Stasher bag, combine oats, trail mix, cinnamon, and brown sugar.\n\n2. On the trail, bring 1 cup of water to a boil and add the pre-packed ingredients.\n\n3. Boil for approximately 5 to 10 minutes, or until desired thickness is achieved.\n\n4. Serve immediately.\n\n### Featured Recommended Products\n\n- Flash Cooking System\n- MiniMo Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe published batch includes one cup each of water, oats and trail mix. Check total loaded volume against the MiniMo half-full limit; do not assume a featured-product link proves the whole batch fits.\n\nIf necessary, divide every ingredient proportionally and cook separate batches. This capacity adaptation is an untested editorial suggestion, not a change to the official quantities.\n\nThe manual calls for frequent stirring when heating food to avoid scorching and boil-over. No substitute simmer time has been field-tested.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
+      "sha256": "105a2b652b8ed7016d159f639ae8c1f4075c1fe588388cc1a04c972422082e52",
       "ingredients": [
         {
           "position": 1,
@@ -2274,7 +2284,7 @@
       "id": "recipe-0020",
       "title": "Jack Pine Jim's Power Brunch",
       "category": "Breakfast",
-      "status": "verified_cached",
+      "status": "verified_live",
       "source": {
         "type": "official_jetboil_recipe",
         "publisher": "JetBoil",
@@ -2389,16 +2399,21 @@
             }
           ],
           "tools_exact": [],
-          "featured_products_exact": []
+          "featured_products_exact": [
+            "Flash Cooking System",
+            "MiniMo Cooking System",
+            "MicroMo Cooking System",
+            "Zip Cooking System"
+          ]
         },
         "audit": {
-          "status": "verified_cached",
-          "checked_on": "2026-09-10",
-          "evidence_file": "06_Source_Research/JetBoil/audits/2026-09-10/jack-pine-jims-power-brunch.json",
-          "snapshot_sha256": "7b68ee88b25f0adb391eac3922bdf51ceff0e8a03dcb3af54124988231543203",
-          "method": "indexed_official_page",
-          "live_check": "blocked",
-          "notes": "Compared ingredients and instructions with indexed official Jetboil page text. Direct HTTP and browser access were blocked by site security. Fresh live-page verification remains pending; no field test performed."
+          "status": "verified_live",
+          "checked_on": "2026-10-15",
+          "evidence_file": "06_Source_Research/JetBoil/audits/2026-10-15/jack-pine-jims-power-brunch.json",
+          "snapshot_sha256": "bdb3d34ceb3f8943cf7b47aeca1543cb80e6d223d403041092c348d4aad21742",
+          "method": "direct_official_page",
+          "live_check": "verified",
+          "notes": "Live official page reviewed in Safari. Ingredients and instructions match the prior transcription. Tools and featured-product labels preserved from live HTML. No separate servings/yield/time metadata shown; no field test performed."
         },
         "minimo_adaptation": {
           "status": "editorial_reviewed",
@@ -2418,8 +2433,8 @@
         },
         "proposed_variations": []
       },
-      "body": "# Jack Pine Jim's Power Brunch\n\nSource audit: **verified against indexed official-page text on 2026-09-10**. Fresh live-page check remains pending because direct access was blocked.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Jack Pine Jim's Power Brunch](https://jetboil.johnsonoutdoors.com/us/recipes/jack-pine-jims-power-brunch)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 6 tablespoons of Irish oatmeal pellets, uncooked\n- 6 tablespoons of dry-roasted Edamame (green soy beans) , lightly salted\n- 3-5 tablespoons mixed dried berries\n- One tablespoon cold-pressed flaxseed oil\n- 2 tablespoons brown sugar\n- Tabasco sauce\n\n### Instructions\n\n#### The Night Before\n\n1. Place the oat pellets in your Jetboil with a cup of water just before you hit the sack. Let them soak all night. This cuts the cook time down from 30 minutes to 5.\n\n#### In the Morning\n\n2. Fire up your Jetboil and boil the oat pellets for three minutes.\n\n3. Toss in the dry-roasted soy beans and the fruit, and simmer for two more minutes.\n\n4. Add the brown sugar and flaxseed oil and let sit, covered, until cool enough to eat.\n\n5. Add the Tabasco drops for a nice variation for lunch\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe overnight soak is an essential part of the published short morning method; do not omit it and retain the five-minute cooking expectation.\n\nOne cup of water appears in the night-before instruction, not in the official ingredient list. Preserve that distinction; shopping-list software must also inspect instructions.\n\nCheck total contents against the manual fill limit and stir food frequently. This review does not establish storage conditions or field-test the overnight method.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
-      "sha256": "955d38cb751d10faea5bd8344966270a1a203a1a6c5a9043c4bc7a2760248fe1",
+      "body": "# Jack Pine Jim's Power Brunch\n\nSource audit: **verified against the live official page on 2026-10-15**. Ingredients and instructions match the previous transcription. No field test performed.\n\n<!-- BEGIN GENERATED OFFICIAL RECIPE -->\n## Official Recipe\n\nSource: [Jack Pine Jim's Power Brunch](https://jetboil.johnsonoutdoors.com/us/recipes/jack-pine-jims-power-brunch)\n\nPublished wording from the recorded source extract; only markup and outer whitespace are normalized.\n\n### Ingredients\n\n- 6 tablespoons of Irish oatmeal pellets, uncooked\n- 6 tablespoons of dry-roasted Edamame (green soy beans) , lightly salted\n- 3-5 tablespoons mixed dried berries\n- One tablespoon cold-pressed flaxseed oil\n- 2 tablespoons brown sugar\n- Tabasco sauce\n\n### Instructions\n\n#### The Night Before\n\n1. Place the oat pellets in your Jetboil with a cup of water just before you hit the sack. Let them soak all night. This cuts the cook time down from 30 minutes to 5.\n\n#### In the Morning\n\n2. Fire up your Jetboil and boil the oat pellets for three minutes.\n\n3. Toss in the dry-roasted soy beans and the fruit, and simmer for two more minutes.\n\n4. Add the brown sugar and flaxseed oil and let sit, covered, until cool enough to eat.\n\n5. Add the Tabasco drops for a nice variation for lunch\n\n### Featured Recommended Products\n\n- Flash Cooking System\n- MiniMo Cooking System\n- MicroMo Cooking System\n- Zip Cooking System\n\n<!-- END GENERATED OFFICIAL RECIPE -->\n\n## MiniMo Adaptation\n\nEditorial notes; not official recipe text and not field-tested.\n\nThe overnight soak is an essential part of the published short morning method; do not omit it and retain the five-minute cooking expectation.\n\nOne cup of water appears in the night-before instruction, not in the official ingredient list. Preserve that distinction; shopping-list software must also inspect instructions.\n\nCheck total contents against the manual fill limit and stir food frequently. This review does not establish storage conditions or field-test the overnight method.\n\nEquipment sequence: the MiniMo manual requires ignition with no pot or skillet on the burner, followed by careful placement of cookware. Follow that manual sequence wherever the recipe wording is abbreviated or ambiguous.\n\nSupporting sources:\n\n- [Jetboil reference 1](https://jetboil.johnsonoutdoors.com/sites/default/files/2023-02/JB_product_manual_MicroMo_MiniMo_SUMO_0.pdf)\n\n## Field-Tested Variations\n\nNone documented. A test requires a named tester, date and evidence of the result.\n\n## Proposed Variations\n\nNone recorded.\n\n## Metadata Notes\n\nServings, yield and preparation/total times were not specified as recipe metadata in the source extract. Earlier estimates are not official values. Published cooking durations remain in the instructions.",
+      "sha256": "b090c7974c8284442a71539a3deec8d213cd0d5dba5295c94a3977d56cf27f64",
       "ingredients": [
         {
           "position": 1,
@@ -2503,7 +2518,12 @@
         }
       ],
       "equipment": [],
-      "featured_products": []
+      "featured_products": [
+        "Flash Cooking System",
+        "MiniMo Cooking System",
+        "MicroMo Cooking System",
+        "Zip Cooking System"
+      ]
     },
     {
       "key": "01_Recipes/Breakfast/quinoa-breakfast-bowl.md",
@@ -20684,8 +20704,8 @@
   "recipe_audit_counts": {
     "derived": 8,
     "unreviewed": 24,
-    "verified_cached": 8,
-    "verified_live": 1
+    "verified_cached": 2,
+    "verified_live": 7
   },
-  "content_sha256": "6dd20d25beef22d95b5732bf860ee44330ea1b5dbd743ccf624ed8c24433b4b2"
+  "content_sha256": "d7b3629e3ea8c8b6379d40cb14d32a6d2f7baf81c51b7cbc6b8747cd7f610671"
 }
